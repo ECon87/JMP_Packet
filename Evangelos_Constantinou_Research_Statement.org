@@ -1,0 +1,113 @@
+#+LATEX_HEADER: \documentclass[12pt]{article}
+#+TITLE: \bf{Research Statement}
+#+OPTIONS: toc:nil date:nil
+#+latex_class_options: [12pt]
+
+#+AUTHOR: Evangelos Constantinou
+#+LATEX_HEADER: \usepackage[T1]{fontenc}
+#+LATEX_HEADER: \usepackage[latin9]{inputenc} 
+#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: \geometry{verbose}
+#+LATEX_HEADER: \usepackage{calc}
+#+LATEX_HEADER: \usepackage{titlesec}
+#+LATEX_HEADER: \usepackage[bottom]{footmisc} 
+#+LATEX_HEADER: \usepackage{multicol}
+#+LATEX_HEADER: \usepackage{subcaption} %allows subfigures
+#+LATEX_HEADER: \usepackage{babel}
+#+LATEX_HEADER: \usepackage{esint}
+#+LATEX_HEADER: \usepackage{natbib}
+
+#+LATEX_HEADER: \usepackage{tabularx,booktabs}
+
+# #+LATEX_HEADER: \doublespacing
+# #+LATEX_HEADER: \onehalfspacing
+#+LATEX_HEADER: \usepackage[unicode=true,pdfusetitle,bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,breaklinks=false,backref=false,colorlinks=false]{hyperref} 
+#+LATEX_HEADER: \usepackage{breakurl}
+
+#+LATEX_HEADER: \usepackage{graphicx} 
+#+LATEX_HEADER: \usepackage{tikz}
+#+LATEX_HEADER: \usepackage{pgfplots}
+#+LATEX_HEADER: \pgfplotsset{compat=1.17}
+#+LATEX_HEADER: \usetikzlibrary{tikzmark}
+#+LATEX_HEADER: \usetikzlibrary{patterns}
+#+LATEX_HEADER: \usepgfplotslibrary{fillbetween}
+#+LATEX_HEADER: \pgfplotsset{compat=1.15}
+#+LATEX_HEADER: \usepgflibrary{arrows}
+
+
+#+LATEX_HEADER: \titlespacing\section{0pt}{\parskip}{}
+#+LATEX_HEADER: \setlength{\textwidth}{6.5in}
+#+LATEX_HEADER: \setlength{\textheight}{9in}
+#+LATEX_HEADER: \setlength{\topmargin}{-0.5in}
+#+LATEX_HEADER: \setlength{\oddsidemargin}{0in}
+#+LATEX_HEADER: \setlength{\parskip}{.045in}
+
+#+LATEX_HEADER: \titleformat{\section}{\bfseries}{}{}{}
+#+LATEX_HEADER: \titleformat{\subsection}{\bfseries}{}{}{}
+
+
+I am a microeconomist who specializes in political economy and industrial organization, and I work on questions on political communication, timing of elections and firm pricing.
+Methodologically, my research relies on both applied theory and empirical techniques, where I employ both reduced-form and structural.
+In this statement, I summarize my current papers on targeting of political ads and firm pricing, and discuss my ongoing research on political free-riding in advertising, sequential elections, and airline switching costs.
+
+\vspace{0.25cm}
+** "Messaging the Bases: Tailoring Ads to Audiences" (Job market paper)
+ \vspace{0.1cm}
+
+ \noindent
+ In my job market paper, I theoretically and empirically examine how politicians strategically vary ad content and placement to reflect the political makeup of audiences in tv shows to invoke desired electoral reactions.
+ A correctly-placed and designed ad energizes a politician's base and depresses the opponent's.
+ I develop a model of political advertising by extending Adams and Merill (2003) model of voter abstention.
+ Politicians can select ads that affect the salience of policy positions or highlight valence (non-policy) attributes via positive ads about themselves or negative ads about opponents.
+ In turn, ads affect voters’ choices of candidates and whether to abstain due to alienation or indifference.
+ I characterize theoretically how the optimal composition of ads varies with audience demographics and candidate characteristics.
+ This contributes to the political advertising literature by allowing politicians to tailor messages that target specific components of the voters utility given the latter's ideology and margin of abstention.
+
+ I test the prediction of the model using the gubernatorial and presidential elections in 2008 and 2012.
+ I transcribe the different ads in states with competitive contents, which I use to identify the types of ads used on different tv shows.
+ Ads are classified based on the majority of their statements.
+ I combine these data with viewer demographic and polling data, uncovering empirical findings consistent with the theory.
+ 
+ First, I document that politicians simultaneously utilize policy, positive valence (i.e., ads that emphasizing their positive traits), and negative valence ads (i.e., attacks to the opponent's negative attributes).
+ Then, I present the significant variation in the demographic makeup of tv shows in the sample. 
+ Consistent with the model, I find that opposing candidates target the same demographics with different type of ads.
+ Moreover, opposing candidates target different (and more polarized) audiences with policy ads, positive valence ads are mostly targeted to a candidate’s alienated base .
+ Finally, I present evidence suggesting that as politicians ideological differences widen they retreat to their base by increasing policy and positive valence advertising.
+ 
+
+ 
+ 
+
+  
+# Advertising is a crucial instrument in political campaigns.
+
+  
+
+
+\vspace{0.25cm}
+** "The Price-Matching Dilemma" with (International Journal of Industrial Organization, 2018)
+\vspace{0.1cm}
+\noindent In this paper, we characterize when strategic considerations of stores to match prices set by rivals on branded goods devolve into a prisoner’s dilemma.
+
+\vspace{0.25cm}
+** "When Do Co-Located Firms Selling Identical Products Thrive?" with Dan Bernhardt and Mehdi Shadmehr (Forthcoming at \emph{Journal of Industrial Economics})
+\vspace{0.1cm}
+
+\noindent In the this paper, we theoretically analyze the relationship between traveling costs and the share of consumers who comparison such that clustering is profitable.
+
+\vspace{0.25cm}
+** On going work
+\vspace{0.1cm}
+
+My other work in Political Economy focuses on two areas. In /Candidate Advertising Free Riding and Party Solutions/,
+I exploit that media markets and station coverage cross electoral district boundaries to ask whether neighboring same party candidates free ride of each others ads, and whether parties resolve such concerns.
+In joint work with George Deltas in /Endogenous Order with Sequential Elections/,  we investigate the strategic considerations stemming from the timing of primary elections, and characterize conditions making voting order irrelevant.
+We collected data from the US primary elections between 1980-2016.
+
+
+
+In /Name-Change Fees, Scalpers, and Secondary Markets/, I consider a monopolist provider of a service, where consumers enjoy the service only if they have ticket (e.g., concerts, airline flights, and hotel rooms).
+The monopolist can a name-change fee to allow holders of tickets to transfer ownership of their tickets to other consumers.
+I identify the conditions making it optimal to use name-change fees (i.e., charge a fee to allow ownership transfers) such that the secondary market is active. I show how this reduces demand uncertainty and alleviates price rigidity.
+
+in /Airline Entry and Switching Costs/ with George Deltas, we provide a measure of switching costs using airline entry into new airports via routes with airports already used by the airline. We use the relative flows based on the direction of the route to calculate our measure.
