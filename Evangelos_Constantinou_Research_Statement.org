@@ -6,7 +6,7 @@
 #+AUTHOR: Evangelos Constantinou
 #+LATEX_HEADER: \usepackage[T1]{fontenc}
 #+LATEX_HEADER: \usepackage[latin9]{inputenc} 
-#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: \usepackage[margin=0.75in]{geometry}
 #+LATEX_HEADER: \geometry{verbose}
 #+LATEX_HEADER: \usepackage{calc}
 #+LATEX_HEADER: \usepackage{titlesec}
@@ -36,18 +36,19 @@
 
 
 #+LATEX_HEADER: \titlespacing\section{0pt}{\parskip}{}
-#+LATEX_HEADER: \setlength{\textwidth}{6.5in}
-#+LATEX_HEADER: \setlength{\textheight}{9in}
-#+LATEX_HEADER: \setlength{\topmargin}{-0.5in}
-#+LATEX_HEADER: \setlength{\oddsidemargin}{0in}
-#+LATEX_HEADER: \setlength{\parskip}{.045in}
+# #+LATEX_HEADER: \setlength{\textwidth}{6.5in}
+# #+LATEX_HEADER: \setlength{\textheight}{9in}
+# #+LATEX_HEADER: \setlength{\topmargin}{-0.5in}
+# #+LATEX_HEADER: \setlength{\oddsidemargin}{0in}
+# #+LATEX_HEADER: \setlength{\parskip}{.045in}
 
 #+LATEX_HEADER: \titleformat{\section}{\bfseries}{}{}{}
 #+LATEX_HEADER: \titleformat{\subsection}{\bfseries}{}{}{}
 
 
-I am a microeconomist who specializes in political economy and industrial organization, and I work on questions on political communication, timing of elections and firm pricing.
-Methodologically, my research relies on both applied theory and empirical techniques, where I employ both reduced-form and structural.
+I am a microeconomist with specialization in political economy and industrial organization.
+I work on questions on political communication, timing of elections and firm pricing.
+Method-ologically, my research relies on both applied theory and empirical techniques --- both reduced-form and structural.
 In this statement, I summarize my current papers on targeting of political ads and firm pricing, and discuss my ongoing research on political free-riding in advertising, sequential elections, and airline switching costs.
 
 \vspace{0.25cm}
@@ -58,22 +59,28 @@ In this statement, I summarize my current papers on targeting of political ads a
   \noindent
   In my job market paper, I theoretically and empirically examine how politicians strategically vary ad content and placement to reflect the political makeup of audiences in tv shows to invoke desired electoral reactions.
   A correctly-placed and designed ad energizes a politician's base and depresses the opponent's.
-  I develop a model of political advertising by extending Adams and Merill (2003) model of voter abstention.
-  Politicians can select ads that affect the salience of policy positions or highlight valence (non-policy) attributes via positive ads about themselves or negative ads about opponents.
-  In turn, ads affect voters’ choices of candidates and whether to abstain due to alienation or indifference.
-  I characterize theoretically how the optimal composition of ads varies with audience demographics and candidate characteristics.
-  This contributes to the political advertising literature by allowing politicians to tailor messages that target specific components of the voters utility given the latter's ideology and margin of abstention.
+  I develop a model of political advertising by extending Adams and Merill's (2003) model of voter abstention.
+  Politicians can select ads that affect the salience of policy positions or highlight valence (non-policy) attributes via positive ads about themselves or negative ads about the opponent.
+  In turn, the ads a voter consumes affect their choice of preferred candidate, and their decision whether to abstain from voting due to either alienation or indifference.
+  In the former, the cost of voting exceeds the utility the voter derives from voting for their preferred candidate, and in the latter the utility difference between the candidates is less than the cost of voting.
+  I theoretically characterize  how the optimal composition of ads varies with audience demographics.
+  This contributes to the political advertising literature by allowing politicians to tailor messages that target specific components of the voters' utility given the latter's ideology and margin of abstention.
 
-  I test the prediction of the model using the gubernatorial and presidential elections in 2008 and 2012.
-  I transcribe the different ads in states with competitive contents, which I use to identify the types of ads used on different tv shows.
-  Ads are classified based on the majority of their statements.
-  I combine these data with viewer demographic and polling data, uncovering empirical findings consistent with the theory.
+  I test the predictions of the model using the gubernatorial and presidential elections in 2008 and 2012.
+  I transcribe the different ads in states with competitive contests, which I use to identify the types of ads used on different tv shows.
+  I combine these data with viewer demographic and polling data to uncover empirical findings consistent with the theory.
+  # Ads are classified based on the majority of their statements.
 
-  First, I document that politicians simultaneously utilize policy, positive valence (i.e., ads that emphasizing their positive traits), and negative valence ads (i.e., attacks to the opponent's negative attributes).
-  Then, I present the significant variation in the demographic makeup of tv shows in the sample. 
-  Consistent with the model, I find that opposing candidates target the same demographics with different type of ads.
-  Moreover, opposing candidates target different (and more polarized) audiences with policy ads, positive valence ads are mostly targeted to a candidate’s alienated base .
-  Finally, I present evidence suggesting that as politicians ideological differences widen they retreat to their base by increasing policy and positive valence advertising.
+  First, I document that politicians simultaneously use policy, positive valence (i.e., ads emphasizing their positive traits), and negative valence ads (i.e., attacks to the opponent's negative attributes),
+  which suggests that each type of ad is important for a campaign.
+  Then, I present evidence of significant variation in the demographic makeup of viewers of the different tv shows.
+  Thus, a sorting of viewers into tv shows is present which allows politicians to target demographics with tailored content.
+  
+  Consistent with the model, I find that opposing candidates target the same demographics with different types of ads.
+  Moreover, opposing candidates target different (and more polarized) audiences with policy ads, while positive valence ads are mostly targeted to a candidate’s alienated base.
+  In contrast, the opponent's base is targeted with attacks against their preferred candidate.
+  Finally, I present evidence suggesting that as the ideological difference between opposing candidates widens,
+  candidates increase targeting of policy and positive valence ads to their base.
  
 
  
@@ -85,67 +92,107 @@ In this statement, I summarize my current papers on targeting of political ads a
   
 
 
-\vspace{0.25cm}
+\clearpage
 ** "The Price-Matching Dilemma" with Dan Bernhardt (/International Journal of Industrial Organization/, 2018)
-   \vspace{0.1cm}
+   \vspace{0.25cm}
 
-  \noindent In this paper, we characterize when strategic considerations of stores to match prices set by rivals on branded goods (common products across rivals) devolve into a prisoner’s dilemma.
-  We consider a linear spatial economy with rival stores located at each end of the line, and consumers located between who incur a travel cost to visit their preferred store.
+  \noindent In this paper, we characterize when strategic considerations of stores to match prices set by rivals on branded goods --- common products across rivals --- devolve into a prisoner’s dilemma.
+  We consider a linear spatial economy with rival stores located at each end of the line.
+  The consumers are located between the two stores and incur a travel cost to visit a location.
   Stores offer generic products, which creates incentives to raise the prices of branded goods that compete with the store's generics in order to shift consumer purchases toward more profitable generics.
   We model the store competition as a two-stage game.
-  In the first stage, each store can initiate a price-matching guarantee policy that automatically matches the prices of its branded goods to the rival's price if the latter is lower.
+  In the first stage, each store can initiate a price-matching guarantee policy that automatically matches the prices of its branded goods to the rival's price, if the latter is lower.
   In the second stage, the stores engage in price competition.
   We demonstrate that price-matching guarantees commit stores not to set high prices for branded goods, thereby attracting more shoppers.
   We characterize the optimal price-matching policy based on consumers' shopping price-elasticities.
-  The shopping price-elasticities are inversely related to travel cost, and capture the extend to which consumers choose stores based on prices rather than location.
-
-  When the shopping price-elasticities are sufficiently high, a prisoner’s dilemma results.
+  The shopping price-elasticities are inversely related to travel cost, and capture the extent to which consumers choose stores based on prices rather than location.
   When consumer choice of where to shop is sufficiently price elastic, then in the unique equilibrium, a prisoner’s dilemma results in which stores have a dominant strategy to price-match.
   For intermediate shopping elasticities, two equilibria exist—a low profit equilibrium in which all firms price match, and a high profit equilibrium in which no firm does.
   Only when travel is sufficiently costly is the high profit, no-price matching equilibrium unique.
+  # When the shopping price-elasticities are sufficiently high, a prisoner’s dilemma emerges.
 
-\vspace{0.25cm}
+  \vspace{0.35cm}
 ** "When Do Co-Located Firms Selling Identical Products Thrive?" with Dan Bernhardt and Mehdi Shadmehr (Forthcoming at \emph{Journal of Industrial Economics})
-  \vspace{0.1cm}
+  \vspace{0.15cm}
 
   \noindent
-  In this paper, we theoretically analyze the relationship between traveling costs and the share of consumers who comparison shop on cluster profits.
-  We consider a linear spatial economy with two stores co-located at zero, and a monopolist at location one.
-  Consumers visit one location; comparison shoppers visit all stores in their location, whereas non-shoppers visit only one store (Rosenthal (1980), Varian (1980)).
-  Co-location commits stores to compete and lower prices, which draws consumers away from isolated stores.
-  Profits of co-located firms are a single-peaked function of the number of shoppers.
-  That is, co-located firms thrive when there are some shoppers, but not too many.
-  When there are no shoppers, all stores monopoly price, and consumers visit the closest location.
-  Co-located stores earn half the monopolist profit.
+  In this paper, we theoretically characterize how price competition between co-located (cluster) firms, which hinges on the share of comparison shoppers that go to the cluster,
+  interacts with the price-elasticity of the consumers' decisions of where to shop to determine the  profits of  isolated and co-located firms.
+  We consider a linear spatial economy with two stores co-located at zero, and a monopolist located at one.
+  Consumers visit one location; comparison shoppers visit all stores in the location, and non-shoppers visit only one store (Rosenthal (1980), Varian (1980)).
+  We prove that that co-located firms thrive when there are some shoppers, but not too many.
+  Without any shoppers, all stores set the monopoly price, consumers visit the closest location and co-located stores earn half the monopolist profit.
   Introducing shoppers has two effects on cluster store profits.
   The direct effect is to reduce profit since co-located stores compete on price.
-  The indirect effect is to draw more consumers to the cluster and away from the monopolist.
-  With a few shoppers, distance is they key factor for choosing which location to visit, and the marginal consumer has similar travel costs for the two locations.
-  Thus, the measure of consumers drawn to the cluster by the price competition is initially very elastic increasing the consumer base of the cluster to offset for the lower prices and increase profits.
-  If, instead, the number of shoppers is high, then the price competition drives prices to marginal cost, while the measure of consumers switching from the monopolist to the cluster becomes very inelastic.
-  As a result, profits are collapse to zero.
-  Comparing store profits between the cluster and the monopolist, we find that if travel costs are sufficiently low then a co-located store is more profitable than the monopolist.
+  The indirect effect is that price competition draws more consumers to the cluster and away from the monopolist.
+  With a few shoppers, distance is the key factor for choosing which location to visit, and the marginal consumer has similar travel costs for the two locations.
+  Thus, the measure of consumers drawn to the cluster by the price competition is initially very elastic, which increases the consumer base of the cluster consumer base by enough to offset for the lower prices and increase profits.
+  If, instead, the number of shoppers is high, then the price competition drives prices to marginal cost, and profits to zero.
+  Finally, we endogeneize location choice by stores and prove that for moderate travel costs we can derive an equilibrium with two co-located stores and a maximally separated monopolist.
+  For sufficiently low travel costs, all stores co-locate.
+  In contrast, if travel costs are sufficiently high, then all stores maximally separate.
+  # we characterize an interval for travel costs such that in a setting with endogenous location choice, two stores co-located and a third one maximally separates.
+  # This is an equilibrium setting only for moderate travel costs.
+  # Finally, if traveling costs are sufficiently small, then cluster stores are more profitable than the monopolist.
+  # Comparing store profits between the cluster and the monopolist, we find that if travel costs are sufficiently low then a co-located store is more profitable than the monopolist.
+  # while the measure of consumers switching from the monopolist to the cluster becomes very inelastic.
+  # As a result, profits are collapse to zero.
   
+  # Co-location commits stores to compete on price, which draws consumers away from the isolated store.
+  # Profits of co-located firms are a single-peaked function of the number of shoppers.
 
-  When consumers know in advance whether they have time to shop, effects are enhanced: co-located stores may draw enough shoppers to drive the expected price paid by
-  a non-shopper below that paid when consumers do not know if they will have time to shop.
-  Finally, we characterize an interval for travel costs such that in a setting with endogenous location choice, two stores co-located and a third one maximally separates.
-  This is an equilibrium setting only for moderate travel costs.
-  If consumers can cheaply any store, then all three stores co-located. Conversely, if traveling is expensive then all three stores maximally separate.
+  # When consumers know in advance whether they have time to shop, effects are enhanced: co-located stores may draw enough shoppers to drive the expected price paid by
+  # a non-shopper below that paid when consumers do not know if they will have time to shop.
 
   \vspace{0.25cm}
-** On going work
-  \vspace{0.1cm}
+  
+** Future research agenda
+   
+   My future research agenda is in the fields of Political Economy and Industrial Organization.
+   Next, I summarize four of my ongoing projects in the two fields.
+   
+   In /*Candidate Advertising Free Riding and Party Solutions*/,
+   I exploit that media markets and station reception cross multiple electoral district boundaries to ask
+   whether neighboring candidates of the same party free ride of each others ads,
+   and whether parties help ameliorate such concerns.
+   For this project, I am using the Wisconsin Advertising Project and Wesleyan Media Project data on local tv ads for the 2008, 2010 and 2012 U.S. election cycles.
+   I focus the analysis on federal general elections for the U.S. House and Senate.
+   Treated candidates are identified using two different definitions.
+   Under the first one, I consider as treated the candidates in media markets which are comprised of counties from more than one state.
+   For the second definition I use a data driven methodology: a candidate is labeled as treated if they advertised in the same station as another candidate of the same party for the same office, but from a different district.
+   In a preliminary analysis, I find that a variation exists between offices and election years, but parties and political action committees (pacs) are $10-15$ percentage points more likely to sponsor ads for the treated candidates.
+   Some candidates are treated in one media market but not in another.
+   I am currently testing how sponsorship of ads by parties and pacs varies for these candidates between media markets.
+   Moreover, I plan to examine how ideological differences between candidates who advertise in the same space affects the party's decision, first, whether to sponsor an ad, and second, what type of ad to sponsor.
+   Ideologically similar candidates can either free ride of off each others' ads, or they might complement each other resulting in more ads sponsored by candidates.
+   Ideologically distant candidates might advertise more to separate themselves, or avoid advertising expecting the party to step in.
+   With ideologically similar candidates, who free ride, I expect the party to sponsor more policy ads.
+   In contrast, if the party sponsors ads for ideologically distant candidates, I expect those ads to be more generic in an effort to boost both candidates.
+   The candidate ideological scores will come from Bonica's (2016) Database on Ideology, Money in Politics, and Elections (DIME).
 
-  My other work in Political Economy focuses on two areas. In /Candidate Advertising Free Riding and Party Solutions/,
-  I exploit that media markets and station coverage cross multiple electoral district boundaries to ask whether neighboring same party candidates free ride of each others ads, and whether parties resolve such concerns.
-  In joint work with George Deltas in /Endogenous Order with Sequential Elections/,  we investigate the strategic considerations stemming from the timing of primary elections, and characterize conditions making voting order irrelevant.
-  We collected data from the US primary elections between 1980-2016.
+   \vspace{0.15cm}
+  
+  
+   In /*Endogenous Order with Sequential Elections*/  with George Deltas,
+   we investigate the strategic considerations stemming from the timing of primary elections.
+   We consider a framework with aggregate uncertainty about the ideology distribution of voters, and
+   idiosyncratic uncertainty within electoral districts about the ordering of candidates on non-policy dimensions.
+   We consider the effects of idiosyncratic uncertainty on endogenous voting order, and the effect of that order on outcomes.
+   We also characterize conditions such that election outcomes are independent of voting order.
+   We collected data from the US primary elections between 1980-2016, which we will use to test our theory.
 
 
+   \vspace{0.15cm}
+   
+   In /*Name-Change Fees, Scalpers, and Secondary Markets*/, I consider a monopolist provider of a service, where consumers enjoy the service only if they have ticket (e.g., concerts, airline flights, and hotel rooms).
+   The monopolist can set a name-change fee to allow holders of tickets to transfer ownership of their tickets to other consumers.
+   I identify the conditions making it optimal to use name-change fees  such that the secondary market is active. I show how this reduces demand uncertainty and alleviates price rigidity.
 
-  In /Name-Change Fees, Scalpers, and Secondary Markets/, I consider a monopolist provider of a service, where consumers enjoy the service only if they have ticket (e.g., concerts, airline flights, and hotel rooms).
-  The monopolist can a name-change fee to allow holders of tickets to transfer ownership of their tickets to other consumers.
-  I identify the conditions making it optimal to use name-change fees (i.e., charge a fee to allow ownership transfers) such that the secondary market is active. I show how this reduces demand uncertainty and alleviates price rigidity.
+   \vspace{0.15cm}
+   
+   In /*Airline Entry and Switching Costs*/ with George Deltas,
+   we use the Origin and Destination survey (DB1B) to provide a measure of switching costs in US domestic airline markets.
+   We leverage airline entry into new airports that connect them with airports that the airline already has presence.
+   We construct our measure of switching costs by exploiting the relative flow of passengers based on the direction of the route (i.e., new airport as origin vs old airport as origin).
+   Then, we consider a discrete choice model to examine the factors affecting these costs.
 
-  In /Airline Entry and Switching Costs/ with George Deltas, we provide a measure of switching costs using airline entry into new airports via routes with airports already used by the airline. We use the relative flows based on the direction of the route to calculate our measure.
