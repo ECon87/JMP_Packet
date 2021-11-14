@@ -49,7 +49,7 @@
 I am a microeconomist with specialization in political economy and industrial organization.
 I work on questions on political communication, timing of elections and firm pricing.
 Method-ologically, my research relies on both applied theory and empirical techniques --- both reduced-form and structural.
-In this statement, I summarize my current papers on targeting of political ads and firm pricing, and discuss my ongoing research on political free-riding in advertising, sequential elections, and airline switching costs.
+In this statement, I summarize my current papers on targeting of political ads and firm pricing, and discuss my ongoing research on free-riding in political advertising, sequential elections, and airline switching costs.
 
 \vspace{0.25cm}
 
@@ -66,17 +66,30 @@ In this statement, I summarize my current papers on targeting of political ads a
   I theoretically characterize  how the optimal composition of ads varies with audience demographics.
   This contributes to the political advertising literature by allowing politicians to tailor messages that target specific components of the voters' utility given the latter's ideology and margin of abstention.
 
-  I test the predictions of the model using the gubernatorial and presidential elections in 2008 and 2012.
-  I transcribe the different ads in states with competitive contests, which I use to identify the types of ads used on different tv shows.
+  I test the predictions of the model using the U.S. gubernatorial and presidential elections in 2008 and 2012.
+  In order to identify the types of ads used on different tv shows, I transcribe the different ads in states with competitive contests,
+  and use the texts to classify each ad as either policy, positive valence or negative valence ad.
+  Specifically, I split each text into individual statements, and assign a subject and tone category to each statement based on its content. 
+  Next, I compute the length of each statement, which I use to calculate the total size of each subject and tone category in each ad.
+  Subject categories are classified as either policy or valence, and the total size of the different subject and tone categories determine the type of the ad.
   I combine these data with viewer demographic and polling data to uncover empirical findings consistent with the theory.
-  # Ads are classified based on the majority of their statements.
+  # Then, I use the text of each ad to classify it as either policy, positive valence or negative valence based on the total size of its policy, positive and negative statements.
+  # Then, I split the text of each ad into individual statements, and assign a subject and tone category to each statement based on its content.
+  # Next, I compute the size of each individual statement, which I use to aggregate each subject and tone category with each ad.
+  # Subject categories are then designated as policy or valence.
+  # An ad is defined as policy if the size of the policy categories exceeds the size of the valence ones.
+  # Otherwise, the ad is a valence ad.
+  # Similarly, the size of positive and negative statements determines whether the ad is positive or negative.
 
-  First, I document that politicians simultaneously use policy, positive valence (i.e., ads emphasizing their positive traits), and negative valence ads (i.e., attacks to the opponent's negative attributes),
+
+  First, I document that politicians simultaneously use policy, positive valence (i.e., emphasize own positive traits), and negative valence ads (i.e., emphasize opponent's negative attributes),
   which suggests that each type of ad is important for a campaign.
   Then, I present evidence of significant variation in the demographic makeup of viewers of the different tv shows.
-  Thus, a sorting of viewers into tv shows is present which allows politicians to target demographics with tailored content.
+  Thus, a sorting of viewers into tv shows is present which allows politicians to target demographics and voters with tailored content.
   
-  Consistent with the model, I find that opposing candidates target the same demographics with different types of ads.
+  # The next paragraph is not clear: On the same show, when one politician does xxx the other does yyy
+
+  Consistent with the model, I find that opposing candidates target the same voters with different types of ads.
   Moreover, opposing candidates target different (and more polarized) audiences with policy ads, while positive valence ads are mostly targeted to a candidate’s alienated base.
   In contrast, the opponent's base is targeted with attacks against their preferred candidate.
   Finally, I present evidence suggesting that as the ideological difference between opposing candidates widens,
@@ -91,8 +104,8 @@ In this statement, I summarize my current papers on targeting of political ads a
 
   
 
+\vspace{0.5cm}
 
-\clearpage
 ** "The Price-Matching Dilemma" with Dan Bernhardt (/International Journal of Industrial Organization/, 2018)
    \vspace{0.25cm}
 
@@ -128,7 +141,7 @@ In this statement, I summarize my current papers on targeting of political ads a
   With a few shoppers, distance is the key factor for choosing which location to visit, and the marginal consumer has similar travel costs for the two locations.
   Thus, the measure of consumers drawn to the cluster by the price competition is initially very elastic, which increases the consumer base of the cluster consumer base by enough to offset for the lower prices and increase profits.
   If, instead, the number of shoppers is high, then the price competition drives prices to marginal cost, and profits to zero.
-  Finally, we endogeneize location choice by stores and prove that for moderate travel costs we can derive an equilibrium with two co-located stores and a maximally separated monopolist.
+  Finally, we endogeneize location choice on a circle by stores and prove that for moderate travel costs we can derive an equilibrium with two co-located stores and a maximally separated monopolist.
   For sufficiently low travel costs, all stores co-locate.
   In contrast, if travel costs are sufficiently high, then all stores maximally separate.
   # we characterize an interval for travel costs such that in a setting with endogenous location choice, two stores co-located and a third one maximally separates.
@@ -155,17 +168,17 @@ In this statement, I summarize my current papers on targeting of political ads a
    I exploit that media markets and station reception cross multiple electoral district boundaries to ask
    whether neighboring candidates of the same party free ride of each others ads,
    and whether parties help ameliorate such concerns.
-   For this project, I am using the Wisconsin Advertising Project and Wesleyan Media Project data on local tv ads for the 2008, 2010 and 2012 U.S. election cycles.
+   For this project, I use the Wisconsin Advertising Project and Wesleyan Media Project data on local tv ads for the 2008, 2010 and 2012 U.S. election cycles.
    I focus the analysis on federal general elections for the U.S. House and Senate.
-   Treated candidates are identified using two different definitions.
+   Treated candidates are identified in two ways.
    Under the first one, I consider as treated the candidates in media markets which are comprised of counties from more than one state.
    For the second definition I use a data driven methodology: a candidate is labeled as treated if they advertised in the same station as another candidate of the same party for the same office, but from a different district.
    In a preliminary analysis, I find that a variation exists between offices and election years, but parties and political action committees (pacs) are $10-15$ percentage points more likely to sponsor ads for the treated candidates.
    Some candidates are treated in one media market but not in another.
    I am currently testing how sponsorship of ads by parties and pacs varies for these candidates between media markets.
    Moreover, I plan to examine how ideological differences between candidates who advertise in the same space affects the party's decision, first, whether to sponsor an ad, and second, what type of ad to sponsor.
-   Ideologically similar candidates can either free ride of off each others' ads, or they might complement each other resulting in more ads sponsored by candidates.
-   Ideologically distant candidates might advertise more to separate themselves, or avoid advertising expecting the party to step in.
+   Ideologically similar candidates can either free ride of off each other's ads, or they might complement each other resulting in more ads sponsored by candidates.
+   Ideologically distant candidates might advertise more to separate themselves, or to avoid advertising expecting the party to step in.
    With ideologically similar candidates, who free ride, I expect the party to sponsor more policy ads.
    In contrast, if the party sponsors ads for ideologically distant candidates, I expect those ads to be more generic in an effort to boost both candidates.
    The candidate ideological scores will come from Bonica's (2016) Database on Ideology, Money in Politics, and Elections (DIME).

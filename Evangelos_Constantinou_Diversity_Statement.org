@@ -1,0 +1,58 @@
+#+TITLE: \bf{Diversity Statement}
+#+AUTHOR: Evangelos Constantinou
+#+OPTIONS: toc:nil date:nil
+
+
+# #+LATEX_HEADER: \usepackage[a4paper, total={6.5in, 8in}]{geometry}
+#+LATEX_HEADER: \usepackage[margin=0.75in]{geometry}
+#+LATEX_HEADER: \setlength{\parskip}{.10in}
+
+My lived experience as a first generation college graduate and an immigrant to the United States ground my commitment to diversity and inclusion.
+I can only describe challenges I faced as an isolated newcomer, unaware of available support or how to seek help for several months after first arriving on the University of Illinois campus.
+My background makes me particularly sensitive to the detrimental impact exclusion and isolation have on students' well-being and academic success.
+
+I was fortunate to be part of a very diverse cohort at UIUC, with fellow graduate students from all around the world, on a campus with over 14,000 international students hailing from over 100 countries.
+Once I became more aware of the rich diversity of the Champaign-Urbana community, I felt welcomed, that I belonged, and that my department wanted me to succeed.
+I firmly believe that it is imperative for academic institutions to promote diversity and inclusion of everyone, with special attention to marginalized groups. 
+
+While serving as a head teaching assistant at the University of Illinois, I had the opportunity to work closely with services such as the Division of Disability Resources and Educational Services (DRES).
+With support and resources from DRES, I was able to help ensure students with disabilities had equal opportunity to succeed in my classroom. 
+Collaborating with DRES to support students improved my understanding of the challenges faced by students with disabilities.
+This enabled my teaching assistants and me to educate ourselves and respond to students’ needs with accommodations for coursework and classroom environment without compromising the quality of education provided.
+
+Through this experience, I learned that an educator must strive to develop an inclusive environment which provides conditions for the academic and social success of all students.
+Teaching students from all walks of life has been eye-opening and motivated me to expand my research agenda to issues relating to voting rights and representation of marginalized groups.
+# My  work as an instructor has been eye-opening and motivated me to expand my research agenda to issues relating to voting rights and representation of marginalized groups.
+# Specifically, the method of communication with this group is important.
+
+Every  academic community must exemplify the principles of diversity and inclusion in intention, word, and action.
+We need to provide the tools to every individual to succeed both within and beyond the academy.
+I must use my privileged position in the classroom, in committee meetings and admission committees to reach, enfranchise and make space for marginalized and underrepresented communities that face barriers to equity and inclusion.
+I am committed to using my role as a faculty member to continue listening to underrepresented and historically
+excluded groups to better understand the challenges encountered by different members of our community,
+strengthen my skills as an inclusive instructor, and ensure all students and faculty I interact with are treated with dignity and respect.
+
+
+# OLDER DRAFT
+
+# My personal experiences as a first generation college graduate and an immigrant ground my commitment to diversity and inclusion.
+# I can only describe challenges I faced from being isolated in a new continent and unaware how to seek help.
+# This have made me particularly sensitive to the detrimental impact on students' well-being and academic success feelings of exclusion can have.
+# The diversity I encountered made me feel welcomed and that I belonged in this community.
+# Thus, I firmly believe that it imperative for academic bodies to promote diversity and inclusion of marginalized groups. 
+
+
+# While serving as a head teaching assistant the University of Illinois, I had the opportunity to work closely with services such as the Division of Disability Resources and Educational Services (DRES).
+# DRES ensures students with disabilities are given equal opportunity to quality education.
+# Interacting with DRES improved my understanding of the challenges faced by students with disabilities.
+# This enabled my team and me to educate ourselves and devise accommodations for coursework and classroom environment without compromising the quality of education provided to the students.
+# Through this experience, I learned that an educator must strive to develop an inclusive environment which provides conditions for the academic and social success of all students.
+# This work has been eye-opening and motivated me to expand my research agenda to issues relating to voting rights and representation of marginalized groups.
+# Specifically, the method of communication with this group is important.
+
+
+# The academic community must exemplify the principles of diversity and inclusion.
+# We need to provide the tools to every to individual to succeed academically and personally.
+# I will use my role as a faculty member to continue educating myself about the challenges of different members of our community, and strengthen my skills as an inclusive instructor.
+# I must use my priviliged position in the classroom, in the committee meetings and admission committee to reach and enfranchise marginalized and underrepresented communities that face barriers to equity and inclusion.
+
