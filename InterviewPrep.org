@@ -1,6 +1,6 @@
 # See guide http://www.wouterspekkink.org/academia/writing/tool/doom-emacs/2021/02/27/writing-academic-papers-with-org-mode.html
 #+LATEX_HEADER: \documentclass[12pt]{article}
-#+TITLE: Interview Preparatin
+#+TITLE: Interview Preparation
 #+OPTIONS: toc:nil
 #+latex_class_options: [12pt]
  
@@ -92,41 +92,45 @@
 # #+LATEX_HEADER: \singlespacing
 #+LATEX_HEADER: \onehalfspacing
 # #+LATEX_HEADER: \doublespacing
-* Questions
-** Tells us about your job market paper
-*** Elevator 3-5 minutes (~ 400 words)
-**** HI, NAME IS ! (< 30 SECONDS)
-      
-   Hello, my name is Evangelos Constantinou.
-   I am thrilled to be here with you.
-   My research interests are in the fields of political economy and industrial organization,
-   where I use both applied theory and empirical methods.
 
-**** JMP title and punchline (1.5 minute)
-
-*****  Sub intro 1
+* Tells us about your job market paper
+  
+     [[https://trends.e-strategyblog.com/2016/06/09/us-political-ad-spending-by-format/27038/][Breakdown of ad spending by format]]
+     
+** JMP PITCH 3-5 minutes (~ 400 words)
+   
+*** INTRO (< 30 SECONDS)
+***** Sub intro 1
        
-    So, imagine for a moment that you are political candidate.
-    How would you advertise in order to maximize your chances of winning?
-    Well, my job market paper uses both theory and empirical analysis to essentially answer this question.
+      Hello, my name is Evangelos Constantinou!
+      I work in political economy and industrial organization,
+      where I use both applied theory and empirical methods.
+
+      I combine both of those skills in my job market, titled "Messaging the bases: tailoring political ads to audiences",
+      to ask: how do politicians advertise?
+      # How would you advertise in order to maximize your chances of winning?
+      # Well, my job market paper uses both theory and empirical analysis to essentially answer this question.
     
      
 ***** Sub intro 2 (if they say "Tell us about your job market paper")
-       
-    Gladly, my job market paper essentially asks: how do politicians advertise>
-    To answer this, I use both theory and empirical analysis to essentially answer this question.
+      
+      Gladly, my job market paper, titled "Messaging the bases: tailoring political ads to audiences",
+      essentially asks: how do politicians advertise?
+      To answer this, I use both theory and empirical analysis to essentially answer this question.
     
-***** Punchline (1 minute)
-       
-    In one sentence, my paper argues that politicians optimally choose ads in order to achieve two goals:
-    turn out their base to vote, and
-    keep the opponent's base home.
+      
+*** PUNCHLINE (1.5 minute)
     
-    However, voters have different ideologies, and abstain from voting for different reasons.
-    For example, some are alienated from their preferred candidate, and others are indifferent between the candidates.
-    So, I argue that candidates must tailor ads based on the expected ideology of the viewers and whether we want them to turn out or not.
-    In this paper, I develop a theory based on this intuition and for which I provide empirical support.
-    # using among others IV estimation.
+  In one sentence, my paper argues that politicians use ads to achieve two goals:
+  motivate their base to turn out to vote, and
+  depress the opponent's base to stay home.
+
+  However, voters have different ideologies, and abstain from voting for different reasons.
+  For example, some are alienated from their preferred candidate, and others are indifferent between the candidates.
+  As a result, I argue that in order to achieve their 2 goals, candidates must tailor ads based on the expected ideology of the viewers,
+  and their margin of abstention.
+  In this paper, I develop a theory based on this intuition and I provide empirical support.
+  # using among others IV estimation.
      
 ****** (BONUS) If they ask about empirical strategy
         
@@ -150,214 +154,272 @@
      # So, the ads must be tailored based on the expected ideology of viewers and the desired voter reaction.
      # I develop a theory based on this intuition and I provide empirical support.
    
-**** Motivation, Questions, Findings (2 minutes ~ 200 words)
+    \clearpage
+*** MOTIVATION & RESULTS (2 minutes ~ 200 words)
 
-   So, why do I concentrate on ads?
-   Well, ads, especially tv ads, are the main method of communication between political candidates and voters.
+  So, why are ads important?
+  Well, ads, especially tv ads, are the main method of communication between political candidates and voters.
     
-   And importantly for my paper, tv ads vary in terms of content:
-   some highlight policy positions,
-   others emphasize candidates non-policy traits. 
-   These can be positive about a candidate and emphasize their leadership skills.
-   Or, they can be negative accuse the opponent of flip-flopping.
-   I call valence, the non-policy traits that matter for voter utility.
+  And importantly for my paper, tv ads vary in terms of content:
+  some highlight policy positions,
+  others emphasize candidates' non-policy traits. 
+  These can be positive about a candidate and emphasize their leadership skills.
+  Or, they can be negative and accuse the opponent of flip-flopping for example.
+  
+  I should note that I call valence any non-policy traits that matter to voters utility.
 
-   I argue that this is important strategic variation in ad content by the candidates.
-   However, most of the current literature makes no distinction between the different types of ads.
-   - (if time) and asks whether ads stimulate turnout overall.
+  I argue that this variation in content is important and strategic on the part of the candidates.
+  Nevertheless, the current literature makes no distinction regarding the variation in ad contnent.
+  # between the different types of ads.
     
-   Instead, I build on the observation that in practice all three types of ads --- I identified earlier --- are simultaneously being used by candidates.
-   and ask
-   1) What function does each type of tv ad serve in a campaign?
-   2) And, how does ad placement and content vary based on the ideological makeup of the audience?
+  Instead, I build on the observation that in practice the types of ads --- I just identified earlier --- are simultaneously being used by candidates.
+  and ask
+  1) What function does each type of tv ad serve in a campaign?
+  2) And, how does ad placement and content vary based on the ideological makeup of the audience?
+
+  Interestingly, I find that each type of ad serves a specific purpose, and candidates do target their ads.
     
-   My theoretical results suggest that each type of ad serves a specific purpose.
+  For example:
+  First, policy ads and positive ads mostly are targeted towards the base and used to energize different members of base.
+  Second, And negative ads are mostly targeted towards the opponent's base in an effort to depress their turnout.
+
+  In short, my model predicts that candidates target same type of ads to different audiences.
     
-   For example, policy ads and positive ads are used to energize the base.
-   Negative ads are used to depress the opponent's base.
-    
-   Then, I empirically test these predictions, and find empirical support.
-   To do this, I combine viewer demographic data from MRI with data on US gubernatorial and presidential ads for 2008 and 2012.
+  I then empirically test my model predictions.
+  
+  To do this, I combine viewer demographic data from MRI with data on US gubernatorial and presidential ads for 2008 and 2012.
+
+  I find empirical support for the type of different targeting of voter demographics suggested by the theory.
+
     
 ***** (BONUS) Extra results (if it flows)
     I also find that:
     candidates target their policy ads even more narrowly as the ideological distance with the opponent increases.
-        And, candidates with higher initial valence (e.g., more liked as people) run more positive campaigns, and candidates with lower valence run negative ones.
+    And, candidates with higher initial valence (e.g., more liked as people) run more positive campaigns, and candidates with lower valence run negative ones.
 
     
 
 
-   
-**** Contribution and mechanism 1 minute (100 words)
 
-   So, if I were to summarize my contribution, then:
+   \clearpage
    
-   I would say that I provide a novel mechanism on how different forms of abstention (alienation and indifference) interact with voter ideology to inform targeting of tailored ads.
-   And, I show that tailoring of ads is optimal as candidates maximize their probability of winning.
-   - (if time) Specifically, politicians can exploit voter sorting into tv shows to match the right message to the right audience in order to mobilize their base and demobilize the opposing one.
-   - (if time) To achieve this, they strategically tailor ads to target different paths of the voters' utility --- horizontal vs vertical --- based on the viewers' expected ideology and margin of abstention to invoke desired voter reactions.
-   
-   Also, my results highlight that the effect of ads on mobilization is more complicated and it depends on the mix of ads a voter consumes.
-   
-   On the empirical side, I construct an a transparent and flexible algorithm that systematically classifies ads based on their content.
-   - (if time) It also provides me with quantitative measure of policy and valence statements in ads.
+*** LITERATURE & CONTRIBUTION AND MECHANISM (1 MINUTE) (100 WORDS)
+
+    My paper focuses on a different dimension regarding political advertising than previous work.
+    Previous work aks whether ads stimulate or depress aggregate turnout and voter choice.
+    In contrast, I drill down on the incentives of the candidates to vary the content of their ads.
+
+    In particular, I provide a novel mechanism on how different forms of abstention from voting (alienation and indifference) interact with voter ideology to inform targeting of tailored ads.
+    - (BONUS) Specifically, politicians can exploit voter sorting into tv shows to match the right message to the right audience in order to mobilize their base and demobilize the opposing one.
+    - (BONUS) To achieve this, they strategically tailor ads to target different parts of the viewers' utility --- horizontal vs vertical --- based on their expected ideology and margin of abstention to invoke desired voter reactions.
+    And, that this tailoring of ads is optimal as candidates maximize their probability of winning.
+
+    My results are important because they suggest when estimating the effect of ads on mobilization, it is crucial to take the mix of ads a voter is exposed to into account.
+    Otherwise, the estimate would be biased.
+    For example, looking at the aggregate ads of Democrats misses out the different types of ads and their differential effect on mobilization on different voter bases.
+
+    On the empirical side, I construct an a transparent and flexible algorithm that systematically classifies ads based on their content.
+    - (BONUS) It also provides me with quantitative measure of policy and valence statements in ads.
+    - *DO NOT SAY MODULAR*. But if you say modular or they ask about the algorithm.
+      - It is more accurate as it goes sentence by sentence finding their subject and size based on number of characters.
+      - Then, classify subjects into policy and valence, and find the total size of policy and valence statements within the ads.
+      - Alternatively, classify ads directly into policy, positive, negative based on the whole text. But prone to errors.
    
     
+ \clearpage 
+** MORE DETAIL 10-15 minutes (~750 words)
    
-*** More detail 10-15 minutes (~750 words)
+   If there are no questions, I can describe in more detail my theoretical model and empirical analysis.
 
-    Since, I have more time, I will describe in a bit more detail my theoretical model and empirical analysis.
-
-***** THEORETICAL MODEL (~ 5 MINUTES)
+   There are different theories about why citizens vote.
+   The main ones are:
+   Ethical voting meaning voters want to vote similarly to the group they identify.
+   Outcome based voting where voters care about the outcome of the election.
+   My paper assumes expressive voting. Voters derive utility from the process of voting.
+   
+*** THEORETICAL MODEL (~ 5 MINUTES)
     
+  - *BASIC SETUP/ENVIRONMENT*
     So, my theoretical model considers a political contest with two candidates,
     who can communicate with voters through the ads they place in different tv shows.
-
+    
+  - *VOTER UTILITY & AD EFFECTS*
     Voters care about policy/ideology and the candidate non-policy/valence traits.
-    Voters have different ideologies, but they agree that higher valence candidates are preferred.
+    Voters disagree on the ideal policy, but they agree that higher valence candidates are preferred.
 
     I assume that policy ads affect how much policy matters in the voters utilities.
     Positive ads increase the candidate's valence, and negative ads decrease the opponent's valence.
 
-    In order to motivate abstention, I assume that voting is costly.
+  - *ABSTENTION & FRINGE vs MODERATE*
+    In order to motivate abstention from voting, I assume that voting is costly.
     
     Some voters abstain because they are alienated, which means that their voting cost exceeds their utility of voting for their preferred candidate.
     Others abstain because they are indifferent between the two candidates, which means that they find the two candidates very similar and it's not worth incurring the cost of voting.
     
-    I show that a candidate's fringe base is more likely to abstain due to alienation, whereas moderate voters are more likely to abstain due to indifference.
+    I then show that a candidate's fringe base is more likely to abstain due to alienation, whereas moderate voters are more likely to abstain due to indifference.
     
-    In turn, candidates use ads in the different tv shows to manipulate the margins of abstention in order to maximize their probability of winning.
-    To achieve this, they must use ads that energize their base and depress the opposing one.
+  - *CANDIDATES OBJECTIVE & TAILOR*
+    In turn, candidates want to use ads in the different tv shows to manipulate the margins of abstention
+    such that they maximize their turnout and minimize the opponents'.
+    # in order to maximize their probability of winning.
 
-    But since voters ideology and margin of abstention differs, the candidates must tailor their ads in the different shows based on the expected audience.
-    For example, Democrats do not want to talk about abortion in Fox news.
-    
-    Next, I solve for the dominant strategy equilibrium and show how candidates strategically vary the mix of ads based on the ideological makeup of the audience.
-    First, they target policy ads in shows watched by the base.
-    The energize the fringe base with positive ads, since these voters are alienated and must be reminded how good their candidate is.
+    Since voters have different ideologies and margins of abstention,
+    the candidates must tailor their ads in the different shows based on the expected audience.
 
-    In contrast, the opponent's base can only be approached with negative ads in order to demobilize them.
+    /For example, Democrats do not want to talk about abortion in Fox news./
     
-    Moderate voters, who are prone difference, must be reminded that the two candidates differ significantly.
+  - *DOMINANT STRATEGY EQUILIBRIUM & RESULTS*
+    
+    Next, I solve for the *dominant strategy equilibrium* and characterize how candidates /strategically vary/ the mix of ads
+    based on the ideological makeup of the audience.
+
+    For example, candidates target policy ads to shows watched by their base.
+    Also, they energize their fringe base with positive ads,
+    since these voters are alienated and must be reminded how good their candidate is.
+
+    Moderate voters, who are prone to indifference, must be reminded that the two candidates differ significantly.
     As a result, both positive and negative ads are used.
-    Policy ads are used if they can persuade these moderate voters.
-    
-    I also find that as the ideological distance between opponents increases, they target policy ads more narrowly.
-    Also, higher valence candidates switch to more positive campaigning, and lower valence candidates to negative.
-    
+    Some small number of policy ads are used if they can persuade these moderate voters.
 
-    So, to summarize, my theoretical predictions are that 
-    All types of ads are used. But for different purpose.
-    And, correlations between opposing candidates strategies is due to the differential targeting of voters (and component of their utility).
-    Specifically, Policy and positive valence ads of opposing candidates are negatively correlated.
+    In contrast, the opponent's fringe base is targeted with negative ads in order to demobilize them by depressing them even more about their candidate.
+
+    Therefore, my results suggest that all types of ads are used, but for a different purpose.
+    
+    Also, correlations between opposing candidates strategies arise, but *only* due to the differential targeting of voters.
+
+    For example, policy and positive valence ads of opposing candidates are negatively correlated.
     Policy ads and negative ads of opposing candidates are positively correlated.
     Positive ads and negative ads of opposing candidates are positively correlated.
 
+    I also find that as the ideological distance between opponents increases, candidates target policy ads even more narrowly.
+    Also, higher valence candidates switch to more positive campaigning, and lower valence candidates to negative.
+    
+
      
-***** EMPIRICAL ANALYSIS (~ 5-6 minutes)
-      I then empirically test my theoretical predictions.
+*** EMPIRICAL ANALYSIS (~ 5-6 minutes)
+    
+    In order to empirically test my theoretical predictions, I combine multiple data sources.
+ 
+***** If you skip theory part
+     For my empirical analysis, I test the theoretical predictions of model.
+     So, to quickly summarize, in my theoretical model has a dominant strategy equilibrium
+     and as result candidates target voter demographics with tailored content.
+     Opposing candidate strategies are correlated but the correlation arises *only*
+     due to the differential targeting of the underlying voter characteristics.
 
+     
+     
+**** DATA SOURCES (~ 1 MINUTE)
+       
       
-****** DATA SOURCES (~ 1 MINUTE)
-       
-      To achieve this, I combine multiple data sources.
+    First, I get the universe of political ads by US gubernatorial and presidential candidates in 2008 and 2012 from WAP and WMP.
+    I also obtained storyboards and videos of each ad, which I trans coded to obtain the texts of the ads.
       
-      First, I get the universe of political ads by US gubernatorial and presidential candidates in 2008 and 2012 from WAP and WMP.
-      I also obtained storyboards and videos of each ad, which I trans coded to obtain the texts of the ads.
-      
-      Second, I get viewer demographics from MRI's Survey of the American Consumer.
-      - (if time) Nationwide consumer survey that asks the consumer about their habits including TV viewing ones.
-      - (if time) About 600 tv shows.
+    Second, I get viewer demographics from MRI's Survey of the American Consumer.
+    - (if time) Nationwide consumer survey that asks the consumer about their habits including TV viewing ones.
+    - (if time) About 600 tv shows.
 
-      And finally, I web-scrape polling data from Real Clear Politics.
-      - (if time) However, I should note that polling data is at the state level, whereas political ads data are at the media market level.
-      - (if time) This is important because media markets can cross state lines.
-      - (if time) And, within a media market, the set of Tv stations is the same.
-      - (if time) So a station's coverage might cross to a different state.
-      - (if time) I map state polls by combining Sood's (2016) data on media markets and counties, and Census' county population.
-      - (if time) I can then attribute the percentage of the media market in each state.
+    And finally, I web-scrape polling data from Real Clear Politics site.
+    - (if time) However, I should note that polling data is at the state level, whereas political ads data are at the media market level.
+    - (if time) This is important because media markets can cross state lines.
+    - (if time) And, within a media market, the set of Tv stations is the same.
+    - (if time) So a station's coverage might cross to a different state.
+    - (if time) I map state polls by combining Sood's (2016) data on media markets and counties, and Census' county population.
+    - (if time) I can then attribute the percentage of the media market in each state.
 
-****** CLASSIFYING ADS (~ 3 MINUTES)
+**** CLASSIFYING ADS (~ 3 MINUTES)
        
-       One of the most challenging parts of the empirical analysis is the classification of ads into policy, positive and negative valence based on their content.
-       This is important because I need to identify the ads used in the different shows.
-       However, it is a hard.
+     One of the most challenging parts of the empirical analysis is the classification of ads into policy, positive and negative valence based on their content.
+     This is important because I need to identify the share of different type of ads used by the candidates in the different shows.
+     However, it is a hard.
 
-       In the theoretical model, each has one of clear type.
+     In the theoretical model, each has one of type.
        
-       In practice though ads touch on multiple themes; some policy and some valence.
-       I need an algorithm that takes the text as input and outputs a class for the ad.
+     In practice though ads touch on multiple themes; some policy and some valence.
+     So, I need an algorithm that takes the text as input and outputs a class or type for the ad.
        
-       One possible solution is to directly label ads based on the whole text.
-       But this method is prone to inconsistent classification since it obfuscates what is considered policy and what is valence,
-       and does not provide a quantitative measure of the relative sizes of policy and valence, or positive and negative statements.
-       - Another possible solution is to use external natural language resources.
-         For example, count positive/negative words. But misses specific context such as quoting the opponent.
-         And political ads are a very specific type of speech.
-         Too many a priori rules.
+     One possible solution is to directly label ads based on the whole text.
+     But this method is prone to inconsistent classification.
+     It obfuscates what is considered policy and what is valence,
+     and does not provide a quantitative measure of the relative sizes of policy and valence, or positive and negative statements.
+     - Another possible solution is to use external natural language resources.
+       For example, count positive/negative words. But misses specific context such as quoting the opponent.
+       And political ads are a very specific type of speech.
+       Too many a priori rules.
          
-       Instead, I consider a more modular approach that first classifies individual statements/sentence within the ads.
-       Specifically, each statement/sentence is a assigned a subject and tone category based on its content.
-       - For example, I have statement that says: senator mccain, we are a frightened nation. times are tough, and you have the judgment we can believe in.
-       - Its subject is leadership and it's tone is positive.
-       Then I find the size of each statement based on the number characters, which allows me to find the total size of each subject and tone category within each ad.
-       In the last step, I split the subject categories into policy and valence.
-       By doing this, I can find the relative size of policy and valence statements within each ad, and classify them based on which is larger.
+     Instead, I consider a more modular approach that first classifies individual statements/sentence within the ads.
+     Specifically, each statement/sentence is a assigned a subject and tone category based on its content.
+     - For example, I have statement that says: senator mccain, we are a frightened nation. times are tough, and you have the judgment we can believe in.
+     - Its subject is leadership and it's tone is positive.
+     Then I find the size of each statement based on the number characters, which allows me to find the total size of each subject and tone category within each ad.
+     In the last step, I split the subject categories into policy and valence.
+     By doing this, I can find the relative size of policy and valence statements within each ad, and classify them based on which is larger.
        
        
-       This approach offers several advantages:
-       - Transparent about what topics are policy and valence.
-       - Flexible as subject categories can be divided into sub-policy types.
-       - Quantize measure of policy and tone, which can be used for other questions.
-       - Rich training set for future machine learning and deep learning classification.
+     This approach offers several advantages:
+     - Transparent about what topics are policy and valence.
+     - Flexible as subject categories can be divided into sub-policy types.
+     - Quantize measure of policy and tone, which can be used for other questions.
+     - Rich training set for future machine learning and deep learning classification.
 
-****** EMPIRICAL APPROACH AND RESULTS (~ 2 MINUTES)
+**** EMPIRICAL APPROACH AND RESULTS (~ 2 MINUTES)
        
-       # First, I document that politicians simultaneously use policy, positive valence (i.e., emphasize own positive traits), and negative valence ads (i.e., emphasize opponent's negative attributes),
-       # which suggests that each type of ad is important for a campaign.
-       # Then, I present evidence of significant variation in the demographic makeup of viewers of the different tv shows.
-       # Thus, a sorting of viewers into tv shows is present which allows politicians to target demographics and voters with tailored content.
+     # First, I document that politicians simultaneously use policy, positive valence (i.e., emphasize own positive traits), and negative valence ads (i.e., emphasize opponent's negative attributes),
+     # which suggests that each type of ad is important for a campaign.
+     # Then, I present evidence of significant variation in the demographic makeup of viewers of the different tv shows.
+     # Thus, a sorting of viewers into tv shows is present which allows politicians to target demographics and voters with tailored content.
        
        
-       Now to test the theoretical model, I rely on its insights that.
+     Now to test the theoretical model, I rely on its insights that.
        
-       Candidates target voter demographics with tailored content, AND
-       any correlations between opposing candidates ads derive from their differential targeting of those demographics.
+     Candidates target voter demographics with tailored content, AND
+     any correlations between opposing candidates ads derive from their differential targeting of those demographics.
          
-       Therefore, I focus on how opposing candidates target viewer demographics.
+     Therefore, I focus on how opposing candidates target viewer demographics.
        
-       First, I document that individual demographics are indeed targeted differentialy by candidates.
-       For example, minority voters receive more negative ads by Republicans and more policy and positive valence by Democrats.
-       Or as the audience becomes more conservative, Democrats switch away from policy and positive ads to negative ads.
-       Republicans do the opposite.
+     First, I document that individual demographics are indeed targeted differentialy by candidates.
+     For example, minority voters receive more negative ads by Republicans and more policy and positive valence by Democrats.
+     Or as the audience becomes more conservative, Democrats switch away from policy and positive ads to negative ads.
+     Republicans do the opposite.
 
-       Then, I consider how opposing candidates target bundles of voter demographics.
+     Then, I consider how opposing candidates target bundles of voter demographics.
+
+     - Version 1:
+       To achieve this, I predict the shares of the different types of ads based on show and viewer characteristics as suggested by theory.
+       This isolates the tailoring of ads suggested by theory.
+       Then, I check if the correlations between the predicted shares of opposing candidates are consistent with the theory.
+       And indeed they do.
+       
+     - Version 2:
        To achieve this, I instrument their shares of types of ads on show characteristics.
        I take the predicted shares from the IV estimation, and check if their correlations are consistent with the theory.
+       And indeed they do.
   
-       Indeed, I find that opposing candidates target the same voters with different types of ads.
-       Specifically, each candidate targets policy ads to different and more polarized audiences.
-       They use positive valence ads to energize their alienated base.
-       In contrast, the opponent's base is targeted with attacks against their preferred candidate.
+     For example, I find that opposing candidates target the same voters with different types of ads.
+     # Specifically, each candidate targets policy ads to different and more polarized audiences.
+     # They use positive valence ads to energize their alienated base.
+     # In contrast, the opponent's base is targeted with attacks against their preferred candidate.
        
-       Finally, I present evidence that as the ideological difference between opposing candidates widens,
-       candidates increase targeting of policy and positive valence ads to their base.
+     Finally, I present evidence that as the ideological difference between opposing candidates widens,
+     candidates increase targeting of policy and positive valence ads to their base.
+     Higher valence candidate switch to more positive campaigning and relatively lower valence candidates to more negative campaigning.
 
        
-*** CONCLUSION - CLOSING STATEMENT
+** CONCLUSION - CLOSING STATEMENT
 
-    My results have several implications.
+   My results have several implications.
 
-    For the empirical literature on political ads, it is important to account for type of ads voters are exposed to when measuring stimulation effects of ads.
+   For the empirical literature on political ads, it is important to account for type of ads voters are exposed to when measuring stimulation effects of ads.
      
-    It also speaks to other forms of political communication.
-    For example, rallies are a venue to talk about policy whereas debates are a place to talk to moderate voters.
+   It also speaks to other forms of political communication.
+   For example, rallies are a venue to talk about policy whereas debates are a place to talk to moderate voters.
      
      
-    If you have questions about my job market paper, I welcome questions.
-    Otherwise, I can discuss my other work.
+   If you have questions about my job market paper, I welcome questions.
+   Otherwise, I can discuss my other work.
 
-    \clearpage
+   \clearpage
+   
 **** Mau's notes
      - valence. A more intuitive definition.
      - Opening: Imagine being a political candidate.
@@ -366,28 +428,498 @@
        - One line example.
      
     \clearpage
-** Teaching Interests. What would you like to teach.
-** Tell us about your future research agenda
-   - Two groups of projects: PE and IO
-   - Combination of applied theory and empirical analysis.
-   - Some peoples use both techniques.
 
+    
+* SPIEL 12/08
+
+** ELEVATOR PITCH/3 MINUTE PITCH (3 MINUTES)
+   
+   # My job market paper asks: How do politicians advertise?
+   
+*** ELEVATOR PITCH (30 SECONDS)
+    
+    In my job market paper, I examine how do politicians strategically select the content of their ads.
+    First, I present a theory in order to understand the economic forces,
+    and then I use data on US gubernatorial and presidential tv ads from 2008 and 2012 to provide empirical support.
+    
+*** 2 MINUTE SPIEL (200 words)
+    
+    Previous literature, which tries to measures the effect of ads on aggregate turnout.
+    Instead, I drill down on the incentives of candidates to vary the content of their ads based on the expected audience.
+
+    Specifically, I argue that candidates strategically vary the content of their ads in order to achieve two goals:
+    first, motivate their base to turn out to vote,
+    and second, depress the opposing base to stay home.
+
+    I theoretically and empirically show how they target different types of ads to different voters, and
+    I make three main contributions to the literature:
+    
+    First, I provide a novel mechanism about how abstention from voting interacts with voter ideology to determine ad targeting.
+
+    Second, I argue that it is important to take into account the content of ads voters are exposed to when measuring the effects of ads on turnout.
+
+    Third, I classify ads into different types such as policy, positive and negative based on their content,
+    and I provide a procedure for achieving such classifications based on ads' text that offers several advantages over possible alternative methods.
+
+    
+    I should note that although I use tv ads, my analysis and results apply to other forms of communication such as social media.
+
+    
+** JMP PITCH (5 MINUTES)
+
+   - *WHY ARE ADS IMPORTANT* (1 minute)
+     Regardless, Tv ads are the main method of communication between candidates and voters.
+     Over 60% of candidates advertising budgets is spent on TV ads.
+     
+     And, interestingly, candidates simultaneously use different types of tv ads:
+     some ads highlight policy positions,
+     others emphasize candidates' non-policy traits. 
+     These can be positive about a candidate and emphasize their leadership skills.
+     Or, they can be negative and accuse the opponent of flip-flopping for example.
+     I should note that I call valence any non-policy candidate traits that matter to voters utility.
+     
+     I argue that this is a strategic variation by candidates in order to achieve the two goals I mentioned earlier:
+     first, motivate their base to turn out to vote, and
+     second, demobilize the opponent's base to stay home.
+     
+   - *THEORY* (1 minutes)
+     I consider a static model that provides insights about the underlying mechanism.
+     Specifically, voters have different ideologies, and abstain from voting for different reasons.
+     Some are alienated from their preferred candidate, and others are indifferent between the candidates.
+     Therefore, to achieve their goals, candidates must tailor ads based on the expected ideology of the viewers, and their margin of abstention.
+
+     I obtain four main results from the model:
+     First, policy ads are targeted to the base because policy is contentious, and must narrowly targeted.
+     Second, the fringe base is also targeted with positive ads because they are alienated.
+     Third, moderate voters are targeted with a mix of positive and negative because these voters are indifferent.
+     Third, negative ads are mostly targeted towards the opponent's base in an effort to depress their turnout.
+     
+     Thus, each type of ad serves a specific purpose, and opposing candidates target the same type of ad to different audiences.
+
+   - *EMPIRICAL RESULTS* (1 minute)
+     I empirically test my model, by combining viewer demographic data from MRI with data on US political tv ads from WAP and WMP.
+     These data contains detailed information about each ad play in the whole US.
+     I find empirical support for the type of differential targeting of voters suggested by the theory.
+     For example, as the audience becomes more conservative Democrats decrease their policy and positive ads by X percent,
+     and Republicans increase them by Y percent.
+
+     Importantly, I classify ads into policy and valence by breaking each text into individual statements, and classifying each statement into different subject or topic categories.
+     And then I classify subjects and topics into policy or valence.
+      
+   - *CONTRIBUTIONS* (2 minute)
+
+     As I mentioned earlier, previous literature tries to measure the stimulating effects of ads.
+     Instead, I focus on the incentives of the candidates to vary the content of their ads.
+     And, I make three main contributions:
+
+     First, about how different forms of abstention from voting interact with ideology to inform targeting of tailored ads.
+     Note that this mechanism also applies to other advertising methods since it argues that candidates strategically tailor ads to target different parts of the viewers' utility
+     based on their expected ideology and margin of abstention in order to maximize their turnout and minimize the opponent's.
+      
+     Second, my results suggest that when estimating the effect of ads on mobilization, it is crucial to take into the mix of ads a voter is exposed to and their ideology.
+     Ignoring this fact would give to biased estimates.
+
+     Third and equally important, in my empirical analysis I classify ads into policy, positive and negative based on their texts.
+     To do this, I construct an algorithm, which is superior to alternatives for 2 reasons:
+     First, it is transparent about what topics are considered policy and what is valence,
+     Second, it provides  quantitative measure of policy and valence statements within the ad.
+     
+     - (IF TIME) An additional reason, it allows for flexible definition of what is policy and what is valence.
+     - *DO NOT SAY MODULAR*. But if you say modular or they ask about the algorithm.
+       - It is more accurate as it goes sentence by sentence finding their subject and size based on number of characters.
+       - Then, classify subjects into policy and valence, and find the total size of policy and valence statements within the ads.
+       - Alternatively, classify ads directly into policy, positive, negative based on the whole text. But prone to errors.
+      
+  \cleapage
+
+** MORE DETAIL 10-15 minutes (~750 words)
+   
+   If there are no questions, I can describe in more detail my theoretical model and empirical analysis.
+
+**** If they ask about why vote!
+    There are different theories about why citizens vote.
+    The main ones are:
+    Ethical voting meaning voters want to vote similarly to the group they identify.
+    Outcome based voting where voters care about the outcome of the election.
+    My paper assumes expressive voting. Voters derive utility from the process of voting.
+   
+   
+*** THEORETICAL MODEL (~ NEW 4 MINUTES)
+    
+    - *BASIC SETUP: PLAYERS AND ACTIONS*
+      I consider a static political contest model with two types of players:
+      first the two opposing candidates, and
+      second a continuum of voters.
+
+      The candidates can place ads in the different tv shows watched by the voters.
+      The voters consume these ads and then either vote for their preferred candidate or abstain from voting.
+      
+      Each ad has one of three types:
+      first, it is either a policy ad, which highlight policy positions,
+      positive valence ads which emphasizes candidate's positive non-policy traits,
+      or a negative valence a which attacks the opponent's non-policy traits.
+
+    - *VOTERS UTILITY*
+      Voters care about policy/ideology and the candidate non-policy/valence traits.
+      Voters disagree on the ideal policy, but they agree that higher valence candidates are preferred.
+
+      I assume that policy ads affect how much policy matters in the voters utilities.
+      Positive ads increase the candidate's valence, and negative ads decrease the opponent's valence.
+
+      In order to motivate abstention from voting, I assume that voting is costly.
+      Alienated voters abstain because their cost of voting exceeds the utility from voting for their preferred candidate.
+      Indifferent voters abstain because find the two candidates very similar and it's not worth incurring the cost of voting. 
+
+    - *CANDIDATES OBJECTIVE & NEED TO TAILOR*
+      Now.
+      Candidates want to use ads in the different tv shows to manipulate these margins of abstention
+      in order to maximize their turnout and minimize the opponents'.
+
+      However, since voters have different ideologies and margins of abstention,
+      candidates must tailor their ads in the different shows based on the expected audience.
+
+      For example, Democrats do not want to talk about abortion in Fox news.
+      
+    - *THEORETICAL RESULTS*
+      I assume that ad effects are additively linear, and I solve for the dominant strategy equilibrium which characterizes how voters are targeted.
+
+      # I also use the finding that fringe voters abstain mostly to alienation, whereas moderate voters abstain mostly due to indifference.
+
+      Four main results follow:
+
+      First, policy ads are targeted to shows watched by the base since if the opponent's base sees them, then it will motivate them to turn out.
+
+      Second, the fringe base is targeted with positive ads since they are alienated and must be reminded of how good their candidate is.
+
+      Third, moderate voters, who are prone to indifference, must be reminded that the two candidates differ significantly.
+      As a result, both positive and negative ads are used.
+      Surprisingly policy ads are used only if they can persuade them to switch.
+
+      Fourth, the opponent's fringe base is targeted with negative ads in order to demobilize them by depressing them even more about their candidate.
+
+      Note the correlations between opposing candidates strategies arise *only* due to the differential targeting of voters.
+
+    - *EXTRA RESULTS IF TIME ALLOWS*
+      I also find that as the ideological distance between opponents increases, candidates target policy ads even more narrowly.
+      Also, higher valence candidates switch to more positive campaigning, and lower valence candidates to negative.
+
+*** EMPIRICAL ANALYSIS (~ 5-6 minutes)
+    
+    In order to empirically test my theoretical predictions, I combine multiple data sources.
+ 
+***** If you skip theory part
+     For my empirical analysis, I test the theoretical predictions of model.
+     So, to quickly summarize, in my theoretical model has a dominant strategy equilibrium
+     and as result candidates target voter demographics with tailored content.
+     Opposing candidate strategies are correlated but the correlation arises *only*
+     due to the differential targeting of the underlying voter characteristics.
+
+     
+     
+**** DATA SOURCES (~ 1 MINUTE)
+       
+      
+    First, I get the universe of political ads by US gubernatorial and presidential candidates in 2008 and 2012 from WAP and WMP.
+    I also obtained storyboards and videos of each ad, which I trans coded to obtain the texts of the ads.
+      
+    Second, I get viewer demographics from MRI's Survey of the American Consumer.
+    - (if time) Nationwide consumer survey that asks the consumer about their habits including TV viewing ones.
+    - (if time) About 600 tv shows.
+
+    And finally, I web-scrape polling data from Real Clear Politics site.
+    - (if time) However, I should note that polling data is at the state level, whereas political ads data are at the media market level.
+    - (if time) This is important because media markets can cross state lines.
+    - (if time) And, within a media market, the set of Tv stations is the same.
+    - (if time) So a station's coverage might cross to a different state.
+    - (if time) I map state polls by combining Sood's (2016) data on media markets and counties, and Census' county population.
+    - (if time) I can then attribute the percentage of the media market in each state.
+
+**** CLASSIFYING ADS (~ 3 MINUTES)
+       
+     One of the most challenging parts of the empirical analysis is the classification of ads into policy, positive and negative valence based on their content.
+     This is important because I need to identify the share of different type of ads used by the candidates in the different shows.
+     However, it is a hard.
+
+     In the theoretical model, each has one of type.
+       
+     In practice though ads touch on multiple themes; some policy and some valence.
+     So, I need an algorithm that takes the text as input and outputs a class or type for the ad.
+       
+     One possible solution is to directly label ads based on the whole text.
+     But this method is prone to inconsistent classification.
+     It obfuscates what is considered policy and what is valence,
+     and does not provide a quantitative measure of the relative sizes of policy and valence, or positive and negative statements.
+     - Another possible solution is to use external natural language resources.
+       For example, count positive/negative words. But misses specific context such as quoting the opponent.
+       And political ads are a very specific type of speech.
+       Too many a priori rules.
+         
+     Instead, I consider a more modular approach that first classifies individual statements/sentence within the ads.
+     Specifically, each statement/sentence is a assigned a subject and tone category based on its content.
+     - For example, I have statement that says: senator mccain, we are a frightened nation. times are tough, and you have the judgment we can believe in.
+     - Its subject is leadership and it's tone is positive.
+     Then I find the size of each statement based on the number characters, which allows me to find the total size of each subject and tone category within each ad.
+     In the last step, I split the subject categories into policy and valence.
+     By doing this, I can find the relative size of policy and valence statements within each ad, and classify them based on which is larger.
+       
+       
+     This approach offers several advantages:
+     - Transparent about what topics are policy and valence.
+     - Flexible as subject categories can be divided into sub-policy types.
+     - Quantize measure of policy and tone, which can be used for other questions.
+     - Rich training set for future machine learning and deep learning classification.
+
+**** EMPIRICAL APPROACH AND RESULTS (~ 2 MINUTES)
+       
+     # First, I document that politicians simultaneously use policy, positive valence (i.e., emphasize own positive traits), and negative valence ads (i.e., emphasize opponent's negative attributes),
+     # which suggests that each type of ad is important for a campaign.
+     # Then, I present evidence of significant variation in the demographic makeup of viewers of the different tv shows.
+     # Thus, a sorting of viewers into tv shows is present which allows politicians to target demographics and voters with tailored content.
+       
+       
+     Now to test the theoretical model, I rely on its insights that.
+       
+     Candidates target voter demographics with tailored content, AND
+     any correlations between opposing candidates ads derive from their differential targeting of those demographics.
+         
+     Therefore, I focus on how opposing candidates target viewer demographics.
+       
+     First, I document that individual demographics are indeed targeted differentialy by candidates.
+     For example, minority voters receive more negative ads by Republicans and more policy and positive valence by Democrats.
+     Or as the audience becomes more conservative, Democrats switch away from policy and positive ads to negative ads.
+     Republicans do the opposite.
+     Democrats decrease positive and policy ads by 10%, and Republicans increase by 7%.
+
+     Then, I consider how opposing candidates target bundles of voter demographics.
+
+     - Version 1:
+       To achieve this, I predict the shares of the different types of ads based on show and viewer characteristics as suggested by theory.
+       This isolates the tailoring of ads suggested by theory.
+       Then, I check if the correlations between the predicted shares of opposing candidates are consistent with the theory.
+       And indeed they do.
+       
+     - Version 2:
+       To achieve this, I instrument their shares of types of ads on show characteristics.
+       I take the predicted shares from the IV estimation, and check if their correlations are consistent with the theory.
+       And indeed they do.
+  
+     For example, I find that opposing candidates target the same voters with different types of ads.
+     The magnitudes of the correlations I significant with coefficient up 0.2.
+     # Specifically, each candidate targets policy ads to different and more polarized audiences.
+     # They use positive valence ads to energize their alienated base.
+     # In contrast, the opponent's base is targeted with attacks against their preferred candidate.
+       
+     Finally, I present evidence that as the ideological difference between opposing candidates widens,
+     candidates increase targeting of policy and positive valence ads to their base.
+     With effects up to X%.
+     Higher valence candidate switch to more positive campaigning and relatively lower valence candidates to more negative campaigning.
+
+     
+** CONCLUSION - CLOSING STATEMENT
+
+   My results have several implications.
+
+   For the empirical literature on political ads, it is important to account for type of ads voters are exposed to when measuring stimulation effects of ads.
+     
+   It also speaks to other forms of political communication.
+   For example, rallies are a venue to talk about policy whereas debates are a place to talk to moderate voters.
+     
+     
+   If you have questions about my job market paper, I welcome questions.
+   Otherwise, I can discuss my other work.
+
+   \clearpage
+   
+* Other questions
+** Teaching Interests. What would you like to teach? One course - structure.
+
+   At the undergraduate level I can teach any course, especially the cores sequences of Micro, Macro and Econometrics.
+
+   I can teach sequences in Microeconomics, IO and PE.
+
+   I can also teach courses on methods and teaching students how to understand research and its tools.
+   This would equip students with the skills to understand scientific results.
+   I would concentrate on theory and empirical tools.
+
+   The books I would use are:
+   - IO: Oz Shy, Church and Ware, Tirole,
+     (undergrad- [[http://sites.clas.ufl.edu/economics/files/ECP3403_IndustrialOrg_BET_F18.pdf][UFL]]) Industrial Organization: Contemporary theory and applications by Pepall, Richards and Norman.
+     - [[https://ocw.mit.edu/courses/economics/14-271-industrial-organization-i-fall-2005/syllabus/][MIT IO Syllabus]]
+     - Monopoly pricing and durable goods
+     - Price Discrimination
+       - [[https://mansur.host.dartmouth.edu/classes/econ45.pdf][Dartmouth]] Price dispersion, loss leader
+       - Advertising and reputation
+     - Empirical Models of Demand
+     - Static competition and models of differentiation
+     - Search
+     - Dynamic competition
+     - Firm conduct
+     - Empirical models of supply and demand
+     - Entry
+     - Strategic investment
+     - Asymmetric Information
+     - Auctions
+     - Networks
+     - Dynamic Empirical Models
+     - Patents and Technology Diffusion
+     - Bounded Rationality
+   - PE
+   - Micro
+   - Macro
+   - Econometrics
+
+   The subjects I would cover would be:
+   - IO
+   - PE
+   
+
+*** Providence college
+    - No graduate courses!!!
+    - Different degrees:
+      - Economics Major
+      - Business Economics Major
+      - Quantitative Economics Major: I can teach most courses here!!!
+   
+** Tell us about your future research agenda
+
+*** Short (1-2 minutes)
+    Gladly!
+    My ongoing research involves projects in industrial organization and political economy.
+
+    One project I am excited about is measuring the extend to which neighboring candidates of the same party, who advertise in the same district, have an incentive to free ride off of each others ads.
+    I will use tv ads again from WAP and WMP, and I will develop a theory as well.
+
+    Another project in PE is trying to understand whether certain states facing idiosyncratic preference have a bigger incentive to vote first in the US primaries.
+    Also, we wish to provide conditions such that voting outcomes are independent of voting order. 
+    My co-author and I combine both theory and empirical analysis.
+
+    In industrial organization, I am working on project that aims to measure switching costs that arise from the entry of airlines into new airports.
+    We use data from the Origin and Destination Survey of US domestic air-travel.
+
+
+    I have published and forthcoming articles in the Industrial Organization journals such as IJIO and JIE.
+   
+*** Detailed
+    My ongoing research revolves around projects in political economy and industrial organization.
+
+    - /*Candidate Advertising Free Riding and Party Solutions*/,
+      In political economy, I am currently working on project that will combine theory and empirics.
+      I use the fact that US media markets, and station reception, cross multiple electoral districts.
+      And I ask whether neighboring candidates of the same party, who advertise on the same district but for a different office, free ride off of each others ads.
+      And whether their party internalize this externality to resolve such concerns.
+      
+      I define treated candidates using two different definitions:
+      Under the first one, I consider as treated the candidates in media markets which are comprised of counties from more than one state.
+      For the second definition I use a data driven methodology: a candidate is labeled as treated if they advertised in the same station as another candidate of the same party for the same office, but from a different district.
+
+      My data sources are again WAP and WMP, and I will focus on US House and Senate races.
+      In terms of the analysis, I want to examine how sponsorship of ads by parties varies between treated and non-treated candidates.
+      Also, some candidates share airspace in some markets but not others. I want to examine how that affect party sponsorship.
+      Another interesting outcome is whether ads sponsored by parties for treated candidates use a more generic language.
+
+      I also expect that the ideological distance between treated candidates matters a great amount.
+      For example, ideologically similar candidates could instead complement each others ad efforts.
+      Ideologically distant candidates might actually advertise more because they want offset the advertising of their fellow party member.
+
+      With ideologically similar candidates, who free ride, I expect the party to sponsor more policy ads.
+      In contrast, if the party sponsors ads for ideologically distant candidates, I expect those ads to be more generic in an effort to boost both candidates.
+      The candidate ideological scores will come from Bonica's (2016) Database on Ideology, Money in Politics, and Elections (DIME).
+      
+    - /*Endogenous Order with Sequential Elections*/  with George Deltas.
+      I am also working on a joint project that incorporates both theory and empirical analysis to examine the timing of primary elections.
+      This is a project that was divided into two different papers.
+      1) In one project we construct a model of the influence that the voting order has on the final outcomes to explain why the incentives to be a "first mover" may be stronger than for others, and indeed why some states my prefer to vote late.
+      2) In the second project, we consider conditions  such that voting outcomes are independent of voting order.
+      The first project will use data on the US primary elections from 1980 to 2016.
+      Data sources: Ballotpedia and wikipedia, and Dave Leip's atlas of US presidential elections + wayback machine to cover th
+       
+      We consider a framework with aggregate uncertainty about the ideology distribution of voters, and
+      idiosyncratic uncertainty within electoral districts about the ordering of candidates on non-policy dimensions.
+      We consider the effects of idiosyncratic uncertainty on endogenous voting order, and the effect of that order on outcomes.
+      We also characterize conditions such that election outcomes are independent of voting order.
+      We collected data from the US primary elections between 1980-2016, which we will use to test our theory.
+      
+
+    I also have two ongoing works in progress in IO.
+    
+    - In /*Name-Change Fees, Scalpers, and Secondary Markets*/,
+      I theoretically consider a monopolist provider of a service, where consumers enjoy the service only if they have ticket (e.g., concerts, airline flights, and hotel rooms).
+      The monopolist can set a name-change fee to allow holders of tickets to transfer ownership of their tickets to other consumers.
+      I identify the conditions making it optimal to use name-change fees  such that the secondary market is active. I show how this reduces demand uncertainty and alleviates price rigidity.
+
+   
+    - In /*Airline Entry and Switching Costs*/ with George Deltas,
+      we use the Origin and Destination survey (DB1B) to provide a measure of switching costs in US domestic airline markets.
+      We leverage airline entry into new airports that connect them with airports that the airline already has presence.
+      We construct our measure of switching costs by exploiting the relative flow of passengers based on the direction of the route (i.e., new airport as origin vs old airport as origin).
+      Then, we consider a discrete choice model to examine the factors affecting these costs.
+    
+
+** What did you contribute and what did your co-authors contribute?
+   If they ask about the published research with Dan.
+
+   - Price matching was an idea we discussed with Dan. We both spent time in the UK, and noticed the automatic price matching of UK grocesry stores such as Sainsbury's.
+     
+   - Co-location paper was a dormant paper of Dan and Mehdi for many years.
+     I come in and breathed life to it.
+     The analysis on unknown types was incomplete, and I formalized it.
+     I then extended the analysis and provided the framework for the known types and endogenous entry.
+     
+** Who would you like to work with?
+   - Mention that I am willing to work with people from other fields to develop projects that are in the intersection of our fields.
+     - Anna + Felipe
+   - Sound board.
+*** Warwick
+   - Francesco Squintani
+   - Helios Herrera
+   - Dan Bernhardt obviously
+   - Mirko Draca
+   - Also interested in the work of Manuel Bagues (Gender and politics)
+*** Providence College
+    - Professor Bailey while we are not in the same field, I feel that we can work on
+      projects on the intersection of our fields. For example, study the political economy of health certifications.
+    - Same with Professor Dasgupta, we can find common research questions relating to intra-couple relationships and voting.
+    - Professor Kahane has interesting research politicization of marks wearing.
+      Also has research on gun laws.
+      And I have a work in progress examining gun shootings and political speech.
+      
+*** Trinity College Dublin
+    - Andrea Guariso (development and political economics)
+    - Nicola Fontana (political economy - empirical)
+    - Nicola Mastrorocco (political economy + crime)
+    - Gaia Narciso (her work on crime)
+    - Alejandra Ramos (her work on intra-household violence)
+      
+    
+*** Tennessee Knoxville
+    - Padilla-Romo (Crime)
+    - I saw professor Van Essen has some theoretical work examining business cycle in a bipartisan voting model
+    - Need to find more people
+    - A bunch of people working on environmental economics
+      - ask questions following political speech and environmental issues such as disasters, or discovery of resources.
+*** East Anglia
+   
+   
 ** What led you to apply in our school?
    - I feel that the group of researchers working on questions that I find interesting.
-   - Teaching tradition
-   - Environment suitable for my family.
+   - Great institution.
+   - Small Towns:
+     - I enjoy small towns and I find that it's a great environment for raising my family.
+       Especially now that I have a kid, I really prefer smaller towns.
+       I was also raised in small country, so the environment appeals to me.
+   - Big towns:
+     - I enjoy this size of towns, and I find the variety it offers in terms of culture and activities a great environment for raising my family.
+       Especially now that I have a kid, I want him to experience multi-culture environments.
+       I was also raised in small country, and I studied in smaller towns. I want to live in a different environment now.
+       
+       
 Is the location of our school (rural, regional) a problem?
 My father failed out of McGill in the 1960s because he went to 12 black tie dinners in a single semester. He partied until they kicked him out. He ended up in Edmonton, and is now a successful doctor. I’ve always thought this was a useful lesson. I want to live in a city where I can be productive. In Coventry, I can afford to own a house (a barn, actually) in walking distance from the office. The schools here are rated well by Ofsted, and so I could see having a family here. I have no desire to live in a big city like London, where the housing is unaffordable and there are too many distractions.
 This is generally a question asked of small, rural schools. There’s an explicit discussion of this problem in Middlebury’s “The hiring of an economist”:
 http://sandcat.middlebury.edu/econ/repec/mdl/ancoec/0519.pdf
 There, candidates could signal willingness to live in rural Vermont by talking about their love of winter sports. What I’ve put here about affordability and walkability is likely a good answer in several UK cities. The story about my father is true, but I think it works better to distract the interviewer with humor than it does to really explain why a mid-size city like Coventry is desirable. The “I don’t want to live in London” point is worth signalling: departments hate it when ghosts commute in once a week -- it leads to empty seminars, unsupervised students, and administrative work falling disproportionately on those who live locally. Do some research on the city first.
 In one interview I think I gushed so much about how open and tolerant the city of Eugene Oregon is that my interviewers came away convinced I was gay
-** Who would you like to work with?
-   - Find PE and IO people.
-   - Mention that I am willing to work with people from other fields to develop projects that are in the intersection of our fields.
-     - Anna + Felipe
-   - Sound board.
-     
+
 ** Questions for us?
    - James’ answer on the market in 2010: “My advisor told me that it’s a bad idea to ask questions at this stage, so I don’t have any at the moment.” YMMV
    - Tell me about your department’s research environment.
@@ -432,6 +964,7 @@ In one interview I think I gushed so much about how open and tolerant the city o
 ** Why is this economics?
    - Question about optimallity and behavior.
    - Also a theory about signals certain voters receive.
+   - Political Economy is social research.
 ** To what journal will you send your job market and why?
    I find this paper to be of general interest.
    - AER
@@ -487,8 +1020,9 @@ In one interview I think I gushed so much about how open and tolerant the city o
    - SEA
 ** Are you familiar with the results by person Y on your topic.
 ** Who would you invite to seminar?
+   - Greg Martin
+   - Nate Cohn
 ** How did you get the idea for this paper?
-** What dod you contribute and what did your co-authors contribute?
 ** What seminars do you attend?
 ** What is the best seminar you have seen/paper read recently?
 ** Do you plan to continue collaborating with your coauthors/advisors? (Trying to suss if RA)
@@ -540,15 +1074,25 @@ In one interview I think I gushed so much about how open and tolerant the city o
 ** Past service/desired service (e.g., seminars organized)
 ** Other than through teaching and research, how do you see yourself contributing to helping run and enhance the reputation of the department?
 * Paper Summary
-** Messaging the bases: Tailoring political ads to audiences
-   - Summary:
-   - Contribution:
-   - Data Sources:
 ** Candidate free ride and party solutions
    - Summary:
    - Contribution:
-   - Data Sources:
-** Deltas: Election Timing
+   - Data Sources: WAP and WMP, Sood 2016 and Census, DIME for ideological scores, wikipedia for mapping of candidates to elections.
+** Election Timing
+   
+   - Summary:
+     
+   I am also working on a joint project that incorporates both theory and empirical analysis to examine the timing of primary elections.
+   
+   This is a project that was divided into two different papers.
+
+   1) In one project we construct a model of the influence that the voting order has on the final outcomes to explain why the incentives to be a "first mover" may be stronger than for others, and indeed why some states my prefer to vote late.
+
+   2) In the second project, theoretically derive conditions such that voting order is inconsequential to voting outcomes.
+   
+      
+   - Data sources: Ballotpedia and wikipedia, and Dave Leip's atlas of US presidential elections + wayback machine.
+
 ** Lincoln Mall
    - Summary:
    - Contribution:
@@ -563,6 +1107,10 @@ In one interview I think I gushed so much about how open and tolerant the city o
 
    - Contribution:
    - Data Sources:
+     I web-scrapped NRA endorsement and scores from the justfacts.votesmart.org website.
+     Ads data from WAP and WMP.
+     Shooting data from motherjones and gun violence archive.
+     
 ** Name Change Fees
    - Summary:
    - Contribution:
