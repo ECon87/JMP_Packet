@@ -1,0 +1,1680 @@
+% Created 2021-12-19 Sun 18:53
+% Intended LaTeX compiler: pdflatex
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc} % allows INPUT accented characters from keyboard
+\usepackage[latin9]{inputenc} % orientated to OUTPUT, what fonts to use for printing character
+\usepackage{geometry}
+\geometry{verbose} % allows messages of overrun lines
+\usepackage{setspace}
+\usepackage{calc} % match expressions in \setcounter \setspace and so on
+\usepackage{titlesec} % modify sections and etc.
+\usepackage[bottom]{footmisc} % footnote options
+\usepackage{multicol} % multiple columns
+\usepackage{subcaption} %allows subfigures
+\usepackage{babel} % multiligual (human langs) support for latex, luatex and etc.
+\usepackage{amsmath} % misc enhancements for improving math printing
+\usepackage{amssymb} % math symbols
+\usepackage{amsfonts} % extended fonts for use in math
+\usepackage{amsthm}  % math environments
+\usepackage{esint} % alternate integral signs
+\usepackage{natbib}
+\usepackage{breakcites}
+\usepackage{tabularx,booktabs}
+\usepackage[unicode=true,pdfusetitle,bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,breaklinks=false,backref=false,colorlinks=false]{hyperref}
+\hypersetup{colorlinks = true, urlcolor = magenta, colorlinks = blue, linkcolor = magenta, citecolor = blue}
+\usepackage{breakurl}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.17}
+\usetikzlibrary{tikzmark}
+\usetikzlibrary{patterns}
+\usepgfplotslibrary{fillbetween}
+\pgfplotsset{compat=1.15}
+\usepgflibrary{arrows}
+\makeatletter
+\theoremstyle{plain}
+\newtheorem{thm}{\protect\theoremname}
+\theoremstyle{plain}
+\newtheorem{prop}{\protect\propositionname}
+\theoremstyle{plain}
+\newtheorem{lem}{\protect\lemmaname}
+\theoremstyle{plain}
+\newtheorem{ass}{\protect\assumptionname}
+\theoremstyle{plain}
+\newtheorem{cor}{\protect\corollaryname}
+\theoremstyle{plain}
+\newtheorem{remark}{\protect\remarkname}
+\makeatother
+\providecommand{\lemmaname}{Lemma}
+\providecommand{\propositionname}{Proposition}
+\providecommand{\theoremname}{Theorem}
+\providecommand{\assumptionname}{Assumption}
+\providecommand{\corollaryname}{Corollary}
+\providecommand{\remarkname}{Remark}
+\titlespacing\section{0pt}{\parskip}{}
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{9in}
+\setlength{\topmargin}{-0.5in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\parskip}{.05in}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{L}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\onehalfspacing
+\author{Evangelos Constantinou\thanks{Department of Economics, University of Illinois, Urbana-Champaign. E-mail: ecnstnt2@illinois.edu}}
+\date{\today}
+\title{Interview Preparation}
+\hypersetup{
+ pdfauthor={Evangelos Constantinou\thanks{Department of Economics, University of Illinois, Urbana-Champaign. E-mail: ecnstnt2@illinois.edu}},
+ pdftitle={Interview Preparation},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 27.2 (Org mode 9.4.4)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+
+\section{SPIEL 12/08}
+\label{sec:orga637b74}
+
+\subsection{ELEVATOR PITCH/3 MINUTE PITCH (3 MINUTES)}
+\label{sec:org286147b}
+
+\subsubsection{ELEVATOR PITCH (30 SECONDS)}
+\label{sec:orgfcf9809}
+
+Hi first let me say that my research interests are in fields Political Economy and Industrial Organization.
+
+In my job market paper, in particular, I examine how do politicians strategically select the content of their ads.
+First, I present a theory in order to understand the economic forces,
+and then I use data on US gubernatorial and presidential tv ads from 2008 and 2012 to provide empirical support.
+
+\subsubsection{2 MINUTE SPIEL (200 words)}
+\label{sec:orgbf11ca7}
+
+In contrast to previous literature which tries to measures the effect of ads on aggregate turnout.
+Instead, I drill down on the incentives of candidates to vary the content of their ads based on the expected audience.
+
+I argue that candidates strategically tailor their ads in order to achieve two goals:
+first, motivate their base to turn out to vote,
+and second, depress the opposing base to stay home.
+
+I theoretically and empirically characterize how candidates target different types of voters with different types of ads in order to achieve these two goals, and
+
+I make three main contributions to the literature:
+
+First, I provide a novel mechanism about how different reasons for abstention from voting interact with voter ideology to determine ad targeting.
+
+Second, I argue that it is important to take into account the content of ads voters are exposed to when measuring the effects of ads on turnout.
+
+Third, I empirically classify ads into different types such as policy, positive and negative based on their content,
+and I provide a procedure for achieving such classifications based on the ads' text that offers several advantages over possible alternative methods.
+
+
+I should note that although I use tv ads, my analysis and results apply to other forms of communication such as social media.
+
+
+\subsection{JMP PITCH (5-6 MINUTES)}
+\label{sec:org4c2f80f}
+
+\begin{itemize}
+\item \textbf{WHY ARE ADS IMPORTANT} (1 minute)
+Nevertheless, Tv ads are the main method of communication between candidates and voters.
+Over 60\% of candidates advertising budgets is spent on TV ads.
+
+But, interestingly for my paper, candidates simultaneously use different types of tv ads:
+some ads highlight policy positions,
+others emphasize candidates' non-policy traits. 
+These can be positive about a candidate and emphasize their leadership skills.
+Or, they can be negative and accuse the opponent of flip-flopping for example.
+I should note that I call valence any non-policy candidate traits that matter to voters utility.
+
+I argue that this is a strategic variation by candidates in order to achieve the two goals I mentioned earlier:
+first, motivate their base to turn out to vote, and
+second, demobilize the opponent's base to stay home.
+
+\item \textbf{THEORY} (1.5 minutes)
+I consider a static model of political competition with advertising that provides insights about the underlying mechanism.
+Specifically, voters have different ideologies, and abstain from voting for different reasons.
+Some are alienated from their preferred candidate, and others are indifferent between the candidates.
+Therefore, to achieve their goals, candidates must tailor ads based on the expected ideology of the viewers, and their margin of abstention.
+
+My model obtains a dominant strategy equilibrium, which characterizes how candidates target voters with tailored content.
+Specifically, the four main results are:
+First, policy ads are targeted to the base because policy is contentious, and must narrowly targeted.
+Second, the fringe base is also targeted with positive ads because they are alienated.
+Third, moderate voters are targeted with a mix of positive and negative because these voters are indifferent.
+Four, negative ads are mostly targeted towards the opponent's fringe base in an effort to depress their turnout.
+
+So, my model suggests each type of ad is mostly targeted to a specific group of voters, and a given audience is differentially targeted by opposing candidates.
+
+In other words, opposing candidates target the same type of ads to different audiences, which implies that they are negatively correlated.
+For example, democrats and republicans target policy ad to different audiences.
+
+\item \textbf{EMPIRICAL RESULTS} (1.5 minute)
+I then empirically test my model.
+To do this, I combine viewer demographic data from the MRI with data on US political tv ads from WAP and WMP.
+These are comprehensive databases that contain detailed information about each ad play in the whole US.
+I also obtain the texts of the different ads which I use to classify them into policy, positive and negative.
+I do this I first classify individual statements into different topics, and then classifying those topics into policy and valence.
+This allows me to find the shares of different types of ads in different shows, which I use to find empirical support for the type of differential targeting of voters suggested by the theory.
+For example, as the audience becomes more conservative Democrats decrease their policy and positive ads by 8 percent,
+and as suggested by theory Republicans increase them by 7 percent.
+Or more generally I find evidence that opposing candidates target policy and positive ads to different set of voter demographics as suggested by theory.
+And candidates target negative ads to audiences receptive to the opponent's policy ads.
+\end{itemize}
+
+
+
+\begin{itemize}
+\item \textbf{CONTRIBUTIONS} (2 minute)
+
+As I mentioned earlier, previous literature tries to measure the stimulating effects of ads.
+Instead, I focus on the incentives of the candidates to vary the content of their ads.
+Now I can elaborate on my three contributions and implications of my results:
+
+First, about how different forms of abstention from voting interact with ideology to inform targeting of tailored ads.
+This mechanism has implications for other forms of communication such as social media, rallies and debates.
+It argues that candidates strategically tailor ads to target different parts of the viewers' utility
+based on their expected ideology and margin of abstention in order to maximize their turnout and minimize the opponent's.
+
+Second, my results suggest that when estimating the effect of ads on mobilization, it is crucial to take into the mix of ads a voter is exposed to and their ideology.
+Ignoring this fact would give to biased estimates.
+
+Third, I provide an algorithm for classifying ads into different types based on their text.
+My method finds the size of different topics within the ad and then classifies the topics into policy and valence in my context.
+Two important advantages relative to directly labeling ads into policy and valence are:
+First, it is transparent about what topics are considered policy and what is valence,
+Second, it provides  quantitative measure of policy and valence statements within the ad.
+
+\begin{itemize}
+\item (IF TIME) An additional reason, it allows for flexible definition of what is policy and what is valence.
+\item \textbf{DO NOT SAY MODULAR}. But if you say modular or they ask about the algorithm.
+\begin{itemize}
+\item It is more accurate as it goes sentence by sentence finding their subject and size based on number of characters.
+\item Then, classify subjects into policy and valence, and find the total size of policy and valence statements within the ads.
+\item Alternatively, classify ads directly into policy, positive, negative based on the whole text. But prone to errors.
+\end{itemize}
+\end{itemize}
+\end{itemize}
+
+\cleapage
+
+\subsection{MORE DETAIL 10-15 minutes (\textasciitilde{}750 words)}
+\label{sec:orgbdfca73}
+
+If there are no questions, I can describe in more detail my theoretical model and empirical analysis, or discuss my other work.
+
+\begin{enumerate}
+\item If they ask about why vote!
+\label{sec:org8afb9d8}
+There are different theories about why citizens vote.
+The main ones are:
+Ethical voting meaning voters want to vote similarly to the group they identify.
+Outcome based voting where voters care about the outcome of the election.
+My paper assumes expressive voting. Voters derive utility from the process of voting.
+\end{enumerate}
+
+
+\subsubsection{THEORETICAL MODEL (\textasciitilde{} NEW 4 MINUTES)}
+\label{sec:org010720c}
+
+\begin{itemize}
+\item \textbf{BASIC SETUP: PLAYERS AND ACTIONS}
+I consider a static political contest model with two types of players:
+first the two opposing candidates, and
+second a continuum of voters.
+
+The candidates can place ads in the different tv shows watched by the voters.
+The voters consume these ads and then either vote for their preferred candidate or abstain from voting.
+
+Each ad has one of three types:
+it is either a policy ad, which highlight policy positions,
+positive valence ads which emphasizes candidate's positive non-policy traits,
+or a negative valence a which attacks the opponent's non-policy traits.
+
+\item \textbf{VOTERS UTILITY}
+Voters care about policy/ideology and the candidate non-policy/valence traits.
+Voters disagree on the ideal policy, but they agree that higher valence candidates are preferred.
+
+I assume that policy ads affect how much policy matters in the voters utilities.
+Positive ads increase the candidate's valence, and negative ads decrease the opponent's valence.
+
+In order to motivate abstention from voting, I assume that voting is costly.
+Alienated voters abstain because their cost of voting exceeds the utility from voting for their preferred candidate.
+Indifferent voters abstain because find the two candidates very similar and it's not worth incurring the cost of voting. 
+Thus, alienated voters do not compare candidates whereas indifferent voters do.
+
+\item \textbf{CANDIDATES OBJECTIVE \& NEED TO TAILOR}
+Now.
+Candidates want to use ads in the different tv shows to manipulate these margins of abstention
+in order to maximize their turnout and minimize the opponents'.
+
+However, voters have different ideologies and margins of abstention,
+so candidates must tailor their ads in the different shows based on the expected audience.
+
+For example, Democrats do not want to talk about abortion on Fox news.
+
+\item \textbf{THEORETICAL RESULTS}
+I assume that ad effects are additively linear,
+and I solve for the dominant strategy equilibrium which characterizes how voters are targeted.
+
+Four main results are obtained:
+
+First, policy ads are targeted to shows watched by the base since if the opponent's base sees them, then it will motivate them to turn out.
+
+Second, the fringe base is targeted with positive ads since they are alienated and must be reminded of how good their candidate is.
+
+Third, moderate voters, who are prone to indifference, must be reminded that the two candidates differ significantly.
+As a result, both positive and negative ads are used.
+Surprisingly policy ads are used only if they can persuade them to switch.
+
+Fourth, the opponent's fringe base is targeted with negative ads in order to demobilize them by depressing them even more about their candidate.
+
+Note that these results imply that candidates ads are correlated.
+For example, opposing candidates target the same type of ad to different audiences.
+but the correlations arise \textbf{only} due to the differential targeting of voters.
+\end{itemize}
+
+
+\begin{itemize}
+\item \textbf{EXTRA RESULTS IF TIME ALLOWS}
+I also find that as the ideological distance between opponents increases, candidates target policy ads even more narrowly.
+Also, higher valence candidates switch to more positive campaigning, and lower valence candidates to negative.
+\end{itemize}
+
+\subsubsection{EMPIRICAL ANALYSIS (\textasciitilde{} 5-6 minutes)}
+\label{sec:org29f935b}
+
+In order to empirically test my theoretical predictions, I combine multiple data sources.
+
+\begin{enumerate}
+\item If you skip theory part
+\label{sec:org8a220de}
+For my empirical analysis, I test the theoretical predictions of model.
+So, to quickly summarize, in my theoretical model has a dominant strategy equilibrium
+and as result candidates target voter demographics with tailored content.
+Opposing candidate strategies are correlated but the correlation arises \textbf{only}
+due to the differential targeting of the underlying voter characteristics.
+\end{enumerate}
+
+
+
+\item DATA SOURCES (\textasciitilde{} 1 MINUTE)
+\label{sec:org86b90cf}
+
+
+First, I get the universe of political ads by US gubernatorial and presidential candidates in 2008 and 2012 from WAP and WMP.
+I also obtained storyboards and videos of each ad, which I use to obtain the texts of the ads.
+
+Second, I get viewer demographics from MRI's Survey of the American Consumer.
+\begin{itemize}
+\item (if time) Nationwide consumer survey that asks the consumer about their habits including TV viewing ones.
+\item (if time) About 600 tv shows.
+\end{itemize}
+
+And finally, I web-scrape polling data from Real Clear Politics site.
+\begin{itemize}
+\item (if time) However, I should note that polling data is at the state level, whereas political ads data are at the media market level.
+\item (if time) This is important because media markets can cross state lines.
+\item (if time) And, within a media market, the set of Tv stations is the same.
+\item (if time) So a station's coverage might cross to a different state.
+\item (if time) I map state polls by combining Sood's (2016) data on media markets and counties, and Census' county population.
+\item (if time) I can then attribute the percentage of the media market in each state.
+\end{itemize}
+
+\item CLASSIFYING ADS (\textasciitilde{} 3 MINUTES)
+\label{sec:orgc5de24c}
+
+One of the most challenging parts of the empirical analysis is the classification of ads into policy, positive and negative valence based on their content.
+This is important because I need to identify the share of different type of ads used by the candidates in the different shows.
+However, it is a hard.
+
+In the theoretical model, each has one of type.
+
+In practice though ads touch on multiple themes; some policy and some valence.
+So, I need an algorithm that takes the text as input and outputs a class or type for the ad.
+
+One possible solution is to directly label ads based on the whole text.
+But this method is prone to inconsistent classification.
+It obfuscates what is considered policy and what is valence,
+and does not provide a quantitative measure of the relative sizes of policy and valence, or positive and negative statements.
+\begin{itemize}
+\item Another possible solution is to use external natural language resources.
+For example, count positive/negative words. But misses specific context such as quoting the opponent.
+And political ads are a very specific type of speech.
+Too many a priori rules.
+\end{itemize}
+
+Instead, I consider a more modular approach that first classifies individual statements/sentence within the ads.
+Specifically, each statement/sentence is a assigned a subject and tone category based on its content.
+\begin{itemize}
+\item For example, I have statement that says: senator mccain, we are a frightened nation. times are tough, and you have the judgment we can believe in.
+\item Its subject is leadership and it's tone is positive.
+\end{itemize}
+Then I find the size of each statement based on the number characters, which allows me to find the total size of each subject and tone category within each ad.
+In the last step, I split the subject categories into policy and valence.
+By doing this, I can find the relative size of policy and valence statements within each ad, and classify them based on which is larger.
+
+
+This approach offers several advantages:
+\begin{itemize}
+\item Transparent about what topics are policy and valence.
+\item Flexible as subject categories can be divided into sub-policy types.
+\item Quantize measure of policy and tone, which can be used for other questions.
+\item Rich training set for future machine learning and deep learning classification.
+\end{itemize}
+
+\item EMPIRICAL APPROACH AND RESULTS (\textasciitilde{} 2 MINUTES)
+\label{sec:orgab37f92}
+
+Now to test the theoretical model, I rely on its insights that.
+
+Candidates target voter demographics with tailored content, AND
+any correlations between opposing candidates ads derive from their differential targeting of those demographics.
+
+Therefore, I focus on how opposing candidates target viewer demographics.
+
+First, I document that individual demographics are indeed targeted differentialy by candidates.
+For example, minority voters receive more negative ads by Republicans and more policy and positive valence by Democrats.
+Or as the audience becomes more conservative, Democrats switch away from policy and positive ads to negative ads.
+Republicans  opposite.
+Democrats decrease positive and policy ads by 10\%, and Republicans increase by 7\%.
+
+Then, I consider how opposing candidates target bundles of voter demographics.
+
+\begin{itemize}
+\item Version 1:
+To achieve this, I predict the shares of the different types of ads based on show and viewer characteristics as suggested by theory.
+This isolates the tailoring of ads based on voters suggested by theory.
+Then, I check whether the correlations between the predicted shares of opposing
+candidates are consistent with the theory.
+And indeed they do.
+
+\item Version 2:
+To achieve this, I instrument their shares of types of ads on show characteristics.
+I take the predicted shares from the IV estimation, and check if their correlations are consistent with the theory.
+And indeed they do.
+\end{itemize}
+
+For example, I find that opposing candidates target the same voters with different types of ads.
+The magnitudes of the correlations I significant with coefficient up 0.2.
+
+Finally, I present evidence that as the ideological difference between opposing candidates widens,
+candidates increase targeting of policy and positive valence ads to their base.
+With effects up to X\%.
+Higher valence candidate switch to more positive campaigning and relatively lower valence candidates to more negative campaigning.
+\end{enumerate}
+
+
+\subsection{CONCLUSION - CLOSING STATEMENT}
+\label{sec:org26d0afe}
+
+My results have several implications. Two important ones are:
+
+First, for the empirical literature, it is important to account for type of ads voters are exposed to when measuring stimulation effects of ads.
+
+Seconds, It also speaks to other forms of political communication.
+For example, rallies are a venue to talk about policy whereas debates are a place to talk to moderate voters.
+
+
+If you have questions about my job market paper, I welcome questions.
+Otherwise, I can discuss my other work.
+
+\clearpage
+
+
+\section{IMPORTANT OTHER QUESTIONS}
+\label{sec:org1a81a63}
+\subsection{Tell us about your future research agenda; How do you plan to pursue these themes in the future, transitioning into your other papers or your future research agenda?}
+\label{sec:org6574b8d}
+
+\subsubsection{Short (1-2 minutes)}
+\label{sec:orgd04c477}
+Gladly!
+
+The rest of my research agenda is in the fields of political economy, and industrial organization.
+
+I have two published papers in IO, but I am happy to discuss my future and ongoing research instead.
+
+In PE, one project I am really excited about
+uses the fact that US media markets, and station reception, cross multiple electoral districts
+to examine the extend to which candidates of the same party who compete for different seats,
+but happen to have ads in the same district, free ride off of each others ads, and
+whether parties act as agent that internalizes this externality.
+This project will be a combination of theory and empirical analysis, and will use data from WAP and WMP.
+I also want to examine how ideological distance between opponents factors in and whether it can lead to strategic
+complimentarities instead of substitutatibiliy.
+
+I will concentrate on US House and Senate races.
+I will also examine the role of ideological distance between candidates.
+For example, ideologically similar candidates could instead complement each others ad efforts.
+Ideologically distant candidates might actually advertise more because they want offset the advertising of their fellow party member.
+With ideologically similar candidates, who free ride, I expect the party to sponsor more policy ads.
+In contrast, if the party sponsors ads for ideologically distant candidates, I expect those ads to be more generic in an effort to boost both candidates.
+The candidate ideological scores will come from Bonica's (2016) Database on Ideology, Money in Politics, and Elections (DIME).
+
+Another project in PE that I am passionate about is a joint work with George Deltas that again combines theory and empirical analysis.
+It studies whether certain states facing idiosyncratic preference have a bigger incentive to vote first in the US primaries.
+Also, we wish to provide conditions such that voting outcomes are independent of voting order. 
+
+In industrial organization, I have an empirical work in progress, which is a joint work, and which aims to provide a measure of the switching costs that arise from the entry of US airlines into new airports.
+Specifically, it leverages the fact that for these new routes, the direction from the new airport to the old airport is different than the direction from the old to the new.
+This because the airline is an incumbent in the old airport but it is a new entrant in the new airport.
+We use this difference and data from the Origin and Destination survey of US air travel to provide a measure of switching costs based on passenger flows.
+
+Another work I have in IO, is an applied theory paper that characterizes how a monopolist selling tickets for a service
+can use name-change fees to allow for ticket scalpers and an active secondary market in order to reduce market uncertainty.
+Name-change fees are fees you pay to transfer ownership of a ticket.
+These fees can be used with airlines or ticketmaster for example.
+
+
+
+\subsubsection{Detailed}
+\label{sec:orge239056}
+My ongoing research revolves around projects in political economy and industrial organization.
+
+\begin{itemize}
+\item \emph{\textbf{Candidate Advertising Free Riding and Party Solutions}},
+In political economy, I am currently working on project that will combine theory and empirics.
+I use the fact that US media markets, and station reception, cross multiple electoral districts.
+And I ask whether neighboring candidates of the same party, who advertise on the same district but for a different office, free ride off of each others ads.
+And whether their party internalize this externality to resolve such concerns.
+
+I define treated candidates using two different definitions:
+Under the first one, I consider as treated the candidates in media markets which are comprised of counties from more than one state.
+For the second definition I use a data driven methodology: a candidate is labeled as treated if they advertised in the same station as another candidate of the same party for the same office, but from a different district.
+
+My data sources are again WAP and WMP, and I will focus on US House and Senate races.
+In terms of the analysis, I want to examine how sponsorship of ads by parties varies between treated and non-treated candidates.
+Also, some candidates share airspace in some markets but not others. I want to examine how that affect party sponsorship.
+Another interesting outcome is whether ads sponsored by parties for treated candidates use a more generic language.
+
+I also expect that the ideological distance between treated candidates matters a great amount.
+For example, ideologically similar candidates could instead complement each others ad efforts.
+Ideologically distant candidates might actually advertise more because they want offset the advertising of their fellow party member.
+
+With ideologically similar candidates, who free ride, I expect the party to sponsor more policy ads.
+In contrast, if the party sponsors ads for ideologically distant candidates, I expect those ads to be more generic in an effort to boost both candidates.
+The candidate ideological scores will come from Bonica's (2016) Database on Ideology, Money in Politics, and Elections (DIME).
+
+\item \emph{\textbf{Endogenous Order with Sequential Elections}}  with George Deltas.
+I am also working on a joint project that incorporates both theory and empirical analysis to examine the timing of primary elections.
+This is a project that was divided into two different papers.
+\begin{enumerate}
+\item In one project we construct a model of the influence that the voting order has on the final outcomes to explain why the incentives to be a "first mover" may be stronger than for others, and indeed why some states my prefer to vote late.
+\item In the second project, we consider conditions  such that voting outcomes are independent of voting order.
+\end{enumerate}
+The first project will use data on the US primary elections from 1980 to 2016.
+Data sources: Ballotpedia and wikipedia, and Dave Leip's atlas of US presidential elections + wayback machine to cover th
+
+We consider a framework with aggregate uncertainty about the ideology distribution of voters, and
+idiosyncratic uncertainty within electoral districts about the ordering of candidates on non-policy dimensions.
+We consider the effects of idiosyncratic uncertainty on endogenous voting order, and the effect of that order on outcomes.
+We also characterize conditions such that election outcomes are independent of voting order.
+We collected data from the US primary elections between 1980-2016, which we will use to test our theory.
+\end{itemize}
+
+
+I also have two ongoing works in progress in IO.
+
+\begin{itemize}
+\item In \emph{\textbf{Name-Change Fees, Scalpers, and Secondary Markets}},
+I theoretically consider a monopolist provider of a service, where consumers enjoy the service only if they have ticket (e.g., concerts, airline flights, and hotel rooms).
+The monopolist can set a name-change fee to allow holders of tickets to transfer ownership of their tickets to other consumers.
+I identify the conditions making it optimal to use name-change fees  such that the secondary market is active. I show how this reduces demand uncertainty and alleviates price rigidity.
+\end{itemize}
+
+
+\begin{itemize}
+\item In \emph{\textbf{Airline Entry and Switching Costs}} with George Deltas,
+we use the Origin and Destination survey (DB1B) to provide a measure of switching costs in US domestic airline markets.
+We leverage airline entry into new airports that connect them with airports that the airline already has presence.
+We construct our measure of switching costs by exploiting the relative flow of passengers based on the direction of the route (i.e., new airport as origin vs old airport as origin).
+Then, we consider a discrete choice model to examine the factors affecting these costs.
+\end{itemize}
+
+
+\subsection{What did you contribute and what did your co-authors contribute?}
+\label{sec:orga088836}
+
+So my two publications both use applied theory and have 3 common elements:
+\begin{enumerate}
+\item Each considers a spatial competition model with rival stores at each end of a line.
+\item Both use the concept of shopping price elasticity, which measures how easily consumers switch between locations 0 and 1 in response to a change in prices.
+\item And both are search models in the sense that consumers see the prices only after they visit a store.
+
+\item The first project is one that Dan and I developed together and it is concerned with automatic price matching guarantees.
+These guarantee that a store matches a rival's price on a product that the rival sells for a lower price.
+Standard theory suggests that automatic price matching is anti-competitive and it raises prices to monopoly levels.
+However, this was not the experience of the UK grocery store industry when they adopted these guarantees as profits and prices were decimated.
+So, we came up with a theoretical framework that is representative of the UK grocery stores that highlights how price matching guarantees can result to a prisoner's dilemma and decimation of profits.
+Unlike the literature, we allow for multiple products with branded and generic versions.
+Different stores carry different generics.
+So, stores price branded goods differently, and price matching lowers prices.
+However, a price matching guarantee is a dominant strategy when the shopping elasticity is high.
+\end{enumerate}
+
+
+\begin{itemize}
+\item The second paper deals with co-located stores selling identical products.
+This was a dormant paper and very incomplete paper of Dan and Mehdi for many years.
+I come in and revived it in a sense.
+I finished the analysis that was incomplete.
+I then extended the analysis and provided the framework for the known types and endogenous entry.
+In essence, we characterize conditions such that stores selling identical products thrive in terms of profit when they co-locate.
+This is contrasted with the standard theory which asserts that firm selling identical products must maximally separate.
+Specifically, we have two stores co-located at 0 and a monopolist at location 1.
+We then show if there are some but not too many consumers who are shoppers, meaning that they check the prices of all stores in a location,
+and the shopping elasticity is sufficiently high then co-located stores do better than the monopolist.
+Moreover, if the shopping elasticity is not too high, then we get the set up 2 against 1 with endogenous entry.
+\end{itemize}
+
+
+\subsection{Teaching Interests. What would you like to teach? One course - structure.}
+\label{sec:orgb1f9a8b}
+
+Thank you for the question.
+Allow me to preface my answer by saying that before starting my studies at UoI, I was teaching fellow at the U of Cyprus where I taught wide range of classes.
+From microeconomics to statistics and econometrics to math and so.
+Thus I feel confident in saying that I can teach any course at the undergraduate level, especially cores sequences in Micro, Macro and Econometrics.
+However, i do bring special knowledge to courses in Microeconomics, IO and PE.
+
+For graduate level courses, I can teach sequences in Microeconomics, IO and PE.
+
+I can also teach courses on methods, both theoretical and empirical.
+Teaching students how to understand research and its tools.
+This would equip students with the skills to understand scientific results.
+
+The books I would use are:
+\begin{itemize}
+\item IO: Oz Shy, Church and Ware, Tirole,
+(undergrad- \href{http://sites.clas.ufl.edu/economics/files/ECP3403\_IndustrialOrg\_BET\_F18.pdf}{UFL}) Industrial Organization: Contemporary theory and applications by Pepall, Richards and Norman.
+\begin{itemize}
+\item \href{https://ocw.mit.edu/courses/economics/14-271-industrial-organization-i-fall-2005/syllabus/}{MIT IO Syllabus}
+\item Monopoly pricing and durable goods
+\item Price Discrimination
+\begin{itemize}
+\item \href{https://mansur.host.dartmouth.edu/classes/econ45.pdf}{Dartmouth} Price dispersion, loss leader
+\item Advertising and reputation
+\end{itemize}
+\item Empirical Models of Demand
+\item Static competition and models of differentiation
+\item Search
+\item Dynamic competition
+\item Firm conduct
+\item Empirical models of supply and demand
+\item Entry
+\item Strategic investment
+\item Asymmetric Information
+\item Auctions
+\item Networks
+\item Dynamic Empirical Models
+\item Patents and Technology Diffusion
+\item Bounded Rationality
+\end{itemize}
+\item PE: Scott Gehlbach (Formal models of Domestic Politics)
+\item Micro
+\item Macro
+\item Econometrics
+\end{itemize}
+
+
+
+\subsection{Who would you like to work with?}
+\label{sec:org0053891}
+\begin{itemize}
+\item Mention that I am willing to work with people from other fields to develop projects that are in the intersection of our fields.
+\item Anna and Felipe
+\item Sound board.
+\end{itemize}
+
+
+\subsection{What led you to apply in our school?}
+\label{sec:orged3c6f1}
+\begin{itemize}
+\item I feel that the group of researchers working on questions that I find interesting.
+\item Great institution.
+\item Small Towns:
+\begin{itemize}
+\item I enjoy small towns and I find that it's a great environment for raising my family.
+Especially now that I have a kid, I really prefer smaller towns.
+I was also raised in small country, so the environment appeals to me.
+\end{itemize}
+\item Big towns:
+\begin{itemize}
+\item I enjoy this size of towns, and I find the variety it offers in terms of culture and activities a great environment for raising my family.
+Especially now that I have a kid, I want him to experience multi-culture environments.
+I was also raised in small country, and I studied in smaller towns. I want to live in a different environment now.
+\end{itemize}
+\end{itemize}
+
+
+Is the location of our school (rural, regional) a problem?
+My father failed out of McGill in the 1960s because he went to 12 black tie dinners in a single semester. He partied until they kicked him out. He ended up in Edmonton, and is now a successful doctor. I’ve always thought this was a useful lesson. I want to live in a city where I can be productive. In Coventry, I can afford to own a house (a barn, actually) in walking distance from the office. The schools here are rated well by Ofsted, and so I could see having a family here. I have no desire to live in a big city like London, where the housing is unaffordable and there are too many distractions.
+This is generally a question asked of small, rural schools. There’s an explicit discussion of this problem in Middlebury’s “The hiring of an economist”:
+\url{http://sandcat.middlebury.edu/econ/repec/mdl/ancoec/0519.pdf}
+There, candidates could signal willingness to live in rural Vermont by talking about their love of winter sports. What I’ve put here about affordability and walkability is likely a good answer in several UK cities. The story about my father is true, but I think it works better to distract the interviewer with humor than it does to really explain why a mid-size city like Coventry is desirable. The “I don’t want to live in London” point is worth signalling: departments hate it when ghosts commute in once a week -- it leads to empty seminars, unsupervised students, and administrative work falling disproportionately on those who live locally. Do some research on the city first.
+In one interview I think I gushed so much about how open and tolerant the city of Eugene Oregon is that my interviewers came away convinced I was gay
+
+\subsection{Providence College}
+\label{sec:orgf98917f}
+
+\subsubsection{Teaching}
+\label{sec:orgc3cebf3}
+At the undergraduate level I can teach any course, especially the cores sequences in Micro, Macro and Econometrics.
+
+I can also teach courses on methods, both theoretical and empirical.
+Teaching students how to understand research and its tools.
+This would equip students with the skills to understand scientific results.
+
+\begin{itemize}
+\item No graduate courses!!!
+\item Economics Major
+\begin{itemize}
+\item Business Economics Major
+\item Quantitative Economics Major: I can teach most courses here!!!
+\end{itemize}
+\end{itemize}
+
+\subsubsection{Who could you work with?}
+\label{sec:org60ca886}
+\begin{itemize}
+\item (INTERVIEW) Professor Bailey while we are not in the same field, I feel that we can work on
+projects on the intersection of our fields. For example, study the political economy of health certifications.
+\item (INTERVIEW) Same with Professor Dasgupta, we can find common research questions relating to intra-couple relationships and voting.
+\item (INTERVIEW) Professor Kahane has interesting research politicization of marks wearing.
+Also has research on gun laws.
+And I have a work in progress examining gun shootings and political speech.
+\end{itemize}
+
+
+
+\subsubsection{What led you to apply here?}
+\label{sec:org48c7213}
+\begin{itemize}
+\item Great tradition for teaching and creating responsible students.
+\item Selective and it has a great student population.
+\item Town has great lifestyle: food \href{https://www.sparefoot.com/moving/moving-to-providence-ri/20-things-you-need-to-know-before-moving-to-providence/}{link about providence}
+\item I enjoy cities of that size and I find that it's a great environment for raising my family.
+Especially now that I have a kid, I really prefer smaller midsize cities/towns.
+I was also raised in small country, so the environment appeals to me.
+\item Historic town
+\item College town and multicultural.
+\item I grew up in an island, and it has beaches near by.
+
+If there are no graduate students to assist me as RAs.
+I will try to find grants that support undergraduate research and work with my students.
+I want to provide them with a vision of academic economics research in case it is a path they want to follow.
+I received much more 1on1 attention which motivated me to do well and be creative. I always felt like professors were invested in me and encouraged my creativity and growth.
+\end{itemize}
+
+
+
+
+\subsubsection{Religious mission statement}
+\label{sec:org0f2e905}
+I grew up in Cyprus attending schools that were guided by the Greek Orthodox Church,
+into which I was baptized.
+I was twelve when I began studying economics in my home city of Nicosia, at
+the GC School of Careers, where we said prayers every morning together
+before settling down to the rigorous and stimulating academic pursuits of
+the day. I can attest to the fact that academia and religion together create
+a fruitful environment that leads to a lifelong passion for learning. As an
+assistant professor of economics at Providence College, my research and
+teaching methods will contribute to the proud history of the Dominican order
+by helping to create a conducive academic environment for my students and
+colleagues.
+
+I have taught economics students for many years - after obtaining my Masters
+from Oxford, and again as a doctoral candidate at the University of Illinois.
+Guiding students through various economics courses has sharpened my own research
+abilities and helped me fully appreciate the impact of economics in shaping
+students’ understanding of the world. I’m committed to sparking the same passion
+for learning in students that I have, in addition to honing their independent
+reasoning and analytical skills. As an educator I will continue to help students
+achieve academic excellence by building inclusive environments based on mutual
+respect and a belief in the intrinsic dignity of all individuals, no matter
+their background. As an immigrant, I know firsthand the importance of embracing
+diverse cultures and traditions that weave the rich fabric of our society.
+
+My research portfolio and future research goals closely align with Provide
+College’s commitment to creating curriculum that investigates “key questions
+of human existence, as it ultimately provides insights into human behavior
+and methods of communication between different groups. My research
+contributes to a base of knowledge that confirms the key to our collective
+progress lies in effective, truth-based dialogue and informed engagement
+with diverse points of view and experiences. As an assistant professor at
+Providence College, I will continue to uphold Providence’s commitment to
+academic excellence and carry out Providence College’s mission of to pursue
+truth, grow in virtue, and act in service to each other.
+
+
+
+
+\subsection{Warwick}
+\label{sec:org3e30694}
+
+Interview with
+Professors Abhinay Muthoo, Kirill Pogorelskiy, Helios Herrera, Francesco Squintani.
+
+\subsubsection{Work with}
+\label{sec:orgf68197d}
+\begin{itemize}
+\item Francesco Squintani
+\item Helios Herrera
+\item Dan Bernhardt obviously
+\item Mirko Draca
+\item Also interested in the work of Manuel Bagues (Gender and politics)
+\end{itemize}
+
+\subsection{Birmingham}
+\label{sec:org9a6ef9f}
+
+\subsubsection{Work with}
+\label{sec:org8bf6119}
+\begin{itemize}
+\item Professor Siddhartha Bandyopadhyay
+\item Professor Franscesco Esposito
+\item Professor Livia Menezes (crime)
+\item Professor James Rockey
+\item Professor Sasha Talavera (for more IO)
+\begin{itemize}
+\item Conference presentations and academic publishing.
+\item Herding behavior in P2P lending markets.
+\item Social media, sentiment and public opinions: evidence from brexit and us election.
+\end{itemize}
+\end{itemize}
+
+\subsection{Trinity College Dublin}
+\label{sec:org5f4d3a9}
+
+\subsubsection{Work with}
+\label{sec:orge79a693}
+\begin{itemize}
+\item Andrea Guariso (development and political economics)
+\item Nicola Fontana (political economy - empirical)
+\item Nicola Mastrorocco (political economy + crime)
+\item Gaia Narciso (her work on crime)
+\item Alejandra Ramos (her work on intra-household violence)
+\end{itemize}
+
+
+
+
+\subsubsection{Why apply here?}
+\label{sec:org425f714}
+I mean TCD is the premier institution in Ireland. World-class academic research, and the elite of Irish students.
+
+Dublin is a great place to raise my 1 year old son.
+
+Also, I feel that Cypriots and irish have similar cultural sensitivities.
+
+\subsection{York}
+\label{sec:orgd102960}
+\subsubsection{Work with}
+\label{sec:orgca16364}
+\begin{itemize}
+\item Professor Kin Chung Lo heavy micro theory (decision theory and game theory)
+\item Professor Selcuk Ozyurt works in IO, conflict resolution.
+\begin{itemize}
+\item reputation, bargaining, unconditional grants to private schools
+\item audience costs and reputation in crises barganing
+\end{itemize}
+\item Professor Ying Kong IO and PE
+\item Professor Neil J Buckley works on related projects such as tax rate and median voter.
+\item Professor Andrey Stoyanov international political economy and trade
+\item Work with Professor Matias Cortes who examines worker mobility.
+\item Professoer Berta Esteve-Volart works on gender and voting. also theoretical work on multidimensional policy space and
+\item Professor Ferrara (applied empirical) policy questions and environment
+\item Professor Alena Kimakova political economy and financial markets.
+\item Professor Nils-Petter Lagerlof demography + PE
+\item Professor Bernard Lebrun heavy Auction theory
+\item Professor Alla Lileeva international trade: effects of trade on canadian company performance but can consider politics.
+\item Professor Laura Salisbury marriage markets, income mobility
+\item Professor Wilczynski IO and financial economics (Might be inactive)
+\item Henry Tam IO and FE but no info
+\end{itemize}
+
+\subsection{Skidmore}
+\label{sec:orga551b2d}
+Interview with Professor Peter von Allmen and Smriti Tiwwari.
+
+No Graduate courses.
+Only economics major and minor.
+
+Elective courses - wide range.
+
+\subsubsection{Introduction}
+\label{sec:orgc7ba002}
+"In keeping with the liberal arts tradition and goals of Skidmore College,
+the economics department aims to support students' critical thinking,
+problem solving, global understanding and appreciation,
+and communication skills in the context of addressing questions.
+Courses stress the application of the scientific process to economic phenomena and
+analyze the ways in which economic forces affect national and international policies and issues."
+
+\begin{enumerate}
+\item Goals for student learning \href{https://www.skidmore.edu/economics/student-learning-goals.php}{site}
+\label{sec:org59b4b59}
+Below are the departmental learning goals mapped to \href{https://www.skidmore.edu/assessment/goals-for-student-learning.php}{College-wide goals for student learning}.
+\begin{itemize}
+\item Goals for the economics major:
+\begin{itemize}
+\item Understand how economic theories and models are formulated and appreciate their explanatory power (Ia, IIb).
+\item Be able to use economic models to evaluate current economic issues and public policy (IIa, IIb, IIId).
+\item Understand the role of historical and institutional context as conditioning policy-making (Ia, IIa, IIIb, IIId).
+\item Support students' growth in critical thinking and problem solving including choosing appropriate models and understanding their limitations (Ia, IIa, IIb).
+Understand the differing perspectives of economics and other social science fields (Ic, IVa).
+\item Analyze economic systems in a cultural, global, and/or social justice context (Ib, Ic, IId).
+\item Appreciate the impact of economic activity on environmental and ecological systems (Ia, IIb, IIId).
+\item Appreciate the impact of economic activity on human well-being and welfare (IIb, IId, IVb).
+\item Learn how economists use quantitative approaches to measure economic outcomes and test competing theories (Ia, Ic, IIIc).
+\end{itemize}
+\item Information literacy.
+\begin{itemize}
+\item Use appropriate search methods to find existing economic literature; find and access current and historical economic data (Ia, IIb, IIIc).
+\end{itemize}
+\item Visual literacy.
+\begin{itemize}
+\item Use a variety of visual modes to display and communicate information about economic phenomena and relationships, including charts and graphs.
+Create presentations that effectively summarize research (IIb, IIIc).
+\end{itemize}
+\item Technological literacy.
+\begin{itemize}
+\item Be proficient in the use STATA (or R) econometric software to describe and summarize data and to investigate hypotheses using a variety of methods (Ia, Ic, IIb, IIc).
+\item Use appropriate data and empirical methods to evaluate economic research (Ia, Ic, IIb).
+\end{itemize}
+\item Effective oral communication.
+\begin{itemize}
+\item Explain, debate and/or discuss models and economic phenomena (IIa, IIc, IIIc).
+\item Work in groups (IId).
+\end{itemize}
+\item Effective written communication.
+\begin{itemize}
+\item Both descriptive and persuasive writing regarding economic phenomena, conditions and policies (Ic, IIe).
+\item Create new knowledge by identifying and formulating a question or series of questions about some economic issue that will facilitate its investigations (IIa, Ic, IIId).
+\end{itemize}
+\end{itemize}
+\end{enumerate}
+
+
+
+
+\subsubsection{Student research}
+\label{sec:orgc3e53de}
+Our students have multiple opportunities to engage in economic research,
+from class projects to collaboration with professors to the culminating experience for economics majors,
+the Senior Thesis. 
+
+\begin{enumerate}
+\item Senior Seminar
+\label{sec:org950d45c}
+The culminating experience in the economics major is the Senior Seminar,
+taken in the spring semester of a student's final semester at Skidmore.
+The Senior Seminar provides students with the opportunity to engage deeply
+with a topic of their choosing. Students write a thesis and a selection of
+these papers are chosen for presentation at the College's Academic Festival. 
+
+
+\item Faculty student summer research
+\label{sec:org58c19c0}
+The Faculty Student Summer Research program provides funding for students and faculty to work together for a
+5- or 10-week period during the summer break on a project of their design.
+This is a competitive grant program that offers a stipend, room, and board for students.
+The Economics Department has participated in this program in the past and
+we look forward to continuing to provide these experiences for our economics majors. 
+
+\href{https://www.skidmore.edu/fdc/faculty\_student\_summer\_research/index.php}{other info}
+\end{enumerate}
+
+\subsubsection{Work with}
+\label{sec:orge46a588}
+\begin{itemize}
+\item Rodrigo Scheneider
+\end{itemize}
+\subsection{Tennessee Knoxville}
+\label{sec:org6cd888d}
+\begin{itemize}
+\item Padilla-Romo (Crime)
+\item I saw professor Van Essen has some theoretical work examining business cycle in a bipartisan voting model
+\item Need to find more people
+\item A bunch of people working on environmental economics
+\begin{itemize}
+\item ask questions following political speech and environmental issues such as disasters, or discovery of resources.
+\end{itemize}
+\end{itemize}
+
+
+Interviewers:
+\begin{itemize}
+\item Georg Schaur (International Trade, Applied Econometrics, Education)
+\item Celeste Carruthers (Education, public finance, labor)
+\item Christian Vossler (Environmental)
+\item James (Scott) Holladay (Environmental)
+\item Matthew Van Essen
+\end{itemize}
+
+
+\subsection{East Anglia}
+\label{sec:org6681548}
+
+Dr Arnold Polanski and Dr Anders Poulsen
+
+\subsubsection{Work with?}
+\label{sec:org2119735}
+\section{OLD SPIEL Tells us about your job market paper}
+\label{sec:org7b9cd72}
+
+\href{https://trends.e-strategyblog.com/2016/06/09/us-political-ad-spending-by-format/27038/}{Breakdown of ad spending by format}
+
+\subsection{JMP PITCH 3-5 minutes (\textasciitilde{} 400 words)}
+\label{sec:org97a5eb2}
+
+\subsubsection{INTRO (< 30 SECONDS)}
+\label{sec:org72b21fc}
+\begin{enumerate}
+\item Sub intro 1
+\label{sec:orgf6ba2de}
+
+Hello, my name is Evangelos Constantinou!
+I work in political economy and industrial organization,
+where I use both applied theory and empirical methods.
+
+I combine both of those skills in my job market, titled "Messaging the bases: tailoring political ads to audiences",
+to ask: how do politicians advertise?
+
+
+\item Sub intro 2 (if they say "Tell us about your job market paper")
+\label{sec:org3dfa91f}
+
+Gladly, my job market paper, titled "Messaging the bases: tailoring political ads to audiences",
+essentially asks: how do politicians advertise?
+To answer this, I use both theory and empirical analysis to essentially answer this question.
+\end{enumerate}
+
+
+\subsubsection{PUNCHLINE (1.5 minute)}
+\label{sec:orga98024e}
+
+In one sentence, my paper argues that politicians use ads to achieve two goals:
+motivate their base to turn out to vote, and
+depress the opponent's base to stay home.
+
+However, voters have different ideologies, and abstain from voting for different reasons.
+For example, some are alienated from their preferred candidate, and others are indifferent between the candidates.
+As a result, I argue that in order to achieve their 2 goals, candidates must tailor ads based on the expected ideology of the viewers,
+and their margin of abstention.
+In this paper, I develop a theory based on this intuition and I provide empirical support.
+
+\begin{enumerate}
+\item (BONUS) If they ask about empirical strategy
+\label{sec:org799ce3e}
+
+\begin{itemize}
+\item Talk bout classifying ads.
+\item I use various approaches to check whether my predictions hold in the data.
+\begin{enumerate}
+\item Targeting of individual characteristics; minorities.
+\item average ideology of audience;
+\item then targeting of bundle of viewer demographics.
+To do this, I follow a two step process.
+\begin{itemize}
+\item Isolate part of shares of types of ads targeted to audience demographics
+by regression shares of different ads on instruments on viewer and show characteristics
+\item Then I check if correlations agree with theory.
+\item Exclusion restriction: only endogeneity is the underlying targeting of show demographics which I include as IVs
+\item Robustness checks: i restrict the sample to competitive states and I consider different margins of competitiveness.
+\begin{itemize}
+\item also weekly (more noisy data)
+\end{itemize}
+\end{itemize}
+\end{enumerate}
+\end{itemize}
+
+\clearpage
+\end{enumerate}
+\subsubsection{MOTIVATION \& RESULTS (2 minutes \textasciitilde{} 200 words)}
+\label{sec:org29925f0}
+
+So, why are ads important?
+Well, ads, especially tv ads, are the main method of communication between political candidates and voters.
+
+And importantly for my paper, tv ads vary in terms of content:
+some highlight policy positions,
+others emphasize candidates' non-policy traits. 
+These can be positive about a candidate and emphasize their leadership skills.
+Or, they can be negative and accuse the opponent of flip-flopping for example.
+
+I should note that I call valence any non-policy traits that matter to voters utility.
+
+I argue that this variation in content is important and strategic on the part of the candidates.
+Nevertheless, the current literature makes no distinction regarding the variation in ad contnent.
+
+Instead, I build on the observation that in practice the types of ads --- I just identified earlier --- are simultaneously being used by candidates.
+and ask
+\begin{enumerate}
+\item What function does each type of tv ad serve in a campaign?
+\item And, how does ad placement and content vary based on the ideological makeup of the audience?
+\end{enumerate}
+
+Interestingly, I find that each type of ad serves a specific purpose, and candidates do target their ads.
+
+For example:
+First, policy ads and positive ads mostly are targeted towards the base and used to energize different members of base.
+Second, And negative ads are mostly targeted towards the opponent's base in an effort to depress their turnout.
+
+In short, my model predicts that candidates target same type of ads to different audiences.
+
+I then empirically test my model predictions.
+
+To do this, I combine viewer demographic data from MRI with data on US gubernatorial and presidential ads for 2008 and 2012.
+
+I find empirical support for the type of different targeting of voter demographics suggested by the theory.
+
+
+\begin{enumerate}
+\item (BONUS) Extra results (if it flows)
+\label{sec:orga2e100d}
+I also find that:
+candidates target their policy ads even more narrowly as the ideological distance with the opponent increases.
+And, candidates with higher initial valence (e.g., more liked as people) run more positive campaigns, and candidates with lower valence run negative ones.
+
+
+
+
+
+\clearpage
+\end{enumerate}
+
+\subsubsection{LITERATURE \& CONTRIBUTION AND MECHANISM (1 MINUTE) (100 WORDS)}
+\label{sec:org4313b41}
+
+My paper focuses on a different dimension regarding political advertising than previous work.
+Previous work aks whether ads stimulate or depress aggregate turnout and voter choice.
+In contrast, I drill down on the incentives of the candidates to vary the content of their ads.
+
+In particular, I provide a novel mechanism on how different forms of abstention from voting (alienation and indifference) interact with voter ideology to inform targeting of tailored ads.
+\begin{itemize}
+\item (BONUS) Specifically, politicians can exploit voter sorting into tv shows to match the right message to the right audience in order to mobilize their base and demobilize the opposing one.
+\item (BONUS) To achieve this, they strategically tailor ads to target different parts of the viewers' utility --- horizontal vs vertical --- based on their expected ideology and margin of abstention to invoke desired voter reactions.
+\end{itemize}
+And, that this tailoring of ads is optimal as candidates maximize their probability of winning.
+
+My results are important because they suggest when estimating the effect of ads on mobilization, it is crucial to take the mix of ads a voter is exposed to into account.
+Otherwise, the estimate would be biased.
+For example, looking at the aggregate ads of Democrats misses out the different types of ads and their differential effect on mobilization on different voter bases.
+
+On the empirical side, I construct an a transparent and flexible algorithm that systematically classifies ads based on their content.
+\begin{itemize}
+\item (BONUS) It also provides me with quantitative measure of policy and valence statements in ads.
+\item \textbf{DO NOT SAY MODULAR}. But if you say modular or they ask about the algorithm.
+\begin{itemize}
+\item It is more accurate as it goes sentence by sentence finding their subject and size based on number of characters.
+\item Then, classify subjects into policy and valence, and find the total size of policy and valence statements within the ads.
+\item Alternatively, classify ads directly into policy, positive, negative based on the whole text. But prone to errors.
+\end{itemize}
+\end{itemize}
+
+
+\clearpage 
+\subsection{MORE DETAIL 10-15 minutes (\textasciitilde{}750 words)}
+\label{sec:orgc651c3b}
+
+If there are no questions, I can describe in more detail my theoretical model and empirical analysis.
+
+There are different theories about why citizens vote.
+The main ones are:
+Ethical voting meaning voters want to vote similarly to the group they identify.
+Outcome based voting where voters care about the outcome of the election.
+My paper assumes expressive voting. Voters derive utility from the process of voting.
+
+\subsubsection{THEORETICAL MODEL (\textasciitilde{} 5 MINUTES)}
+\label{sec:orgf216d74}
+
+\begin{itemize}
+\item \textbf{BASIC SETUP/ENVIRONMENT}
+So, my theoretical model considers a political contest with two candidates,
+who can communicate with voters through the ads they place in different tv shows.
+
+\item \textbf{VOTER UTILITY \& AD EFFECTS}
+Voters care about policy/ideology and the candidate non-policy/valence traits.
+Voters disagree on the ideal policy, but they agree that higher valence candidates are preferred.
+
+I assume that policy ads affect how much policy matters in the voters utilities.
+Positive ads increase the candidate's valence, and negative ads decrease the opponent's valence.
+
+\item \textbf{ABSTENTION \& FRINGE vs MODERATE}
+In order to motivate abstention from voting, I assume that voting is costly.
+
+Some voters abstain because they are alienated, which means that their voting cost exceeds their utility of voting for their preferred candidate.
+Others abstain because they are indifferent between the two candidates, which means that they find the two candidates very similar and it's not worth incurring the cost of voting.
+
+I then show that a candidate's fringe base is more likely to abstain due to alienation, whereas moderate voters are more likely to abstain due to indifference.
+
+\item \textbf{CANDIDATES OBJECTIVE \& TAILOR}
+In turn, candidates want to use ads in the different tv shows to manipulate the margins of abstention
+such that they maximize their turnout and minimize the opponents'.
+
+Since voters have different ideologies and margins of abstention,
+the candidates must tailor their ads in the different shows based on the expected audience.
+
+\emph{For example, Democrats do not want to talk about abortion in Fox news.}
+
+\item \textbf{DOMINANT STRATEGY EQUILIBRIUM \& RESULTS}
+
+Next, I solve for the \textbf{dominant strategy equilibrium} and characterize how candidates \emph{strategically vary} the mix of ads
+based on the ideological makeup of the audience.
+
+For example, candidates target policy ads to shows watched by their base.
+Also, they energize their fringe base with positive ads,
+since these voters are alienated and must be reminded how good their candidate is.
+
+Moderate voters, who are prone to indifference, must be reminded that the two candidates differ significantly.
+As a result, both positive and negative ads are used.
+Some small number of policy ads are used if they can persuade these moderate voters.
+
+In contrast, the opponent's fringe base is targeted with negative ads in order to demobilize them by depressing them even more about their candidate.
+
+Therefore, my results suggest that all types of ads are used, but for a different purpose.
+
+Also, correlations between opposing candidates strategies arise, but \textbf{only} due to the differential targeting of voters.
+
+For example, policy and positive valence ads of opposing candidates are negatively correlated.
+Policy ads and negative ads of opposing candidates are positively correlated.
+Positive ads and negative ads of opposing candidates are positively correlated.
+
+I also find that as the ideological distance between opponents increases, candidates target policy ads even more narrowly.
+Also, higher valence candidates switch to more positive campaigning, and lower valence candidates to negative.
+\end{itemize}
+
+
+
+\subsubsection{EMPIRICAL ANALYSIS (\textasciitilde{} 5-6 minutes)}
+\label{sec:org7253236}
+
+In order to empirically test my theoretical predictions, I combine multiple data sources.
+
+\begin{enumerate}
+\item If you skip theory part
+\label{sec:org05ecdfe}
+For my empirical analysis, I test the theoretical predictions of model.
+So, to quickly summarize, in my theoretical model has a dominant strategy equilibrium
+and as result candidates target voter demographics with tailored content.
+Opposing candidate strategies are correlated but the correlation arises \textbf{only}
+due to the differential targeting of the underlying voter characteristics.
+\end{enumerate}
+
+
+
+\item DATA SOURCES (\textasciitilde{} 1 MINUTE)
+\label{sec:orgaaf28a4}
+
+
+First, I get the universe of political ads by US gubernatorial and presidential candidates in 2008 and 2012 from WAP and WMP.
+I also obtained storyboards and videos of each ad, which I trans coded to obtain the texts of the ads.
+
+Second, I get viewer demographics from MRI's Survey of the American Consumer.
+\begin{itemize}
+\item (if time) Nationwide consumer survey that asks the consumer about their habits including TV viewing ones.
+\item (if time) About 600 tv shows.
+\end{itemize}
+
+And finally, I web-scrape polling data from Real Clear Politics site.
+\begin{itemize}
+\item (if time) However, I should note that polling data is at the state level, whereas political ads data are at the media market level.
+\item (if time) This is important because media markets can cross state lines.
+\item (if time) And, within a media market, the set of Tv stations is the same.
+\item (if time) So a station's coverage might cross to a different state.
+\item (if time) I map state polls by combining Sood's (2016) data on media markets and counties, and Census' county population.
+\item (if time) I can then attribute the percentage of the media market in each state.
+\end{itemize}
+
+\item CLASSIFYING ADS (\textasciitilde{} 3 MINUTES)
+\label{sec:org7ba503a}
+
+One of the most challenging parts of the empirical analysis is the classification of ads into policy, positive and negative valence based on their content.
+This is important because I need to identify the share of different type of ads used by the candidates in the different shows.
+However, it is a hard.
+
+In the theoretical model, each has one of type.
+
+In practice though ads touch on multiple themes; some policy and some valence.
+So, I need an algorithm that takes the text as input and outputs a class or type for the ad.
+
+One possible solution is to directly label ads based on the whole text.
+But this method is prone to inconsistent classification.
+It obfuscates what is considered policy and what is valence,
+and does not provide a quantitative measure of the relative sizes of policy and valence, or positive and negative statements.
+\begin{itemize}
+\item Another possible solution is to use external natural language resources.
+For example, count positive/negative words. But misses specific context such as quoting the opponent.
+And political ads are a very specific type of speech.
+Too many a priori rules.
+\end{itemize}
+
+Instead, I consider a more modular approach that first classifies individual statements/sentence within the ads.
+Specifically, each statement/sentence is a assigned a subject and tone category based on its content.
+\begin{itemize}
+\item For example, I have statement that says: senator mccain, we are a frightened nation. times are tough, and you have the judgment we can believe in.
+\item Its subject is leadership and it's tone is positive.
+\end{itemize}
+Then I find the size of each statement based on the number characters, which allows me to find the total size of each subject and tone category within each ad.
+In the last step, I split the subject categories into policy and valence.
+By doing this, I can find the relative size of policy and valence statements within each ad, and classify them based on which is larger.
+
+
+This approach offers several advantages:
+\begin{itemize}
+\item Transparent about what topics are policy and valence.
+\item Flexible as subject categories can be divided into sub-policy types.
+\item Quantize measure of policy and tone, which can be used for other questions.
+\item Rich training set for future machine learning and deep learning classification.
+\end{itemize}
+
+\item EMPIRICAL APPROACH AND RESULTS (\textasciitilde{} 2 MINUTES)
+\label{sec:org67813b7}
+
+Now to test the theoretical model, I rely on its insights that.
+
+Candidates target voter demographics with tailored content, AND
+any correlations between opposing candidates ads derive from their differential targeting of those demographics.
+
+Therefore, I focus on how opposing candidates target viewer demographics.
+
+First, I document that individual demographics are indeed targeted differentialy by candidates.
+For example, minority voters receive more negative ads by Republicans and more policy and positive valence by Democrats.
+Or as the audience becomes more conservative, Democrats switch away from policy and positive ads to negative ads.
+Republicans do the opposite.
+
+Then, I consider how opposing candidates target bundles of voter demographics.
+
+\begin{itemize}
+\item Version 1:
+To achieve this, I predict the shares of the different types of ads based on show and viewer characteristics as suggested by theory.
+This isolates the tailoring of ads suggested by theory.
+Then, I check if the correlations between the predicted shares of opposing candidates are consistent with the theory.
+And indeed they do.
+
+\item Version 2:
+To achieve this, I instrument their shares of types of ads on show characteristics.
+I take the predicted shares from the IV estimation, and check if their correlations are consistent with the theory.
+And indeed they do.
+\end{itemize}
+
+For example, I find that opposing candidates target the same voters with different types of ads.
+
+Finally, I present evidence that as the ideological difference between opposing candidates widens,
+candidates increase targeting of policy and positive valence ads to their base.
+Higher valence candidate switch to more positive campaigning and relatively lower valence candidates to more negative campaigning.
+\end{enumerate}
+
+
+\subsection{CONCLUSION - CLOSING STATEMENT}
+\label{sec:orgef4dd4f}
+
+My results have several implications.
+
+For the empirical literature on political ads, it is important to account for type of ads voters are exposed to when measuring stimulation effects of ads.
+
+It also speaks to other forms of political communication.
+For example, rallies are a venue to talk about policy whereas debates are a place to talk to moderate voters.
+
+
+If you have questions about my job market paper, I welcome questions.
+Otherwise, I can discuss my other work.
+
+\clearpage
+
+\begin{enumerate}
+\item Mau's notes
+\label{sec:org79b57fa}
+\begin{itemize}
+\item valence. A more intuitive definition.
+\item Opening: Imagine being a political candidate.
+\item mention IV a bit a earlier.
+\item Second classifier too abstract. Provide an example a statement.
+\begin{itemize}
+\item One line example.
+\end{itemize}
+\end{itemize}
+
+\clearpage
+\end{enumerate}
+
+
+\section{Other Questions}
+\label{sec:org53a3f69}
+\subsection{Why is this an interesting question? Why should we care about your results? Why is this economics?}
+\label{sec:org66b3d62}
+\begin{itemize}
+\item First economics is about optimally allocating scare resources.
+\item Question about optimallity and behavior.
+\item Also a theory about signals certain voters receive.
+\item Highlights how your characteristics determine the information you receive.
+\item Political Economy is social research.
+\end{itemize}
+\subsection{To what journal will you send your job market and why?}
+\label{sec:org5167215}
+I find this paper to be of general interest.
+\begin{itemize}
+\item AER
+\item Review of Economics Studies
+\item Review of Economics and Statistics
+\item AEJ Microeconomics
+\item Public Choice
+\end{itemize}
+\subsection{What journals do you see yourself publishing in? What journals do you consider to be appropriate outlets for your work?}
+\label{sec:org972e757}
+\begin{itemize}
+\item AER
+\item REStud
+\item AEJ Microeconomics
+\item RAND
+\item IJIO
+\item JIE
+\item Games and Economic Behavior
+\item Social Choice and Welfare
+\item Public Choice
+\end{itemize}
+\subsection{Questions for us?}
+\label{sec:org7810baf}
+\begin{itemize}
+\item James’ answer on the market in 2010: “My advisor told me that it’s a bad idea to ask questions at this stage, so I don’t have any at the moment.” YMMV
+\item Tell me about your department’s research environment.
+Is there much mentoring of junior faculty by senior faculty?
+What resources are available to help new faculty develop their research?
+\item How do you see me fitting in your department?
+\item What is the teaching load? What is the typical course reduction for new faculty?
+Would I have an opportunity to teach graduate students?
+Will I be able to teach courses in my field?
+\item What is the quality of the graduate students?
+To which fields are they most attracted?
+Are they involved with the research of the faculty?
+Are there resources to support graduate students as research assistants?
+What is your goal in educating graduate students: to produce academics and researchers?
+\item I saw on your web page that you have N faculty; is that the number of lines in the department?
+(If the number of faculty is well below the number of lines then that implies that the department might be hiring a lot of faculty in the coming years.)
+\item What are your expectations about grant writing by junior faculty?
+Are faculty allowed to use grant money to buy teaching reductions for the purposes of research? What is your main research project at the moment?
+(It is important to ask other people about their research and discuss it in a way that reveals your interest in economic questions outside of your area.)
+\item Are you happy with the research environment here?
+\item How does this department compare to the others you’ve been in?
+\item What courses are you teaching, and how much choice did you have?
+\item Which seminars do you regularly attend?
+\item Are there any units outside of the department I should know about, for example, any interdisciplinary centers that offer research grants?
+\item What is the budgetary future of the department?
+Will there be more junior faculty hired in the near future?
+\item Were you satisfied with the start-up package provided to you as a new faculty member?
+\item What sort of administrative work do junior faculty do?
+For example, serving on search committees or organizing seminars?
+\item How do you envision the department changing in the future?
+Is there an intention to build in any particular area? What are your goals as (Dean / Chair)?
+\item How do you evaluate faculty for contract renewal and for tenure? What has happened in the last few tenure reviews?
+\item How strong are the links between the department and other units of the University?
+\item Is the administration supportive of the department (e.g. has there generally been agreement on tenure cases, is the Dean generous with resources)?
+\item How do you like living here? Where do faculty choose to live?
+\end{itemize}
+
+\subsection{What NBER group would you see yourself in?}
+\label{sec:orgfc852f3}
+\begin{itemize}
+\item Political Economy
+The Political Economy Program examines the interactions among political institutions, participants in the political system, such as voters and elected officials, and economic outcomes broadly defined.
+\item IO
+The Industrial Organization Program analyzes firm behavior and industry dynamics, including the determinants of market competition and of pricing decisions, as well as the effects of public policies such as anti-trust law and government regulation.
+\end{itemize}
+
+
+\subsection{Who would be the ideal referees for your job market paper, and why?}
+\label{sec:org709ce04}
+\begin{itemize}
+\item Greg Martin
+\item Nathan Cohen and Franscesco Trebbi
+\item Polborn
+\item Scott Ashworth (Campaigns and elections)
+\item Jorg Spenkuch (very empirical)
+\item Peter Buiterset
+\item Adams and Merill
+\item LePennec
+\end{itemize}
+\subsection{What will be your major conferences?}
+\label{sec:org32a6382}
+\begin{itemize}
+\item International Industrial Organization Conference
+\item Political Economy conference in Rochester
+\item ASSA/AEA
+\item SEA
+\end{itemize}
+\subsection{Who would you invite to seminar?}
+\label{sec:org6f444d0}
+\begin{itemize}
+\item Greg Martin
+\item Nate Cohn
+\end{itemize}
+\subsection{What is your contribution to the literature?}
+\label{sec:orge517277}
+\subsection{How do you motivate the crazy assumptions in your papers?}
+\label{sec:orge4dfcc9}
+\begin{itemize}
+\item Derive clear testable predictions.
+\end{itemize}
+\subsection{Why didn't you estimate (an alternative regression model) instead?}
+\label{sec:orgee851ec}
+\subsection{Why didn't you use (an alternative dataset) instead?}
+\label{sec:org30bcf7a}
+\subsection{Will your research use structural models or a more reduced form approach? Are you empirical or theoretical? Why}
+\label{sec:org126e3e2}
+\subsection{Why haven't you done any empirical (theoretical) work? do you intend to?}
+\label{sec:orge3ba087}
+\subsection{How would you test your model?}
+\label{sec:org97f8a4b}
+\subsection{How is your model identified?}
+\label{sec:org7dc9483}
+\subsection{What is a real-life example of what your job market paper is about? (Theory)}
+\label{sec:org64578e1}
+\subsection{Why didn't anybody write this paper before?}
+\label{sec:orgd745f9f}
+\subsection{Greatest strength, weakness of your paper?}
+\label{sec:org4b7843f}
+\subsection{If you were a referee of your own paper, what would you say? Why would you reject it?}
+\label{sec:org1d182cd}
+\subsection{If you were to teach a PhD course in your field, what would be the key papers on the syllabus?}
+\label{sec:orgb01966e}
+\subsection{Which senior economists do you wish to emulate? Why?}
+\label{sec:orgb034e2c}
+\subsection{Tells us the best paper you have seen presented in a seminar recently, and explain what made it the best.}
+\label{sec:org99942b8}
+\subsection{Based on your reading of the literature and participation in seminars and conferences, where do you see (your field) going?}
+\label{sec:orgb30d502}
+\subsection{Are you familiar with the results by person Y on your topic.}
+\label{sec:orge0134cd}
+\subsection{How did you get the idea for this paper?}
+\label{sec:org370d3e4}
+\subsection{What seminars do you attend?}
+\label{sec:orgc456d80}
+\subsection{What is the best seminar you have seen/paper read recently?}
+\label{sec:orgf745f88}
+\subsection{Do you plan to continue collaborating with your coauthors/advisors? (Trying to suss if RA)}
+\label{sec:orgeb500f7}
+\subsection{If you answer any research question in paper, even if it took a million dollars and several years, what question would it be and how would you answer it?}
+\label{sec:org0952407}
+\subsection{What are the policy implications of your work?}
+\label{sec:orga89d450}
+\subsection{Grants you have applied/gotten/how you plan to get them.}
+\label{sec:org2092b83}
+\subsection{How you will interest a broader audience outside economics or outside academia ("impact" in REF-speak).}
+\label{sec:org5365915}
+\subsection{What is your experience raising funding and who are your donors?}
+\label{sec:org5ed86be}
+\subsection{When will you finish your dissertation?}
+\label{sec:orgfe27806}
+\subsection{Tells us about a paper that isn't your job market paper [and then to be grilled like it is your job market paper]?}
+\label{sec:org06ae3c9}
+\subsection{What questions are at the core of your research agenda?}
+\label{sec:org807425a}
+\subsection{What are the next three papers you will write? (Be prepared to discuss the research question, conceptual framework, data and methods on each).}
+\label{sec:orgd4b1f59}
+\subsection{What is your research agenda for the next five years?}
+\label{sec:orgcf192a3}
+\subsection{In which fields do you see yourself working in next 3 years?}
+\label{sec:org7a09058}
+\subsection{Where are you heading: what's your research agenda; beyond thesis, what are you doing?}
+\label{sec:org560c862}
+\subsection{Is your thesis representative of your future work (OK either way)?}
+\label{sec:org3dbf868}
+\subsection{Which economist would you like to resemble 5-10 years from now and why?}
+\label{sec:org19d92ed}
+\subsection{Tell us about < insert title of other wp or wip >? [ Expect to be grilled as if it's your jmp].}
+\label{sec:org400f401}
+\subsection{Who will write your tenure letters, and what will they say you have contribute to the field?}
+\label{sec:org2ef6dae}
+\subsection{What attracts you to our university?}
+\label{sec:org2081794}
+\subsection{Do you think you would be happy in a department like ours? [interdisciplinary, liberal arts]}
+\label{sec:org236418a}
+\subsection{Why are you interested in our school? What in particular led you to apply for a job with us?}
+\label{sec:org6e95a66}
+\subsection{Is the location of our school (rural, regional) a problem?}
+\label{sec:org316102a}
+\subsection{Why would your like to work at our university/move to our city? Why did you apply here?}
+\label{sec:org9f87746}
+\subsection{Who could you work with in our department/university?}
+\label{sec:orgcb3deb8}
+\subsection{Do you have questions for us?}
+\label{sec:org8d31651}
+\subsection{What attracts you about life here?}
+\label{sec:org0d40fff}
+\subsection{What is your teaching experience?}
+\label{sec:orged9b1bc}
+\subsection{What would your like to teach? What textbooks or journal articles, would you use to teach those courses?}
+\label{sec:org498a986}
+\subsection{How would you teach? What is your teaching philosophy?}
+\label{sec:orgeb61f31}
+\subsection{How would you teach our students (undergrad/masters/PhD) in particular?}
+\label{sec:orge29071a}
+\subsection{How would you teach XYZ? What would bring to the course?}
+\label{sec:orgf1bd7c1}
+\subsection{Are you a good teacher?}
+\label{sec:org7018539}
+\subsection{How will your interact with feisty business students?}
+\label{sec:org69d6250}
+\subsection{How has your teaching evolved so far?}
+\label{sec:org18876c4}
+\subsection{When you teach, what role does technology play in engaging and interacting with students?}
+\label{sec:org2568a7c}
+\subsection{What would you like to teach? Teaching Interests?}
+\label{sec:orgc84b1ca}
+\subsection{Dream course?}
+\label{sec:org0fbdbec}
+\subsection{Design your own PhD course?}
+\label{sec:org063a48b}
+\subsection{If you were to teach a graduate class in <field>, what would you put on the reading list?}
+\label{sec:org8c25900}
+\subsection{What do you think would make you effective at supervising PhD students?}
+\label{sec:org1742175}
+\subsection{How do you a get a large class of undegrads to engage with material that they may not find intrinsically interesting?}
+\label{sec:org15c0adb}
+\subsection{If you were to teach an undergrad class in <field>, what would you put on the reading list?}
+\label{sec:org6e13694}
+\subsection{Basically: for both your primary and secondary field find a reading list for both undergrad and graduate class.}
+\label{sec:org62d812a}
+\subsection{Trick question}
+\label{sec:org85dc3f1}
+\subsubsection{Where else are you interviewing?}
+\label{sec:org3ecc9fe}
+\subsubsection{How is the market this year?}
+\label{sec:org2b112f2}
+\subsection{Anything not on your CV? (Opportunity to highlight why it's a good match)}
+\label{sec:org458389b}
+\subsection{Past service/desired service (e.g., seminars organized)}
+\label{sec:orgcfe611e}
+\subsection{Other than through teaching and research, how do you see yourself contributing to helping run and enhance the reputation of the department?}
+\label{sec:org4a36481}
+\section{Paper Summary}
+\label{sec:org1e52e05}
+\subsection{Candidate free ride and party solutions}
+\label{sec:org4358c61}
+\begin{itemize}
+\item Summary:
+\item Contribution:
+\item Data Sources: WAP and WMP, Sood 2016 and Census, DIME for ideological scores, wikipedia for mapping of candidates to elections.
+\end{itemize}
+\subsection{Election Timing}
+\label{sec:org3737faa}
+
+\begin{itemize}
+\item Summary:
+\end{itemize}
+
+I am also working on a joint project that incorporates both theory and empirical analysis to examine the timing of primary elections.
+
+This is a project that was divided into two different papers.
+
+\begin{enumerate}
+\item In one project we construct a model of the influence that the voting order has on the final outcomes to explain why the incentives to be a "first mover" may be stronger than for others, and indeed why some states my prefer to vote late.
+
+\item In the second project, theoretically derive conditions such that voting order is inconsequential to voting outcomes.
+\end{enumerate}
+
+
+\begin{itemize}
+\item Data sources: Ballotpedia and wikipedia, and Dave Leip's atlas of US presidential elections + wayback machine.
+\end{itemize}
+
+\subsection{Lincoln Mall}
+\label{sec:org11feb05}
+\begin{itemize}
+\item Summary:
+\item Contribution:
+\end{itemize}
+\subsection{Price matching}
+\label{sec:org700ccaf}
+\begin{itemize}
+\item Summary:
+\item Contribution:
+\end{itemize}
+\subsection{Paper with Anna and Felipe.}
+\label{sec:orga2e807d}
+\begin{itemize}
+\item Summary:
+First, together with my colleagues Anna Kyrizis and Felipe Diaz-Klaassen we how mass shootings affect politicians’ views
+and positions on gun policies under the current highly-polarized political scene.
+To do so we examine the effect of mass shootings on the campaign messages of politicians and NRA endorsements.
+
+\item Contribution:
+\item Data Sources:
+I web-scrapped NRA endorsement and scores from the justfacts.votesmart.org website.
+Ads data from WAP and WMP.
+Shooting data from motherjones and gun violence archive.
+\end{itemize}
+
+\subsection{Name Change Fees}
+\label{sec:orgb424dfd}
+\begin{itemize}
+\item Summary:
+\item Contribution:
+\end{itemize}
+\subsection{Trump and Mexican Beers}
+\label{sec:org9140d62}
+\begin{itemize}
+\item Summary:
+\item Contribution:
+\item Data Sources:
+\end{itemize}
+\end{document}

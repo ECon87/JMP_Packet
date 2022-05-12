@@ -4,7 +4,7 @@
    (TeX-add-to-alist 'LaTeX-provided-class-options
                      '(("article" "12pt")))
    (TeX-add-to-alist 'LaTeX-provided-package-options
-                     '(("fontenc" "T1") ("ulem" "normalem") ("inputenc" "utf8" "latin9") ("footmisc" "bottom") ("hyperref" "unicode=true" "pdfusetitle" "bookmarks=true" "bookmarksnumbered=false" "bookmarksopen=false" "breaklinks=false" "backref=false" "colorlinks=false")))
+                     '(("fontenc" "T1") ("ulem" "normalem") ("inputenc" "utf8" "latin9") ("geometry" "margin=0.75in") ("footmisc" "bottom") ("hyperref" "unicode=true" "pdfusetitle" "bookmarks=true" "bookmarksnumbered=false" "bookmarksopen=false" "breaklinks=false" "backref=false" "colorlinks=false")))
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
@@ -45,9 +45,9 @@
     "tikz"
     "pgfplots")
    (LaTeX-add-labels
-    "sec:orgd4af66e"
-    "sec:org864cfad"
-    "sec:orgfb75ccb"
-    "sec:org47e9195"))
+    "sec:orgf4bb63f"
+    "sec:org1439864"
+    "sec:org5af3b06"
+    "sec:org746050d"))
  :latex)
 

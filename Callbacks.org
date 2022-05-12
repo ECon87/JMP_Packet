@@ -1,0 +1,357 @@
+* Interview
+** Academia
+*** DONE Providence College
+    CLOSED: [2021-12-13 Mon 14:02]
+*** DONE Warwick
+    CLOSED: [2021-12-14 Tue 11:16]
+*** DONE Birmingham
+    CLOSED: [2021-12-16 Thu 14:06]
+*** DONE Trinity College Dublin
+    CLOSED: [2021-12-16 Thu 14:06]
+    https://www.jobs.ac.uk/job/CKI367/assistant-professor-in-economics-applied-microeconomics
+*** DONE York University Canada
+    CLOSED: [2022-01-07 Fri 16:28]
+*** DONE Skidmore
+    CLOSED: [2022-01-07 Fri 16:28]
+*** DONE East Anglia
+    CLOSED: [2022-01-07 Fri 16:28]
+*** DONE Tennessee Knoxville Economics
+    CLOSED: [2022-01-11 Tue 13:18]
+*** TODO Postdoc - Rochester Simon Business School
+** Industry
+*** DONE Amazon
+    CLOSED: [2021-12-17 Fri 16:08]
+*** DONE NERA
+    CLOSED: [2021-12-14 Tue 16:20]
+*** DONE SiriusXM + Pandora
+    CLOSED: [2021-12-13 Mon 14:12]
+    https://jobs.jobvite.com/siriusxm/job/oTjmffwx
+
+    [[https://www.aeaweb.org/joe/listing.php?JOE_ID=2021-02_111468119&q=eNplj0Fqw0AMRe-idQq2SzZeh0IhNyhFyDOqO62iMZpxigm5ezWhXnUhIb0vvvg3OKdSk87lJdsFxhskRQo1XRlG6OBcMN-8_WSLWJgsfDp0VtgvssL4Br2vA7U2eXv2OsL7Ab5Ymto1h5PXucFUytpsh27on7rBcbY0XCclef2nhLxqtQ2N58dcJ11F_DFdOeJHlshWdhhIY4pUGUswukzCu2IcWCtmlW1H8hcXPRMbTi54ZGd1bZGwRZFlcUpcIj4vNLtdf7__AsmUX-s][aeaweb]]
+*** DONE ISO NEW ENGLAND
+    CLOSED: [2022-01-07 Fri 16:28]
+*** DONE UBER
+    CLOSED: [2022-01-13 Thu 12:05]
+*** TODO Essent Group
+*** TODO gopuff
+*** TODO Keystone Energy
+*** TODO Cornerstone
+* Rejections
+** Interview
+   Amazon
+** No Interview
+   - Lancaster
+   - King's College
+   - Emporia State
+   - Lewis and Clark (Data Science)
+   - Hampden-Sydney College
+   - UMass Boston
+   - San Diego State (Land)
+   - Federal Reserve New York
+   - UMass Amhrest
+   - Trinity College Dublin
+     
+* Fix Cell
+  Dear Members of the Search Committee,
+
+  My name is Evangelos Constantinou, and I am a job market candidate from the University of Illinois, Urbana-Champaign.
+  I recently applied for the position of Assistant Professor in your department.
+  However, I mistakenly recorded an old cell-phone number in my CV.
+
+  My current number is 217-721-5834.
+
+  Thank you for your time and consideration.
+
+  Kind Regards,
+  Evangelos Constantinou.
+  
+  | Place                                                  | Contact                                  | Done | Email                                     |
+  |--------------------------------------------------------+------------------------------------------+------+-------------------------------------------|
+  | Arizona state                                          |                                          | X    | wpcareyecn@asu.edu                        |
+  | Arizona                                                | Sarah Trotta                             | X    | strotta@arizona.edu                       |
+  | Binghamton                                             | Kathy Horton                             | X    | khorton@binghamton.edu                    |
+  | Swarthmore                                             | Megan Salladino                          | X    | msallad1@swarthmore.edu                   |
+  | Boston University (Questrom)                           |                                          |      |                                           |
+  | Boston University (Economics)                          |                                          | X    | econteam@bu.edu                           |
+  | Brown (Economics Microeconomics)                       | Clare O'Connor                           | X    | clare_oconnor@brown.edu                   |
+  | skidmore                                               | Amelia Clarke                            | X    | acclarke@skidmore.edu                     |
+  | Tuck Dartmouth                                         |                                          |      |                                           |
+  | University of Colorado Denver                          | Professor Hani Mansour                   | X    | hani.mansour@ucdenver.edu                 |
+  | Chicago Harris Political Science/Economy               |                                          | X    | harrisschool@uchicago.edu                 |
+  | Chicago Harris Economics                               |                                          |      |                                           |
+  | Washu Economics                                        |                                          | X    |                                           |
+  | Washu business school                                  |                                          | X    | cres@olin.wustl.edu                       |
+  | Iowa                                                   | Michelle Highly                          | X    | michelle-highly@iowa.edu                  |
+  | Rochester (Economics)                                  | Arianna Bennigsohn                       | X    | arianna.dorschel@rochester.edu            |
+  | Bowdoin College                                        | Susan Kohorn                             | X    | skohorn@bowdoin.edu                       |
+  | Bryan Mawr College                                     |                                          |      |                                           |
+  | Smith College                                          |                                          |      |                                           |
+  | Bates College                                          |                                          |      |                                           |
+  | College of the Holly Cross                             |                                          |      |                                           |
+  | George Washington                                      |                                          | X    | econgrad@gwu.edu                          |
+  | Beloit College                                         |                                          |      |                                           |
+  | California State University                            | Professor Kent Hymel                     | X    | econ.search@csun.edu                      |
+  | Clemson (fixed in AEAWeb but email them)               | Kimmie Richardson                        | X    | kr2@clemson.edu                           |
+  | Cornell Economics                                      |                                          | X    | econ-search@cornell.edu                   |
+  | Duke Economics and Strategy                            | Paula Peoples                            | X    | paula.peoples@duke.edu                    |
+  | Elon University                                        |                                          |      | sbdednar@elon.edu                         |
+  | Federal reserve dallas                                 |                                          |      |                                           |
+  | Wisconsin - la crosse                                  | Dr James Murray                          | X    | hrinfo@uwlax.edu                          |
+  | Wisconsin - madison                                    | Tianwei Miller                           |      | tianwei.miller@wisc.edu                   |
+  | Wisconsin - eau claire                                 |                                          |      | kempta@uwec.edu                           |
+  | Georgetown Economics                                   |                                          |      |                                           |
+  | Georgetown Strategy                                    |                                          |      |                                           |
+  | Georgia Institute of Technology                        | Jyldyz Ismailova-Hughes                  | X    | jyldyz.hughes@econ.gatech.edu             |
+  | Florida State (Microeconomic Theory)                   | R. Vijay Krishna                         | X    | vkrishna@fsu.edu                          |
+  | Florida State (Applied Micro)                          | Matthew Gentry                           | X    | mgentry@fsu.edu                           |
+  | Purdue                                                 |                                          | X    | krannertwebmaster@purdue.edu              |
+  | Maryland - College Park                                |                                          | X    | econttk-jobs@umd.edu                      |
+  | Notre Dame                                             | Professor Ethan Lieber                   | X    | Ethan.Lieber.2@nd.edu                     |
+  | University of San Francisco                            |                                          | X    |                                           |
+  | Missouri State                                         | Dr Timothy Flannery                      | X    | tflannery@missouristate.edu               |
+  | UIC                                                    | Professor Steven Rivkin                  | X    | sgrivkin@uic.edu                          |
+  | Grinnell College                                       | Professor Brad Graham                    | X    | EconomicsSearch@grinnell.edu              |
+  | Cal state Fullerton                                    | Professor Kristin J. Kleinjans           | X    | kkleinjans@fullerton.edu                  |
+  | Tufts                                                  | Debra Knox                               | X    | debra.knox@tufts.edu                      |
+  | Tulane (murphy institute)                              |                                          | X    | racarter@tulane.edu                       |
+  | University of Missouri                                 |                                          | X    |                                           |
+  | North Carolina State                                   | Professor Melinda Morrill                | X    | poole-econ-search@ncsu.edu                |
+  | Texas Austin                                           |                                          | X    | EconomicsDept@austin.utexas.edu           |
+  | Hamilton College                                       |                                          | X    | economics@hamilton.edu                    |
+  | Sam Houston                                            | Dr Santosh Kumar                         | X    | skumar@shsu.edu                           |
+  | Northeastern                                           | Professor Alicia Sasser Modestino        | X    | a.modestino@northeastern.edu              |
+  | Chapman                                                | Jennifer Brady                           | X    | jenbrady@chapman.edu                      |
+  | Auburn University                                      | Dr Chris Vickers                         | X    | czvickers@auburn.edu                      |
+  | UNLV  (Lee Business School [R0124392])                 |                                          | X    | unlvjobs@unlv.edu                         |
+  | Ohio State                                             | Elizabeth Murphy                         | X    | murphy.926@osu.edu                        |
+  | Oklahoma State                                         | Ms. Angie Bourlon                        | X    | angela.bourlon@okstate.edu                |
+  | Oregon State - Energy                                  | Paul Thompson                            | X    | paul.thompson@oregonstate.edu             |
+  | Oregon State - Race                                    | Liz Schroeder                            | X    | liz.schroeder@oregonstate.edu             |
+  | Rutgers                                                | Professor Piehl                          | X    | apiehl@economics.rutgers.edu              |
+  | Stony Brook                                            | Domenica Tafuro (assistant to the chair) | X    | domenica.tafuro@stonybrook.edu            |
+  | UNC Chapel Hill                                        | Erin Pelletier                           | X    | erinpell@email.unc.edu                    |
+  | Mississippi                                            |                                          | X    | econ@olemiss.edu                          |
+  | Nebraska-Lincoln                                       | Professor John Anderson                  | X    | janderson4@unl.edu                        |
+  | Nevada                                                 | see email                                |      |                                           |
+  | Xavier                                                 |                                          | X    | mnavarro@xu.edu.ph                        |
+  | University of Miami                                    |                                          |      |                                           |
+  | Delaware                                               | Professor David Stockman                 | X    | stockman@udel.edu                         |
+  | Loyola Marymount                                       | Professor Zaki Eusufzai                  | X    | Zaki.Eusufzai@lmu.edu                     |
+  | Southern Methodist                                     |                                          | X    | econ@smu.edu                              |
+  | North Florida                                          | Dr Russell Triplett                      | X    | r.triplett@unf.edu                        |
+  | St. Thomas                                             | Dr Monica Hartmann                       | X    | mehartmann@stthomas.edu                   |
+  | Texas El Paso                                          |                                          | X    | coba_advising@utep.edu                    |
+  | Weber state                                            |                                          | X    | alexajones@weber.edu                      |
+  | Texas Rio Grande Valley                                | Professor Maroula Khraiche               | X    | maroula.khraiche@utrgv.edu                |
+  | Southeastern Louisiana                                 | Dr Tara Lopez                            | X    | business@southeastern.edu                 |
+  | West Virginia                                          | Professor Brad Humphreys                 | X    | Brad.Humphreys@mail.wvu.edu               |
+  | CBO                                                    |                                          | X    | careers@cbo.gov                           |
+  | Case Western                                           |                                          | X    | econrecruit@case.edu                      |
+  | Baylor                                                 |                                          |      |                                           |
+  | Baruch College                                         |                                          |      |                                           |
+  | Eastern Michigan                                       |                                          | X    | emu_econ@emich.edu                        |
+  | St Mary's                                              | Dr Abrar Fitwi                           | X    | econsearch@saintmarys.edu                 |
+  | Mount Hoyake                                           |                                          |      |                                           |
+  | Union College                                          |                                          | X    | ecodept@union.edu                         |
+  | Central Washington                                     | Shirley Hood                             | X    | hoods@cwu.edu                             |
+  |--------------------------------------------------------+------------------------------------------+------+-------------------------------------------|
+  | Northern Arizona (Lecturer)                            | Kay Pinto                                | X    | Kay.Pinto@nau.edu                         |
+  | Sacred Heart (Business Analytics)                      | Dr. Khawaja Mamun                        | X    | mamunk@sacredheart.edu                    |
+  | Virginia (AP Public Policy)                            | Marcus Rozier                            | X    | hjv5vm@virginia.edu                       |
+  | University of Houston (Hobby School of Public Affairs) | Dr Pablo M Pinto                         | X    | ppinto@central.uh.edu                     |
+  | Cornerstone (Associate)                                |                                          | X    | associate-recruiting@cornerstone.com      |
+  | Jonhs Hopkins Carrey Business School (Postdoc)         |                                          |      |                                           |
+  | Cal State Sacramento (Public Policy)                   |                                          |      |                                           |
+  | Rochester Postdoc (Wallis)                             | Chrisine Massaro                         | X    | c.massaro@rochester.edu                   |
+  | Rensselaer                                             | can email rui fan                        |      |                                           |
+  | Rand  (Economist)                                      |                                          | X    | econrecruit@rand.org                      |
+  | Dartmouth College (Quantitative Social Science)        |                                          |      | Quantitative.Social.Science@Dartmouth.edu |
+  | Emory University (quantitative)                        |                                          |      | QTM@emory.edu                             |
+  
+  
+  
+   
+  
+
+
+  
+* Expecting
+  
+** INPROGRESS Missouri
+
+** INPROGRESS UNLV
+
+** Stony brook
+   Position in Applied Economics.
+   Professors:
+   - Yiyi Zhou: yiyi.zhou[at]stonybrook.edu
+     Empirical work in industrial organization. Consumer Search and Automobile Dealer Co-location and other work in Search models
+   - Ting Liu: ting.liu@stonybrook.edu
+     uses applied theory and IO
+     
+   My work in both Industrial Organization and Political Economy uses both applied theory and empirical analysis to address applied topics such as switching cost, price matching guarantees, co-location, and targeting of political advertising.
+   
+
+** Auburn
+
+   Assistant Professor (IO, Regulation and Industrial Policy, Microeconomics)
+
+** Baruch College
+
+   Assistant Professor (Microeconomics, IO)
+
+** Bates College
+
+** Baylor
+
+   Assistant Professor (Any Field)
+   
+** Bocconi
+   Assistant Professor (Any field)
+
+** Belmont College
+
+** Beloit College
+
+** Bentley University
+
+** INPROGRESS Binghamton University
+
+** INPROGRESS Bowdoin College (f*** received krasa letter after calls)
+
+** Cal Poly San luis Obispo (I don't like it)
+   
+** California state Frenso (I don't like it)
+
+** INPROGRESS California state Northbridge
+
+** Case Western Reserve University
+   Assistant Professor (Microeconomics)
+
+** Champan University
+
+** INPROGRESS Clemson University
+   Assistant Professor (Any field, IO)
+
+** Cornell University
+
+** Cornerstone Research
+
+** Dartmouth College
+
+** Eastern Michigan University
+
+** Federal Reserve Bank of St Louis
+
+** INPROGRESS Florida State University (Applied Micro)
+   
+** INPROGRESS Florida State University (Micro theory)
+
+** INPROGRESS George Washington University (Economics and International Affairs)
+   
+** George Washington University (Economics)
+   Assitant PRofessor (Microeconmics)
+
+   
+** INPROGRESS Georgia Institute of Technology
+   
+** INPROGRESS Grinnell College
+
+   
+** North Carolina State University
+   Assistant Professor Micreocnomics and IO
+** Northeastern University
+
+** Saint Mary's College Notre Dame
+
+** INPROGRESS Sam Houston State
+
+   Assistant Professor (Any field)
+
+** Ohio State University
+   Assistant Professor (Any Field, IO)
+
+** INPROGRESS Tufts University 
+
+** INPROGRESS University of Georgia (Adv Assistant)
+
+** Tulane university
+   Assitant Porefssor (D7 Analysis of Collective-Making)
+
+** Union College
+
+** INPROGRESS University of Arizona
+
+   
+
+** INPROGRESS UCSB
+   
+** University of Colorado Denver
+  Assistant Professor (Any field)
+
+** INPROGRESS University of Delaware
+
+** University of Houston
+
+** University of Houston - Clear Lake
+   Assistant Professor (Any Field, Macro)
+
+** INPROGRESS University of Illinois Chicago
+
+** INPROGRESS University of Maryland College Park
+
+** University of Miami
+   Tenure/Tenure-Track Faculty Position Department of Economics MHBS
+   (Any field)
+
+** University of Michigan
+
+** University of Mississippi
+
+** University of North Carolina Chapel Hill
+
+** University of Notre Dame
+
+** University of Pittsburgh
+
+** University of Rochester
+
+** University of South Florida
+
+   Public Economics
+
+** University of North Florida
+
+   Assistant Professor (Micro)
+
+** University of Texas Austin
+
+** University of Texas El Paso
+
+** University of Texas Dallas
+
+** University of Texas Arlington
+
+** University of Texas Rio Grande Valley
+
+** INPROGRESS University of Virginia (Public Policy)
+
+** INPROGRESS University of Wisconsin - La Crosse
+
+** INPROGRESS University of Wisconsin - Madison
+
+** INPROGRESS University of Wisconsin - Oskhosh
+
+** University of Wisconsin - Eau Claire
+
+** Wake Forest University
+
+** Weber State University
+
+** Whitman College
+
+** Yale (different)
+   
+** INPROGRESS Swarthmore
+   
+** La Salle University

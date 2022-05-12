@@ -93,7 +93,1182 @@
 #+LATEX_HEADER: \onehalfspacing
 # #+LATEX_HEADER: \doublespacing
 
-* Tells us about your job market paper
+* SPIEL 12/08
+
+** ELEVATOR PITCH/3 MINUTE PITCH (3 MINUTES)
+   
+   # My job market paper asks: How do politicians advertise?
+   
+*** ELEVATOR PITCH (30 SECONDS)
+    
+    Hi first let me say that my research interests are in fields Political Economy and Industrial Organization.
+    
+    In my job market paper, in particular, I examine how do politicians strategically select the content of their ads.
+    First, I present a theory in order to understand the economic forces,
+    and then I use data on US gubernatorial and presidential tv ads from 2008 and 2012 to provide empirical support.
+    
+*** 2 MINUTE SPIEL (200 words)
+    
+    In contrast to previous literature which tries to measure the effect of ads on aggregate turnout.
+    Instead, I drill down on the incentives of candidates to vary the content of their ads based on the expected audience.
+    
+    In particular, I argue that candidates strategically tailor their ads based on the expected ideology of the audience in order to achieve two goals:
+    first, motivate their base to turn out to vote,
+    and second, depress the opposing base to stay home and abstain from voting.
+
+    I theoretically and empirically characterize the optimal targeting of ads to different voters in order achieve these objectives
+    I make three main contributions to the literature:
+    
+    First, I provide a novel mechanism about how different reasons for abstention from voting interact with voter ideology to determine ad targeting.
+
+    Second, I argue that it is important to take into account the content of ads voters are exposed to when measuring the effects of ads on turnout.
+
+    Third, I empirically classify ads into different types such as policy, positive and negative based on their content,
+    and I provide a methodology for classifying ads based on their text.
+    This is an important advancement in itself because I am the first one to classify into these classes based on their texts.
+    The proposed methodology is superior to NLP techniques based on counting words because those techniques ignore issues such as candidates quoting their opponent.
+    # on the ads' text that offers several advantages over possible alternative methods.
+
+    
+    I should note that although I use tv ads, my analysis and results apply to other forms of communication such as social media.
+
+    
+** JMP PITCH (5-6 MINUTES)
+
+   - *WHY ARE ADS IMPORTANT* (1 minute)
+     Nevertheless, Tv ads are the main method of communication between candidates and voters.
+     Over 60% of candidates advertising budgets is spent on TV ads.
+     
+     But, interestingly for my paper, candidates simultaneously use different types of tv ads:
+     some ads highlight policy positions,
+     others emphasize candidates' non-policy traits. 
+     These can be positive about a candidate and emphasize their leadership skills.
+     Or, they can be negative and accuse the opponent of flip-flopping for example.
+     I should note that I call valence any non-policy candidate traits that matter to voters utility.
+     
+     I argue that this is a strategic variation in ad content by candidates in order to achieve the two goals I mentioned earlier:
+     first, motivate their base to turn out to vote, and
+     second, demobilize the opponent's base to stay home.
+     
+   - *THEORY* (1.5 minutes)
+     I consider a static model of political competition with advertising that provides insights about the underlying mechanism.
+     Specifically, voters have different ideologies, and abstain from voting for different reasons.
+     Some are alienated from their preferred candidate, and others are indifferent between the candidates.
+     Therefore, in order to motivate their base and demotivate the opposing one, candidates must tailor their mix of policy, positive and negative ads
+     based on the expected ideology of the viewers, and their margin of abstention.
+
+     My model obtains a dominant strategy equilibrium, which characterizes optimal targeting,
+     and four main results are derived:
+     # how candidates target voters with tailored content.
+     # Specifically, the four main results are:
+     First, policy ads are targeted to the base because policy is contentious, and must narrowly targeted.
+     Second, the fringe base is also targeted with positive ads because they are alienated.
+     Third, moderate voters are targeted with a mix of positive and negative because these voters are indifferent.
+     Four, negative ads are mostly targeted towards the opponent's fringe base in an effort to depress their turnout.
+     
+     So, my model suggests each type of ad is mostly targeted to a specific group of voters, and a given audience is differentially targeted by opposing candidates.
+     # suggests that each type of ad serves a specific purpose and targets specific voter demographics.
+     In other words, opposing candidates target the same type of ads to different audiences, which implies that they are negatively correlated.
+     For example, democrats and republicans target policy ad to different audiences.
+     
+   - *EMPIRICAL RESULTS* (1.5 minute)
+     I then empirically test my model.
+     To do this, I combine viewer demographic data from the MRI with data on US political tv ads from WAP and WMP.
+     These are comprehensive databases that contain detailed information about each ad play in the whole US.
+     I also obtain the texts of the different ads which I use to classify them into policy, positive and negative.
+     I do this I first classify individual statements into different topics, and then classifying those topics into policy and valence.
+     This allows me to find the shares of different types of ads in different shows, which I use to find empirical support for the type of differential targeting of voters suggested by the theory.
+     For example, regression results suggest that as the audience becomes more conservative Democrats decrease their policy and positive ads by 8 percent,
+     and as suggested by theory Republicans increase them by 7 percent.
+     Or more generally I find evidence that opposing candidates target policy and positive ads to different set of voter demographics as suggested by theory.
+     And candidates target negative ads to audiences receptive to the opponent's policy ads.
+
+
+
+     # To perform this analysis, I classify ads into policy and valence.
+     # First, I break each ad text into individual statements, and classify each statement into different subject or topic categories.
+     # Then, and then I classify subjects and topics into policy or valence.
+      
+   - *CONTRIBUTIONS* (2 minute)
+
+     My analysis and results have implications for other forms of political communication.
+     For example, candidates should activate different parts of their base through rallies and micro-targeted ads on social media by talking policy and positive valence.
+     They should target indifferent voters in debates, and public social media posts.
+
+     - OR
+       
+     As I mentioned earlier, I make 3 contributions to the literature:
+     
+     First, I provide a novel mechanism about how different reasons of abstention from voting interact with ideology to determine the targeting of tailored ads.
+     Specifically, candidates strategically tailor ads to target different parts of the viewers' utility
+     based on their expected ideology and margin of abstention in order to maximize their turnout and minimize the opponent's.
+     This mechanism and my results apply to other forms of communication such as social media, rallies and debates.
+     For example, candidates should activate different parts of their base through rallies and micro-targeted ads on social media by talking policy and positive valence.
+     They should target indifferent voters in debates, and be more negative valence orientated on public social media posts as they will be speaking to generic audiences.
+      
+     Second, my results suggest failing to account for the mix of ads voters are exposed to can result to biased estimates of the effect of ads or turnout.
+
+     Third, I provide a methodology for classifying ads into different types based on their text.
+     Three of its attractive features are that:
+     # My method finds the size of different topics within the ad and then classifies the topics into policy and valence in my context.
+     # Two important advantages relative to directly labeling ads into policy and valence are:
+     First, it is transparent about what topics are considered policy and what is valence,
+     Second, it provides  quantitative measure of policy and valence statements within the ad.
+     Three, it takes into account issues ignored by other NLP techinques such as context, quoting opponents and etc.
+     
+     - (IF TIME) An additional reason, it allows for flexible definition of what is policy and what is valence.
+     - *DO NOT SAY MODULAR*. But if you say modular or they ask about the algorithm.
+       - It is more accurate as it goes sentence by sentence finding their subject and size based on number of characters.
+       - Then, classify subjects into policy and valence, and find the total size of policy and valence statements within the ads.
+       - Alternatively, classify ads directly into policy, positive, negative based on the whole text. But prone to errors.
+      
+  \cleapage
+
+** MORE DETAIL 10-15 minutes (~750 words)
+   
+   If there are no questions, I can describe in more detail my theoretical model and empirical analysis, or discuss my other work.
+
+**** If they ask about why vote!
+    There are different theories about why citizens vote.
+    The main ones are:
+    Ethical voting meaning voters want to vote similarly to the group they identify.
+    Outcome based voting where voters care about the outcome of the election.
+    My paper assumes expressive voting. Voters derive utility from the process of voting.
+   
+   
+*** THEORETICAL MODEL (~ NEW 4 MINUTES)
+    
+    - *BASIC SETUP: PLAYERS AND ACTIONS*
+      I consider a static political contest model with two types of players:
+      first the two opposing candidates, and
+      second a continuum of voters.
+
+      The candidates can place ads in the different tv shows watched by the voters.
+      The voters consume these ads and then either vote for their preferred candidate or abstain from voting.
+      
+      Each ad has one of three types:
+      it is either a policy ad, which highlight policy positions,
+      positive valence ads which emphasizes candidate's positive non-policy traits,
+      or a negative valence a which attacks the opponent's non-policy traits.
+
+    - *VOTERS UTILITY*
+      Voters care about policy, which I also call ideology, and the candidate valence, which again are the non-policy traits.
+      Voters disagree on the ideal policy, but they agree that higher valence candidates are preferred.
+
+      I assume that policy ads affect how much policy matters in the voters utilities.
+      Positive ads increase the candidate's valence, and negative ads decrease the opponent's valence.
+
+      In order to motivate abstention from voting, I assume that voting is costly.
+      Alienated voters abstain because their cost of voting exceeds the utility from voting for their preferred candidate.
+      Indifferent voters abstain because find the two candidates very similar and it's not worth incurring the cost of voting. 
+      Thus, alienated voters do not compare candidates whereas indifferent voters do.
+
+    - *CANDIDATES OBJECTIVE & NEED TO TAILOR*
+      Now.
+      Candidates want to use ads in the different tv shows to manipulate these margins of abstention
+      in order to maximize their turnout and minimize the opponents'.
+
+      However, voters have different ideologies and margins of abstention,
+      so candidates must tailor their ads in the different shows based on the expected audience.
+
+      For example, Democrats do not want to talk about abortion on Fox news.
+      
+    - *THEORETICAL RESULTS*
+      I assume that ad effects are additively linear,
+      and I solve for the dominant strategy equilibrium which characterizes how voters are targeted.
+
+      # I also use the finding that fringe voters abstain mostly to alienation, whereas moderate voters abstain mostly due to indifference.
+
+      Four main results are obtained:
+
+      First, policy ads are targeted to shows watched by the base since if the opponent's base sees them, then it will motivate them to turn out.
+
+      Second, the fringe base is targeted with positive ads since they are alienated and must be reminded of how good their candidate is.
+
+      Third, moderate voters, who are prone to indifference, must be reminded that the two candidates differ significantly.
+      As a result, both positive and negative ads are used.
+      Surprisingly policy ads are used only if they can persuade them to switch.
+
+      Fourth, the opponent's fringe base is targeted with negative ads in order to demobilize them by depressing them even more about their candidate.
+
+      Note that these results imply that candidates ads are correlated.
+      For example, opposing candidates target the same type of ad to different audiences.
+      but the correlations arise *only* due to the differential targeting of voters.
+      
+
+    - *EXTRA RESULTS IF TIME ALLOWS*
+      I also find that as the ideological distance between opponents increases, candidates target policy ads even more narrowly.
+      Also, higher valence candidates switch to more positive campaigning, and lower valence candidates to negative.
+
+*** EMPIRICAL ANALYSIS (~ 5-6 minutes)
+    
+    In order to empirically test my theoretical predictions, I combine 3 main databases.
+ 
+***** If you skip theory part
+     For my empirical analysis, I test the theoretical predictions of model.
+     So, to quickly summarize, in my theoretical model has a dominant strategy equilibrium
+     and as result candidates target voter demographics with tailored content.
+     Opposing candidate strategies are correlated but the correlation arises *only*
+     due to the differential targeting of the underlying voter characteristics.
+
+     
+     
+**** DATA SOURCES (~ 1 MINUTE)
+       
+      
+    First, I get the universe of political ads by US gubernatorial and presidential candidates in 2008 and 2012 from WAP and WMP.
+    I also obtained storyboards and videos of each ad, which I use to obtain the texts of the ads.
+      
+    Second, I get viewer demographics from MRI's Survey of the American Consumer.
+    - (if time) Nationwide consumer survey that asks the consumer about their habits including TV viewing ones.
+    - (if time) About 600 tv shows.
+
+    And finally, I web-scrape polling data from Real Clear Politics site.
+    - (if time) However, I should note that polling data is at the state level, whereas political ads data are at the media market level.
+    - (if time) This is important because media markets can cross state lines.
+    - (if time) And, within a media market, the set of Tv stations is the same.
+    - (if time) So a station's coverage might cross to a different state.
+    - (if time) I map state polls by combining Sood's (2016) data on media markets and counties, and Census' county population.
+    - (if time) I can then attribute the percentage of the media market in each state.
+
+**** CLASSIFYING ADS (~ 3 MINUTES)
+       
+     One of the most challenging parts of the empirical analysis is the classification of ads into policy, positive and negative valence based on their content.
+     This is important because I need to identify the share of different type of ads used by the candidates in the different shows.
+     However, it is a hard.
+
+     In the theoretical model, each has one of type.
+       
+     In practice though ads touch on multiple themes; some policy and some valence.
+     So, I need an algorithm that takes the text as input and outputs a class or type for the ad.
+       
+     One possible solution is to directly label ads based on the whole text.
+     But this method is prone to inconsistent classification.
+     It obfuscates what is considered policy and what is valence,
+     and does not provide a quantitative measure of the relative sizes of policy and valence, or positive and negative statements.
+     - Another possible solution is to use external natural language resources.
+       For example, count positive/negative words. But misses specific context such as quoting the opponent.
+       And political ads are a very specific type of speech.
+       Too many a priori rules.
+         
+     Instead, I consider a more modular approach that first classifies individual statements/sentence within the ads.
+     Specifically, each statement/sentence is a assigned a subject and tone category based on its content.
+     - For example, I have statement that says: senator mccain, we are a frightened nation. times are tough, and you have the judgment we can believe in.
+     - Its subject is leadership and it's tone is positive.
+     Then I find the size of each statement based on the number characters, which allows me to find the total size of each subject and tone category within each ad.
+     In the last step, I split the subject categories into policy and valence.
+     By doing this, I can find the relative size of policy and valence statements within each ad, and classify them based on which is larger.
+       
+       
+     This approach offers several advantages:
+     - Transparent about what topics are policy and valence.
+     - Flexible as subject categories can be divided into sub-policy types.
+     - Quantize measure of policy and tone, which can be used for other questions.
+     - Rich training set for future machine learning and deep learning classification.
+
+**** EMPIRICAL APPROACH AND RESULTS (~ 2 MINUTES)
+       
+     # First, I document that politicians simultaneously use policy, positive valence (i.e., emphasize own positive traits), and negative valence ads (i.e., emphasize opponent's negative attributes),
+     # which suggests that each type of ad is important for a campaign.
+     # Then, I present evidence of significant variation in the demographic makeup of viewers of the different tv shows.
+     # Thus, a sorting of viewers into tv shows is present which allows politicians to target demographics and voters with tailored content.
+       
+       
+     Now to test the theoretical model, I rely on its insights that.
+       
+     Candidates target voter demographics with tailored content, AND
+     any correlations between opposing candidates ads derive from their differential targeting of those demographics.
+         
+     Therefore, I focus on how opposing candidates target viewer demographics.
+       
+     First, I document that individual demographics are differentialy targeted  by candidates.
+     For example, minority voters receive more negative ads by Republicans and more policy and positive valence by Democrats.
+     Or as the audience becomes more conservative, Democrats switch away from policy and positive ads to negative ads.
+     Republicans  opposite.
+     Democrats decrease positive and policy ads by 10%, and Republicans increase by 7%.
+
+     Then, I consider how opposing candidates target bundles of voter demographics.
+
+     - Version 1:
+       To achieve this, I predict the shares of the different types of ads based on show and viewer characteristics as suggested by theory.
+       This isolates the targeting of tailored intended for the viewer demographics.
+       Then, I check whether the correlations between the predicted shares of opposing candidates are consistent with the theory.
+       And indeed they do.
+       
+     - Version 2:
+       To achieve this, I instrument their shares of types of ads on show characteristics.
+       I take the predicted shares from the IV estimation, and check if their correlations are consistent with the theory.
+       And indeed they do.
+  
+     For example, I find that opposing candidates target the same voters with different types of ads.
+     The magnitudes of the correlations I significant with coefficient up 0.2.
+     # Specifically, each candidate targets policy ads to different and more polarized audiences.
+     # They use positive valence ads to energize their alienated base.
+     # In contrast, the opponent's base is targeted with attacks against their preferred candidate.
+       
+     Finally, I present evidence that as the ideological difference between opposing candidates widens,
+     candidates increase targeting of policy and positive valence ads to their base.
+     With effects up to X%.
+     Higher valence candidate switch to more positive campaigning and relatively lower valence candidates to more negative campaigning.
+
+     
+** CONCLUSION - CLOSING STATEMENT
+
+   My results have several implications. Two important ones are:
+
+   First, for the empirical literature, it is important to account for type of ads voters are exposed to when measuring stimulation effects of ads.
+     
+   Seconds, It also speaks to other forms of political communication.
+   For example, rallies are a venue to talk about policy whereas debates are a place to talk to moderate voters.
+     
+     
+   If you have questions about my job market paper, I welcome questions.
+   Otherwise, I can discuss my other work.
+
+   \clearpage
+   
+   
+* IMPORTANT OTHER QUESTIONS
+** Tell us about your future research agenda; How do you plan to pursue these themes in the future, transitioning into your other papers or your future research agenda?
+
+*** Short (1-2 minutes)
+    Gladly!
+    
+    The rest of my research agenda is in the fields of political economy, and industrial organization.
+
+    I have two published papers in IO, but I am happy to discuss my future and ongoing research instead.
+
+    In PE, one project I am really excited about
+    uses the fact that US media markets, and station reception, cross multiple electoral districts
+    to examine the extend to which candidates of the same party who compete for different seats,
+    but happen to have ads in the same district, free ride off of each others ads, and
+    whether parties act as agent that internalizes this externality.
+    This project will be a combination of theory and empirical analysis, and will use data from WAP and WMP.
+    I also want to examine how ideological distance between opponents factors in and whether it can lead to strategic
+    complimentarities instead of substitutatibiliy.
+    
+    I will concentrate on US House and Senate races.
+    I will also examine the role of ideological distance between candidates.
+    For example, ideologically similar candidates could instead complement each others ad efforts.
+    Ideologically distant candidates might actually advertise more because they want offset the advertising of their fellow party member.
+    With ideologically similar candidates, who free ride, I expect the party to sponsor more policy ads.
+    In contrast, if the party sponsors ads for ideologically distant candidates, I expect those ads to be more generic in an effort to boost both candidates.
+    The candidate ideological scores will come from Bonica's (2016) Database on Ideology, Money in Politics, and Elections (DIME).
+
+    Another project in PE that I am passionate about is a joint work with George Deltas that again combines theory and empirical analysis.
+    It studies whether certain states facing idiosyncratic preference have a bigger incentive to vote first in the US primaries.
+    Also, we wish to provide conditions such that voting outcomes are independent of voting order. 
+
+    In industrial organization, I have an empirical work in progress, which is a joint work, and which aims to provide a measure of the switching costs that arise from the entry of US airlines into new airports.
+    Specifically, it leverages the fact that for these new routes, the direction from the new airport to the old airport is different than the direction from the old to the new.
+    This because the airline is an incumbent in the old airport but it is a new entrant in the new airport.
+    We use this difference and data from the Origin and Destination survey of US air travel to provide a measure of switching costs based on passenger flows.
+    
+      - Expanded:
+        In IO, I have a work in progress that it is an empirical project that contributes to the debate about market competitiveness and barriers to entry.
+        Barriers to entry in an industry are important because if they are high then the market outcomes can be anti-competitive.
+        However, if they are small then the industry can be contestable, and we can have competitive outcomes even with a small number of sellers.
+        So measuring them have important policy implications.
+        In this paper, my co-author and I aim to provide a measure of switching costs which are a form of barriers to entry.
+        These costs are important because they can prevent consumers from switching to a new seller, when it is otherwise optimal.
+        Normally it is challenging to measure switching costs, because new entry usually means a new differentiated product which complicates the analysis.
+        In this paper, we want to ameliorate such issues by examining airline entry into new airports.
+        By varying the timing of entry and considering these new routes, we create two groups of consumers,
+        consumers at the new airport that face switching costs, and consumers at the already serviced airport do not.
+        and an otherwise identical product.
+        So, we leverage the fact that for these new routes, the direction from the new to the old airport is different than the direction from the old to the new,
+        and we compare the relative flows of passengers between these two direction to provide  a measure of switching costs.
+        To do this, we use the Origin and Destination Survey on US air traffic, and control for airport and airline fixed effects.
+        Source of switching costs: loyalty points/miles.
+        
+    Another work I have in IO, is an applied theory paper that characterizes how a monopolist selling tickets for a service
+    can use name-change fees to allow for ticket scalpers and an active secondary market in order to reduce market uncertainty.
+    Name-change fees are fees you pay to transfer ownership of a ticket.
+    These fees can be used with airlines or ticketmaster for example.
+    
+
+   
+*** Detailed
+    My ongoing research revolves around projects in political economy and industrial organization.
+
+    - /*Candidate Advertising Free Riding and Party Solutions*/,
+      In political economy, I am currently working on project that will combine theory and empirics.
+      I use the fact that US media markets, and station reception, cross multiple electoral districts.
+      And I ask whether neighboring candidates of the same party, who advertise on the same district but for a different office, free ride off of each others ads.
+      And whether their party internalize this externality to resolve such concerns.
+      
+      I define treated candidates using two different definitions:
+      Under the first one, I consider as treated the candidates in media markets which are comprised of counties from more than one state.
+      For the second definition I use a data driven methodology: a candidate is labeled as treated if they advertised in the same station as another candidate of the same party for the same office, but from a different district.
+
+      My data sources are again WAP and WMP, and I will focus on US House and Senate races.
+      In terms of the analysis, I want to examine how sponsorship of ads by parties varies between treated and non-treated candidates.
+      Also, some candidates share airspace in some markets but not others. I want to examine how that affect party sponsorship.
+      Another interesting outcome is whether ads sponsored by parties for treated candidates use a more generic language.
+
+      I also expect that the ideological distance between treated candidates matters a great amount.
+      For example, ideologically similar candidates could instead complement each others ad efforts.
+      Ideologically distant candidates might actually advertise more because they want offset the advertising of their fellow party member.
+
+      With ideologically similar candidates, who free ride, I expect the party to sponsor more policy ads.
+      In contrast, if the party sponsors ads for ideologically distant candidates, I expect those ads to be more generic in an effort to boost both candidates.
+      The candidate ideological scores will come from Bonica's (2016) Database on Ideology, Money in Politics, and Elections (DIME).
+      
+    - /*Endogenous Order with Sequential Elections*/  with George Deltas.
+      I am also working on a joint project that incorporates both theory and empirical analysis to examine the timing of primary elections.
+      This is a project that was divided into two different papers.
+      1) In one project we construct a model of the influence that the voting order has on the final outcomes to explain why the incentives to be a "first mover" may be stronger than for others, and indeed why some states my prefer to vote late.
+      2) In the second project, we consider conditions  such that voting outcomes are independent of voting order.
+      The first project will use data on the US primary elections from 1980 to 2016.
+      Data sources: Ballotpedia and wikipedia, and Dave Leip's atlas of US presidential elections + wayback machine to cover th
+       
+      We consider a framework with aggregate uncertainty about the ideology distribution of voters, and
+      idiosyncratic uncertainty within electoral districts about the ordering of candidates on non-policy dimensions.
+      We consider the effects of idiosyncratic uncertainty on endogenous voting order, and the effect of that order on outcomes.
+      We also characterize conditions such that election outcomes are independent of voting order.
+      We collected data from the US primary elections between 1980-2016, which we will use to test our theory.
+      
+
+    I also have two ongoing works in progress in IO.
+    
+    - In /*Name-Change Fees, Scalpers, and Secondary Markets*/,
+      I theoretically consider a monopolist provider of a service, where consumers enjoy the service only if they have ticket (e.g., concerts, airline flights, and hotel rooms).
+      The monopolist can set a name-change fee to allow holders of tickets to transfer ownership of their tickets to other consumers.
+      I identify the conditions making it optimal to use name-change fees  such that the secondary market is active. I show how this reduces demand uncertainty and alleviates price rigidity.
+
+   
+    - In /*Airline Entry and Switching Costs*/ with George Deltas,
+      we use the Origin and Destination survey (DB1B) to provide a measure of switching costs in US domestic airline markets.
+      We leverage airline entry into new airports that connect them with airports that the airline already has presence.
+      We construct our measure of switching costs by exploiting the relative flow of passengers based on the direction of the route (i.e., new airport as origin vs old airport as origin).
+      Then, we consider a discrete choice model to examine the factors affecting these costs.
+    
+
+** What did you contribute and what did your co-authors contribute?
+
+   So my two publications both use applied theory and have 3 common elements:
+   1) Each considers a spatial competition model with rival stores at each end of a line.
+   2) Both use the concept of shopping price elasticity, which measures how easily consumers switch between locations 0 and 1 in response to a change in prices.
+   3) And both are search models in the sense that consumers see the prices only after they visit a store.
+
+   - The first project is one that Dan and I developed together and it is concerned with automatic price matching guarantees.
+     These guarantee that a store matches a rival's price on a product that the rival sells for a lower price.
+     Standard theory suggests that automatic price matching is anti-competitive and it raises prices to monopoly levels.
+     However, this was not the experience of the UK grocery store industry when they adopted these guarantees as profits and prices were decimated.
+     So, we came up with a theoretical framework that is representative of the UK grocery stores that highlights how price matching guarantees can result to a prisoner's dilemma and decimation of profits.
+     Unlike the literature, we allow for multiple products with branded and generic versions.
+     Different stores carry different generics.
+     So, stores price branded goods differently in order to divert consumers to their own generic alternatives.
+     This implies that price matching lowers prices.
+     However, a price matching guarantee is a dominant strategy when the shopping elasticity is high.
+     The game is prisoner's dilemma because stores are better off coordinating to not adopting pgms.
+     
+     
+   - The second paper deals with co-located stores selling identical products.
+     This was a dormant paper and very incomplete paper of Dan and Mehdi for many years.
+     I come in and revived it in a sense.
+     I finished the analysis that was incomplete.
+     I then extended the analysis and provided the framework for the known types and endogenous entry.
+     In essence, we argue that co-location is a commitment to lower prices and
+     characterize conditions such that stores selling identical products thrive in terms of profit when they co-locate.
+     This is contrasted with the standard theory which asserts that firm selling identical products must maximally separate.
+     Specifically, we have two stores co-located at 0 and a monopolist at location 1.
+     We then show if there are some but not too many consumers who are shoppers, meaning that they check the prices of all stores in a location,
+     and the shopping elasticity is sufficiently high then co-located stores do better than the monopolist.
+     Moreover, if the shopping elasticity is not too high, then we get the set up 2 against 1 with endogenous entry.
+     
+     
+** Teaching Interests. What would you like to teach? One course - structure.
+   
+   Thank you for the question.
+   Let me preface my answer by saying that before starting my studies at UoI, I was teaching fellow at the U of Cyprus where I taught wide range of classes.
+   From microeconomics to statistics and econometrics to math and so.
+   Thus I feel confident in saying that I can teach any course at the undergraduate level, especially cores sequences in Micro, Macro and Econometrics.
+   However, i do bring special knowledge to courses in Microeconomics, IO and PE, and quantatitive/research methods.
+
+   For graduate level courses, I can teach sequences in Microeconomics, IO and PE.
+
+   I can also teach courses on methods, both theoretical and empirical.
+   Teaching students how to understand research and its tools.
+   This would equip students with the skills to understand scientific results.
+
+*** IO
+    - Books: Oz Shy, Church and Ware, Tirole.
+      Industrial Organization: Contemporary theory and applications by Pepall, Richards and Norman.
+    - Syllabus: undergrad- [[http://sites.clas.ufl.edu/economics/files/ECP3403_IndustrialOrg_BET_F18.pdf][UFL]], [[https://ocw.mit.edu/courses/economics/14-271-industrial-organization-i-fall-2005/syllabus/][MIT IO Syllabus]]
+    - Topics
+      - Theory:
+        - Monopoly pricing and durable goods
+        - Price Discrimination
+          - [[https://mansur.host.dartmouth.edu/classes/econ45.pdf][Dartmouth]] Price dispersion, loss leader
+          - Advertising and reputation
+        - Static competition and models of differentiation
+        - Search
+        - Dynamic competition
+        - Entry
+        - Asymmetric Information
+        - Firm conduct, Strategic investment
+        - Auctions,Networks
+        - Bounded Rationality
+      - Empirical:
+        - Measuring market power (Porter)
+        - Demand Estimation (Wolak, Differentiated products - Logit and BLP).
+        - Hedonics (Bayer et al.)
+        - Entry (Breshanan and Reis, Berry, Seim)
+        - Search, Price dispersion (Hong and Shum)
+        - Dynamic models (Rust)
+*** Political Economy
+  - Books: Scott Gehlbach (Formal models of Domestic Politics), Roemer Political Competition
+  - Topics:
+    - Social Choice: Arrow's theorem, Gibbard-Satterwaite Theorem
+    - Direct democracy and median voter theorem (certainty and uncertainty).
+    - Candidate Competition with fixed positions (certainty and uncertainty). Differentiated candidates.
+    - Campaigns and Media.
+    - Special interest politics.
+    - Voter participation and information aggregation.
+    - Party Factions.
+*** Micro
+   
+     
+
+   
+** Who would you like to work with?
+   - Mention that I am willing to work with people from other fields to develop projects that are in the intersection of our fields.
+   - Anna and Felipe
+   - Sound board.
+
+       
+** What led you to apply in our school?
+   - I feel that the group of researchers working on questions that I find interesting.
+   - Great institution.
+   - Small Towns:
+     - I enjoy small towns and I find that it's a great environment for raising my family.
+       Especially now that I have a kid, I really prefer smaller towns.
+       I was also raised in small country, so the environment appeals to me.
+   - Big towns:
+     - I enjoy this size of towns, and I find the variety it offers in terms of culture and activities a great environment for raising my family.
+       Especially now that I have a kid, I want him to experience multi-culture environments.
+       I was also raised in small country, and I studied in smaller towns. I want to live in a different environment now.
+       
+       
+Is the location of our school (rural, regional) a problem?
+My father failed out of McGill in the 1960s because he went to 12 black tie dinners in a single semester. He partied until they kicked him out. He ended up in Edmonton, and is now a successful doctor. I’ve always thought this was a useful lesson. I want to live in a city where I can be productive. In Coventry, I can afford to own a house (a barn, actually) in walking distance from the office. The schools here are rated well by Ofsted, and so I could see having a family here. I have no desire to live in a big city like London, where the housing is unaffordable and there are too many distractions.
+This is generally a question asked of small, rural schools. There’s an explicit discussion of this problem in Middlebury’s “The hiring of an economist”:
+http://sandcat.middlebury.edu/econ/repec/mdl/ancoec/0519.pdf
+There, candidates could signal willingness to live in rural Vermont by talking about their love of winter sports. What I’ve put here about affordability and walkability is likely a good answer in several UK cities. The story about my father is true, but I think it works better to distract the interviewer with humor than it does to really explain why a mid-size city like Coventry is desirable. The “I don’t want to live in London” point is worth signalling: departments hate it when ghosts commute in once a week -- it leads to empty seminars, unsupervised students, and administrative work falling disproportionately on those who live locally. Do some research on the city first.
+In one interview I think I gushed so much about how open and tolerant the city of Eugene Oregon is that my interviewers came away convinced I was gay
+
+** Specific Schools
+*** Providence College
+
+**** Teaching
+    At the undergraduate level I can teach any course, especially the cores sequences in Micro, Macro and Econometrics.
+   
+    I can also teach courses on methods, both theoretical and empirical.
+    Teaching students how to understand research and its tools.
+    This would equip students with the skills to understand scientific results.
+   
+    - No graduate courses!!!
+    - Economics Major
+      - Business Economics Major
+      - Quantitative Economics Major: I can teach most courses here!!!
+      
+**** Who could you work with?
+     - (INTERVIEW) Professor Bailey while we are not in the same field, I feel that we can work on
+       projects on the intersection of our fields. For example, study the political economy of health certifications.
+     - (INTERVIEW) Same with Professor Dasgupta, we can find common research questions relating to intra-couple relationships and voting.
+     - (INTERVIEW) Professor Kahane has interesting research politicization of marks wearing.
+       Also has research on gun laws.
+       And I have a work in progress examining gun shootings and political speech.
+      
+
+    
+**** What led you to apply here?
+    - Great tradition for teaching and creating responsible students.
+    - Selective and it has a great student population.
+    - Town has great lifestyle: food [[https://www.sparefoot.com/moving/moving-to-providence-ri/20-things-you-need-to-know-before-moving-to-providence/][link about providence]]
+    - I enjoy cities of that size and I find that it's a great environment for raising my family.
+      Especially now that I have a kid, I really prefer smaller midsize cities/towns.
+      I was also raised in small country, so the environment appeals to me.
+    - Historic town
+    - College town and multicultural.
+    - I grew up in an island, and it has beaches near by.
+     
+      If there are no graduate students to assist me as RAs.
+      I will try to find grants that support undergraduate research and work with my students.
+      I want to provide them with a vision of academic economics research in case it is a path they want to follow.
+      I received much more 1on1 attention which motivated me to do well and be creative. I always felt like professors were invested in me and encouraged my creativity and growth.
+
+
+
+   
+**** Religious mission statement
+     I grew up in Cyprus attending schools that were guided by the Greek Orthodox Church,
+     into which I was baptized.
+     I was twelve when I began studying economics in my home city of Nicosia, at
+     the GC School of Careers, where we said prayers every morning together
+     before settling down to the rigorous and stimulating academic pursuits of
+     the day. I can attest to the fact that academia and religion together create
+     a fruitful environment that leads to a lifelong passion for learning. As an
+     assistant professor of economics at Providence College, my research and
+     teaching methods will contribute to the proud history of the Dominican order
+     by helping to create a conducive academic environment for my students and
+     colleagues.
+
+     I have taught economics students for many years - after obtaining my Masters
+     from Oxford, and again as a doctoral candidate at the University of Illinois.
+     Guiding students through various economics courses has sharpened my own research
+     abilities and helped me fully appreciate the impact of economics in shaping
+     students’ understanding of the world. I’m committed to sparking the same passion
+     for learning in students that I have, in addition to honing their independent
+     reasoning and analytical skills. As an educator I will continue to help students
+     achieve academic excellence by building inclusive environments based on mutual
+     respect and a belief in the intrinsic dignity of all individuals, no matter
+     their background. As an immigrant, I know firsthand the importance of embracing
+     diverse cultures and traditions that weave the rich fabric of our society.
+
+     My research portfolio and future research goals closely align with Provide
+     College’s commitment to creating curriculum that investigates “key questions
+     of human existence, as it ultimately provides insights into human behavior
+     and methods of communication between different groups. My research
+     contributes to a base of knowledge that confirms the key to our collective
+     progress lies in effective, truth-based dialogue and informed engagement
+     with diverse points of view and experiences. As an assistant professor at
+     Providence College, I will continue to uphold Providence’s commitment to
+     academic excellence and carry out Providence College’s mission of to pursue
+     truth, grow in virtue, and act in service to each other.
+
+
+
+*** Warwick
+
+    Interview with
+    Professors Abhinay Muthoo, Kirill Pogorelskiy, Helios Herrera, Francesco Squintani.
+   
+**** Work with
+    - Francesco Squintani
+    - Helios Herrera
+    - Dan Bernhardt obviously
+    - Mirko Draca
+    - Also interested in the work of Manuel Bagues (Gender and politics)
+
+*** Birmingham
+   
+**** Work with
+     - Professor Siddhartha Bandyopadhyay
+     - Professor Franscesco Esposito
+     - Professor Livia Menezes (crime)
+     - Professor James Rockey
+     - Professor Sasha Talavera (for more IO)
+       - Conference presentations and academic publishing.
+       - Herding behavior in P2P lending markets.
+       - Social media, sentiment and public opinions: evidence from brexit and us election.
+    
+*** Trinity College Dublin
+   
+**** Work with
+     - Andrea Guariso (development and political economics)
+     - Nicola Fontana (political economy - empirical)
+     - Nicola Mastrorocco (political economy + crime)
+     - Gaia Narciso (her work on crime)
+     - Alejandra Ramos (her work on intra-household violence)
+      
+
+
+    
+**** Why apply here?
+     I mean TCD is the premier institution in Ireland. World-class academic research, and the elite of Irish students.
+
+     Dublin is a great place to raise my 1 year old son.
+
+     Also, I feel that Cypriots and irish have similar cultural sensitivities.
+    
+*** York
+**** Work with
+     - Professor Kin Chung Lo heavy micro theory (decision theory and game theory)
+     - Professor Selcuk Ozyurt works in IO, conflict resolution.
+       - reputation, bargaining, unconditional grants to private schools
+       - audience costs and reputation in crises barganing
+     - Professor Ying Kong IO and PE
+     - Professor Neil J Buckley works on related projects such as tax rate and median voter.
+     - Professor Andrey Stoyanov international political economy and trade
+     - Work with Professor Matias Cortes who examines worker mobility.
+     - Professoer Berta Esteve-Volart works on gender and voting. also theoretical work on multidimensional policy space and
+     - Professor Ferrara (applied empirical) policy questions and environment
+     - Professor Alena Kimakova political economy and financial markets.
+     - Professor Nils-Petter Lagerlof demography + PE
+     - Professor Bernard Lebrun heavy Auction theory
+     - Professor Alla Lileeva international trade: effects of trade on canadian company performance but can consider politics.
+     - Professor Laura Salisbury marriage markets, income mobility
+     - Professor Wilczynski IO and financial economics (Might be inactive)
+     - Henry Tam IO and FE but no info
+      
+*** Skidmore
+    Interview with Professor Peter von Allmen and Smriti Tiwwari.
+
+    No Graduate courses.
+    Only economics major and minor.
+
+    Elective courses - wide range.
+   
+   
+**** Teaching in a liberal arts college.
+     As a teacher I will facilitate and help develop the students' critical thinking and problem solving skills.
+     In particular, I want to help them truly understand the different economic models and research meaning understanding their applicability, explanatory power and weaknesses .
+     Also I appreciate that the liberal arts environment, and skidmore especially, will provide me with the opportunity to closely mentor and guide the future leaders in the profession and society in general.
+
+     I would like to institute tutoring hours, which will be separate from the ones related to my course, where any student can come and discuss economic events and research.
+     The senior seminar series is a great opportunity to interact with students in this capacity.
+    
+    
+
+**** Why skidmore?
+     Skidmore College, and the economics department in particular, is a world class institution which will give me the opportunity to interact with great colleagues and exceptional student population.
+     It would allow me to focus on both teaching and research since both are important.
+
+     I also know through Rodrigo that the working environmental is supreme, and I love working with colleagues on teaching and research.
+
+     Finally, I now have a family, and living in a family friendly community like Saratoga Springs is exactly what I am looking for.
+    
+    
+
+    
+**** Introduction
+     "In keeping with the liberal arts tradition and goals of Skidmore College,
+     the economics department aims to support students' critical thinking,
+     problem solving, global understanding and appreciation,
+     and communication skills in the context of addressing questions.
+     Courses stress the application of the scientific process to economic phenomena and
+     analyze the ways in which economic forces affect national and international policies and issues."
+
+***** Goals for student learning [[https://www.skidmore.edu/economics/student-learning-goals.php][site]]
+      Below are the departmental learning goals mapped to [[https://www.skidmore.edu/assessment/goals-for-student-learning.php][College-wide goals for student learning]].
+     - Goals for the economics major:
+       - Understand how economic theories and models are formulated and appreciate their explanatory power (Ia, IIb).
+       - Be able to use economic models to evaluate current economic issues and public policy (IIa, IIb, IIId).
+       - Understand the role of historical and institutional context as conditioning policy-making (Ia, IIa, IIIb, IIId).
+       - Support students' growth in critical thinking and problem solving including choosing appropriate models and understanding their limitations (Ia, IIa, IIb).
+         Understand the differing perspectives of economics and other social science fields (Ic, IVa).
+       - Analyze economic systems in a cultural, global, and/or social justice context (Ib, Ic, IId).
+       - Appreciate the impact of economic activity on environmental and ecological systems (Ia, IIb, IIId).
+       - Appreciate the impact of economic activity on human well-being and welfare (IIb, IId, IVb).
+       - Learn how economists use quantitative approaches to measure economic outcomes and test competing theories (Ia, Ic, IIIc).
+     - Information literacy.
+       - Use appropriate search methods to find existing economic literature; find and access current and historical economic data (Ia, IIb, IIIc).
+     - Visual literacy.
+       - Use a variety of visual modes to display and communicate information about economic phenomena and relationships, including charts and graphs.
+         Create presentations that effectively summarize research (IIb, IIIc).
+     - Technological literacy.
+       - Be proficient in the use STATA (or R) econometric software to describe and summarize data and to investigate hypotheses using a variety of methods (Ia, Ic, IIb, IIc).
+       - Use appropriate data and empirical methods to evaluate economic research (Ia, Ic, IIb).
+     - Effective oral communication.
+       - Explain, debate and/or discuss models and economic phenomena (IIa, IIc, IIIc).
+       - Work in groups (IId).
+     - Effective written communication.
+       - Both descriptive and persuasive writing regarding economic phenomena, conditions and policies (Ic, IIe).
+       - Create new knowledge by identifying and formulating a question or series of questions about some economic issue that will facilitate its investigations (IIa, Ic, IIId).
+        
+
+
+
+**** Student research
+     Our students have multiple opportunities to engage in economic research,
+     from class projects to collaboration with professors to the culminating experience for economics majors,
+     the Senior Thesis. 
+    
+***** Senior Seminar
+      The culminating experience in the economics major is the Senior Seminar,
+      taken in the spring semester of a student's final semester at Skidmore.
+      The Senior Seminar provides students with the opportunity to engage deeply
+      with a topic of their choosing. Students write a thesis and a selection of
+      these papers are chosen for presentation at the College's Academic Festival. 
+   
+    
+***** Faculty student summer research
+      The Faculty Student Summer Research program provides funding for students and faculty to work together for a
+      5- or 10-week period during the summer break on a project of their design.
+      This is a competitive grant program that offers a stipend, room, and board for students.
+      The Economics Department has participated in this program in the past and
+      we look forward to continuing to provide these experiences for our economics majors. 
+
+      [[https://www.skidmore.edu/fdc/faculty_student_summer_research/index.php][other info]]
+
+**** Work with
+     - Rodrigo Scheneider
+*** East Anglia
+
+    Dr Arnold Polanski and Dr Anders Poulsen
+
+**** Work with?
+     - Bokhari (IO)
+     - Polanski (THeory and some metrics)
+     - Kuhn (IO)
+     - Kummer
+     - Mariuzzo
+     - Poulsen (bargaining)
+     - Stepen Davies (IO)
+       
+     
+*** Tennessee Knoxville
+    - Padilla-Romo (Crime)
+    - I saw professor Van Essen has some theoretical work examining business cycle in a bipartisan voting model
+    - Need to find more people
+    - A bunch of people working on environmental economics
+      - ask questions following political speech and environmental issues such as disasters, or discovery of resources.
+
+
+   Interviewers:
+   - Georg Schaur (International Trade, Applied Econometrics, Education)
+   - Celeste Carruthers (Education, public finance, labor)
+   - Christian Vossler (Environmental)
+   - James (Scott) Holladay (Environmental)
+   - Matthew Van Essen (some theoretical work examining business cycle in a bipartisan voting model)
+*** Essent Guaranty
+    Private mortgage insurance (PMI): required if house down payment is less than 20%.
+    Insurance for lenders
+    
+    - Pros for buyers: earn home equity (home appreciation). PMI is tax deductible.
+    - Cons  for buyers: extra cost (upfront or monthly).
+
+      It is assumed that if a borrower defaults, the lender will lose 20% of the home's sales price.
+      If the borrower puts down 20% of the loan's value that makes up for the lender's expected loss.
+      If the borrower puts less then the lender is likely to lose money in the event of foreclosure.
+      That's why mortgage lenders charge insurance on loans with less than 20% down.
+
+      Conventional PMI mortgage insurance is calculated based on your down payment amount and credit score.
+
+      PMI cancellation happens automatically  when your loan balance falls to 78% of the home's original purchase price.
+      Also, once your loan to value (LTV) is below 80%, you can request stop paying PMI.
+
+      - PMI not only offers borrowers lower down payments, it also offers them:
+        - Flexible payment options.
+        - Cancellability: Borrower-paid PMI can be canceled when borrowers reach 20% equity (80% LTV) in their homes:
+          - by paying down the mortgage principal,
+          - as a result of rising home values due to favorable market conditions, or
+          - by making certain home improvements.
+        PMI cancels automatically when borrowers reach 22% equity (78% LTV) through normal amortization or when the halfway point of their loan term is reached.
+        Takes roughly 11 years.
+        Since it is LTV, a home appreciation might allow cancellation of PMI.
+        Or refinance.
+        
+      - Alternatives:
+        - Pay 20% down.
+        - Pay down your current mortgage balance. If you're planning to refinance your home but the current LTV is over 80%, consider paying off more of your mortgage balance first. If your mortgage servicer doesn't penalize you for prepayments, you can consider paying off more of your mortgage right away. Otherwise, you may have to wait until you've made a few more monthly payments.
+        - A higher-interest loan.
+
+    - What does PMI cost?
+      On average, PMI costs range between 0.22% to 2.25% of your mortgage.
+      How much you pay depends on two main factors:
+      1. Your total loan amount.
+      2. Your credit score.
+      3. Loan term.
+      4. Down payment or Loan to value (LTV) ration.
+      5. Additional risk factors (e.g., jumbo mortgage, investment property, second home, cash-out refinance).
+
+    - Is PMI for me?
+      PMI can help you qualify for a loan that you otherwise might not be eligible for.
+      But it may increase the cost of your loan, and it only protects the lender.
+      Can opt for higher interest loan instead one with PMI. This might be cheaper or more expensive.
+      It depends on factors such as length of loan.
+      Might want to consider other types of loans such as FHA.
+
+    - Types of PMI
+      1. Borrower-paid mortgage insurance (monthly).
+
+      2. Single-premium mortgage insurance (lump sum upfront payment).
+         Pro: lower monthly payment.
+         Con: if refinance or sell within a few years, no portion of the single premium is refundable.
+
+      3. Lender-paid mortgage insurance (baked in the interest rate).
+         Think of tax incidence.
+         Unlike borrower-paid mortgage insurance, the lender-paid mortgage insurance cannot be canceled.
+         However, the rates can still be lower than with the borrower-paid one.
+
+      4. Split-premium mortgage insurance (hybrid of BPMI and SPMI).
+         You pay part of the mortgage insurance as a lump sum at closing and part monthly.
+         Pay less up front as SPMI and less monthly as BPMI.
+         One reason to select this option: if you have high debt-to-income ratio.
+
+      5. Federal home loan mortgage protection (MIP.
+         Only used with loans underwritten by the Federal Housing Administration (FHA).
+         Known as FHA loans or FHA mortgages.
+         Cannot be removed with refinancing.
+         MIP requires an upfront payment and monthly premiums.
+
+    [[https://themortgagereports.com/24154/private-mortgage-insurance-pmi-cost-low-downpayment-return-on-investment#][Mortgage reports]], [[https://www.chase.com/personal/mortgage/education/financing-a-home/what-is-pmi-calculated][Chase]], [[https://www.essent.us/tools-resources/benefits-mortgage-insurance][Essent]], [[https://www.consumerfinance.gov/ask-cfpb/what-is-private-mortgage-insurance-en-122/][Consumer Financial Protection Bureau]],
+    [[https://www.investopedia.com/mortgage/insurance/][Investopedia]]
+    
+*** ISO New England
+    - Economists responsible for ISO's 10billion suite of action-based electricity markets.
+    - Work collaboratively to identify and propose market design innovations and solutions to improve efficiency.
+    - Oversee quantitative assessments of the markets' performance
+    - Plan new market design improvements
+    - write technical reports and papers to explain market outcomes and market recommendations
+    - Key Component: help market participants understand how and why specific economics proposals would improve auction designs and market performance.
+    - INTERESTED IN JOINING A TEAM that conducts a timely economic analysis with significant real-world impact.
+    - Unique opportunity to have a direct, significant, and lasting impact on real-world outcomes
+      while working in a rapidly-evolving industry that is at the forefront of public and
+      environmental policy discussions.
+
+      Economists at ISO-NE develop, substantiate, and articulate recommendations to improve the economic performance of the ISO’s markets.
+      Given the diversity of markets and products transacted, and the rapid rate of technological innovation presently,
+      there is no shortage of interesting and challenging market design questions.
+      Drawing from a wide range of micro-economic fields, our economists use both theory and data, work in a positive, collaborative team environment,
+      and are focused on advancing implementable ideas that have real-world impact.
+      There is a lot going on at our organization to make the energy grid and its markets operate efficiently,
+      to develop innovative market designs, and to bring a clean energy future to reality.
+
+      
+ISO New England is a non-profit organization that is responsible for the operation of the power grid and the design and
+administration of the wholesale electricity markets in the six New England states.
+To achieve these goals, we employ a diverse workforce with expertise in engineering, economics, public policy, computer science, and regulatory law.
+ISO economists play a key role in the organization’s mission, as they are responsible for the design of the ISO’s $10 billion suite of auction-based electricity markets.
+In these markets, participants buy and sell a variety of products and services including – for example – very short-run (every five-minute) transactions for energy delivery,
+and multi-year forward contracts that facilitate the entry and exit of new technologies and generation facilities.
+The ISO’s team of economists work collaboratively to identify and propose market design innovations and solutions that improve the efficiency of these markets and
+enable them to work harmoniously with regulatory, environmental, and public policy goals.
+ISO’s team of PhD-trained economists use tools that draw from a range of micro-economic fields such as
+industrial organization, auction theory, mechanism design, environmental economics, and finance.
+In this role, the ISO’s economists oversee quantitative assessments of the markets’ performance;
+plan new market design improvements;
+write technical reports and papers to explain market outcomes and recommendations to improve market efficiency;
+and present findings to internal and external audiences.
+A key component of this role involves helping market participants and regulators understand how and
+why specific economic proposals would improve auction designs and market performance.
+To facilitate their work, the economist team at the ISO has access to an exceptional level of computational resources and support.
+This includes a team of market/research analysts able to support research on market design ideas;
+and an array of professional programmers, data analysts, engineers, and optimization experts that provide programming support, conduct data work,
+and help with technical implementation of market design recommendations.
+We seek candidates with a strong background in empirical, applied, or theoretical microeconomics
+who are interested in joining a team that conducts timely economic analysis with significant real-world impact.
+New economists are not expected to have a background in energy economics or deep familiarity with how competitive electricity markets work,
+as we expect this expertise to be developed while working at the ISO.
+
+How you will make an impact:
+The economist position at the ISO offers a unique opportunity to have a direct, significant, and lasting impact on real-world outcomes
+while working in a rapidly-evolving industry that is at the forefront of public and environmental policy discussions.
+In this role, you would work closely with the other ISO economists
+and with multi-disciplinary teams to develop recommendations to improve the economic performance of the ISO’s electricity markets.
+This involves economic modeling, writing, and presenting clear explanations of economic ideas.
+Our Analysis And Recommendations Draw From a Wide Range Of Micro-economic Fields, And Often Contemplate Novel Economic Questions Relating To The Following Topics
+
+Given the diversity of markets and products, and the rapid rate of technological innovation presently,
+there is no shortage of interesting and challenging market design questions for the economist team to assess.
+Designing auctions for lumpy and complementary goods;
+Structuring contracts and products to incent efficient behavior;
+Developing markets that balance competing public policy objectives;
+Susceptibility of market designs and structures to the exercise of market power by buyers and sellers;
+How to efficiently allocate risk among market participants;
+The role of information in achieving more efficient market outcomes.
+What We Are Looking For
+A Ph.D. in Economics (or closely related discipline), with a background in a micro-economic field such as industrial organization, micro-economic theory, mechanism design, environmental economics, auction theory, finance, regulatory economics, and/or information economics.
+An interest in conducting research that will inform public policy and have significant real-world impacts on the electricity sector.
+Ability to formulate and explain economic models and use them to develop sound, practical solutions to market design challenges.
+Excellent written and oral communication skills, including ability to work collaboratively and present to a diverse set of audiences.
+Some programming skills/knowledge of optimization (e.g. Matlab, GAMS) or statistical software (e.g. SAS, R) is desirable, but not required.
+Candidates are not required to have knowledge of how competitive electricity markets work or to have previously conducted research in energy economics – though any such background is a plus.
+ISO New England oversees the 24/7 operation of the power grid that covers the six-states of New England and administers the region’s $10+ billion “stock exchange” for the buying and selling of wholesale electricity. The power system is constantly evolving as new technologies emerge and energy policies evolve. There is a lot going on at our organization behind the scenes to make sure the grid continuously yields reliable electricity at competitive prices while addressing the unique challenges that come along with our industry.
+
+ISO New England has a mandatory COVID-19 vaccination policy.
+
+**** Why Iso?
+    I would say the 4 main reasons excite me about this position at ISO-NE:
+    
+    1. The prospect of using my economic theory and empirical analysis engage with such an important real-world problem such as the efficient allocation of electricity is stimulating.
+       And also tackle with challenges as the market evolves.
+       For example, Reading the Regional Electricity Outlook report, I took away that there exist a lot of challenges for future market design.
+       1. Incentives to de-carbonize equally all resources.
+       2. But maintain price-competitiveness.
+       So, at ISO I can engage using theory and data with such problems that have a long lasting real-world impact.
+       
+    2. Discussing with the economics team, I understood that
+       - there are always interesting and practical market design problems to solve, and
+       - ISO fosters a very collaborative environment, which is ideal for me since I excel in a team a environment.
+
+    3. Market design is fascinating, it provides framework for obtaining efficient outcomes for the betterment of the local communities.
+
+    4. And, I would be honored to be part of an organization like ISO which actively uses economics to bring clean energy to the present.
+   
+   
+   Detailed:
+   For example, reading the Regional Electricity Outlook report, I gleaned that some of the current challenges with respect to market design are:
+   1. Not explicitly pricing the primary environmental goal in the region (rapidly reduce carbon emissions).
+      Need to provide incentives to de-carbonize equally to all resources.
+      Current incentives by policymakers do not seem sufficient.
+   2. Federal and state energy (and environmental) objectives are not aligned.
+      Need to navigate the integration of clean resources in a way that maintains price competitiveness.
+      Try to harmonize state and federal policies.
+      ISO NE does not choose which resources participate in the markets.
+      The mix of resources is a function of which ones price competitive.
+      Need a design that also accelerates the clean energy transition.
+   3. Some renewable energy providers are state-sponsored (such as wind energy).
+      To align wholesale (competitive) pricing with state-sponsored contracts, require Minimum Offer Price Rule (MOPR).
+      This avoids price supression. But need to keep in mind the long-term efficiency and the goal of move towards clean energy.
+
+   Studies the market design team currently works on with NEPOOL:
+   - Design concept called the Forward Clean Energy Market (FCEM) and a variation called the Integrated Clean Capacity Market (ICCM).
+     Both seek to drive investment in clean energy in tandem with the existing wholesale markets.
+     Evaluate net-carbon pricing: efficient mechanism for removing MOPR since it incentivizes carbon reduction to all resources.
+     It would rebate a substantial portion of the cost of carbon pricing to wholesale buyers, which addresses concerns about price impacts.
+     Also possibly eliminate need for state contracts with clean resources.
+**** About us [[https://www.iso-ne.com/about][Link]]
+     
+***** Three critical Roles
+
+****** Grid Operation
+       Overseeing the day-to-day operation of New England’s power grid is one of three critical roles ISO New England performs in the region.
+******* Balancing electricity supply and demand every minute of the day
+        Across the six states of New England --- Maine, Vermont, New Hampshire, Massachusetts, Connecticut, and Rhode Island.
+******* Forecast New England's Electricity Use
+        - Hourly demand for electricity
+        - Availability of power resources
+        - Possibility of any failures of power system components.
+******* Dispatching the Power System
+        - The ISO dispatches the power plants that are scheduled through the markets, starting with the plant that submitted the lowest supply offer.
+        - Minor corrections to make sure sufficient power flows instantaneously.
+        - As consumption grows throughout the day, the ISO dispatches the next least cost-plant to serve elasticity demand.
+******* Maintaining Operating Reserve --- the Grid's "Insurance Policy"
+       Two categories of reserves: resources that can provide energy within 10 minutes and resources that can provide  within 30 minutes.
+******* Coordinating Transmission and Generation Outages
+        - Coordinate the schedule for thousands of transmission-line and power-plant repair or maintenance outages to ensure these outages do not compromise power system reliability.
+        - Gauge economic effects of these outages and disseminate information on planned outages to market participants.
+****** Market Administration
+       Designing, administering, and overseeing the region's competitive wholesale electricity markets is one of three critical roles ISO New England performs in the region.
+******* Pricing electricity competitively and promoting investment in the power system
+
+        In New England wholesale electricity is bought and sold in two ways:
+        1. Through contracts between individual buyers and sellers.
+        2. In markets managed by the ISO that establish prices for wholesale electricity products and services through competitive bids.
+
+        Products traded in New England's wholesale electricity market:
+        1. Energy markets: buying and selling day-to-day wholesale electric power.
+        2. Capacity market: ensuring long-term system reliability.
+        3. Ancillary services: ensuring short-term system reliability.
+
+
+******* The Energy Markets
+        The core product bought and sold in the energy markets is electric energy.
+        Power plants generate and sell the energy.
+        Electric utilities or suppliers buy it wholesale in the market and sell it to retail consumers.
+        New England has two electric energy markets:
+        - Day-Ahead Energy Market.
+        - Real-Time Energy Market.
+        Market participants can choose to partake in one or both, along with individual contracts (called bilateral trading).
+
+******* The Capacity Market
+        The Forward Capacity Market, the region's long-term capacity market, ensures the system has sufficient resources to meet the future demand by paying resources to be available to meet the projected demand for electricity three years out.
+
+        
+******* Ancillary Services
+        - Regulation Market
+        - Forward Reserve Market
+        - Real-time reserve pricing
+        - Voltage support
+        - Blackstart capability
+******* Market Goals, Accomplishments, and Refinements
+      Two goals:
+      1. provide electricity and reliability services at competitive prices.
+      2. guide investment in new resources to ensure the electricity system across the region is continuously reliable.
+******* Other Market-Related ISO responsibilities
+        - Administration and billing
+        - Analysis and monitoring
+        - Tech support.
+
+******* Power System Planning
+        We do the studies, analyses, and planning to make sure New England's electricity needs will be met over the next 10 years.
+
+****** Power System Planning
+
+***** In depth [[https://www.iso-ne.com/about/what-we-do/in-depth][link]]
+      
+****** Working toward a smarter, greener grid
+       
+******* Integration of Demand Response, Renewable Resources and Other New Technologies
+      
+******** Forecasting and Dispatch
+********* Machine learning to improve solar forecasting.
+********* Wind power forecast --- integrate into scheduling and dispatch.
+
+********* Energy-efficiency measures and solar photovoltaic capacity.
+          
+******** Market participation
+         
+********* Encourage alternative technologies in wholesale electricity market.
+          Provide regulation framework for advanced storage technologies.
+********* Price-Responsive Demand framework
+          Incorporate demand response resources directly into the energy dispatch and reserved designation process.
+          Adds the long-standing ability of demand resources to participate in the capacity market.
+          On June 1st, 2018, a new price-responsive demand (PRD) structure went into effect in ISO New England's marketplace.
+          It includes the following types of demand response:
+          - Active demand capacity resources (ADCR) can participate in the Forward Capacity Market (FCM).
+            ADCRs will replace the resource type known as real-time-demand-response resources.
+          - Demand-response resources (DRRs) can participate in the energy and reserve markets.
+          - Demand-response assets (DRAs) are the physical entities delivering megawatts.
+            They cannot directly participate in the marketplace.
+********* Market-based framework for coordinating the entry of new publically financed clean-energy resources
+          With the approval of Competitive Auctions with Sponsored Policy Resources (CASPR), ISO implemented a market-based framework for coordinating the entry of new publically financed clean-energy resources with the retirement of existing conventional (typically fossil-fuel-fired) generators. 
+******** Interconnection and Other Standards
+******* Smart Grid Development
+******* Operational Efficiencies
+****** Power Plant Retirements
+       Why New England is losing large amounts of coal- and oil-fired and nuclear generating capacity, and how this affects operation of the power system
+       Transitioning from traditional generators (nuclear, oil or coal --- large on-site fuels) to limited energy inventories (natural gas, wind, solar, battery storage).
+******* The Economics of Retirement
+        Several factors are challenging coal-fired, oil-fired and nuclear power generators' ability to recover the cost of capital investments to maintain their old plants.
+        - Fuel and environmental-mitigation costs make them too expensive to compete.
+        - Older oil and coal plants require 24 hours to reach full power production, so ISO operators cannot rely on them when market conditions are tight.
+        - Oil-fired power plants keep limited supplies on site.
+        - Low wholesale prices reduced revenues for these plants.
+        For many, the only option is to retire.
+******* Retirement of Resources with On-Site Fuel that can Sustain Operation During Cold Weather
+       Without these resources, it becomes even more critical for the ISO to be able to effectively preserve energy supplies for forecasted cold weather conditions.
+****** Forecasting Demand
+******* One factor rises above the rest when accurately predicting future energy use: The weather
+******* As ovens heat up on Thanksgiving Day, so does electricity demand
+******* Super bowl Sunday and its effect on power grid
+******* Beating the heat: How the ISO prepares for Summer peak demand.
+****** Administering Wholesale Electricity Markets
+******* Wholesale vs Retail Electricity Costs
+        Electricity is first produced and sold on the wholesale market, and then it is sold and distributed to consumers on the retail level.
+        In New England, wholesale electricity is bought and sold two ways: (1) contracts, and (2) markets.
+        1. Contracts are between individuals and sellers.
+        2. Markets establish prices for electricity products and services through competitive bids.
+        The prices established for the following wholesale market products and services together make up the overall market-based cast of wholesale electricity.
+******** Energy costs
+         Power plants produce electricity and they sell it to the energy market.
+         Load servers/suppliers buy the electricity wholesale in the marketplace and supply it to the retail consumers.
+         This is the electricity one buys from their local utility supplier.
+
+         The energy market produces a price for wholesale electricity every hour of every day during the year at defined locations.
+         The price for wholesale electricity fluctuates throughout the hours of the day/seasons and at the different locations in New England due to many factors.
+         Factors:
+         - Fluctuations in the price of fuels that power plants.
+         - Consumer demand.
+         - Transmission constraints.
+         - Line losses.
+         The wholesale electricity price in any hour reflects the cost of generating electricity and delivering it over the high-voltage transmission system, and fluctuates depending on the system conditions. The largest portion of the wholesale cost is the energy price.
+******** Reliability Services Costs
+         Other wholesale electricity products are transacted through wholesale markets that ensure everything works.
+         - Capacity.
+         - Ancillary services.
+******** Market Administration Costs
+        As the administrator of these markets, ISO New England is responsible for the settlement process, which includes billing and collecting payments from wholesale electricity buyers and forwarding the payments to sellers.
+        The ISO is a not-for-profit organization. To fund its operation, it charges a small fee to buyers and sellers in the wholesale markets for each transaction that the ISO handles on their behalf. This fee is determined by a federally-regulated tariff.
+******** Relationship between Wholesale Costs and Retail Bill 
+        Wholesale electricity costs are paid for by market participants that purchase electricity from the wholesale market for either their own use, or because they are a supplier to retail consumers.
+        In turn, suppliers and utilities provide electricity to retail consumers based on the retail market structures and requirements of the six New England states.
+        Utilities charge retail consumers for power supply through their monthly bills; these rates are approved by the state through their public utility commissions.
+        
+        The relationship between wholesale market costs and retail rates varies according to state retail procurement policies.
+        In particular, prices from the short-term wholesale markets are very different from the fixed prices of the supplier services that are provided to residential consumers, which tend to be fixed over a longer period.
+        Retail markets have several different customer classes, such as industrial and commercial, and market pricing for these consumers may be very different from residential customer pricing.
+
+
+
+******* How Resources Are Selected and Prices Are Set in the Wholesale Energy Market
+        
+        
+* OLD SPIEL Tells us about your job market paper
   
      [[https://trends.e-strategyblog.com/2016/06/09/us-political-ad-spending-by-format/27038/][Breakdown of ad spending by format]]
      
@@ -420,506 +1595,31 @@
 
    \clearpage
    
-**** Mau's notes
-     - valence. A more intuitive definition.
-     - Opening: Imagine being a political candidate.
-     - mention IV a bit a earlier.
-     - Second classifier too abstract. Provide an example a statement.
-       - One line example.
-     
-    \clearpage
-
     
-* SPIEL 12/08
-
-** ELEVATOR PITCH/3 MINUTE PITCH (3 MINUTES)
-   
-   # My job market paper asks: How do politicians advertise?
-   
-*** ELEVATOR PITCH (30 SECONDS)
-    
-    In my job market paper, I examine how do politicians strategically select the content of their ads.
-    First, I present a theory in order to understand the economic forces,
-    and then I use data on US gubernatorial and presidential tv ads from 2008 and 2012 to provide empirical support.
-    
-*** 2 MINUTE SPIEL (200 words)
-    
-    Previous literature, which tries to measures the effect of ads on aggregate turnout.
-    Instead, I drill down on the incentives of candidates to vary the content of their ads based on the expected audience.
-
-    Specifically, I argue that candidates strategically vary the content of their ads in order to achieve two goals:
-    first, motivate their base to turn out to vote,
-    and second, depress the opposing base to stay home.
-
-    I theoretically and empirically show how they target different types of ads to different voters, and
-    I make three main contributions to the literature:
-    
-    First, I provide a novel mechanism about how abstention from voting interacts with voter ideology to determine ad targeting.
-
-    Second, I argue that it is important to take into account the content of ads voters are exposed to when measuring the effects of ads on turnout.
-
-    Third, I classify ads into different types such as policy, positive and negative based on their content,
-    and I provide a procedure for achieving such classifications based on ads' text that offers several advantages over possible alternative methods.
-
-    
-    I should note that although I use tv ads, my analysis and results apply to other forms of communication such as social media.
-
-    
-** JMP PITCH (5 MINUTES)
-
-   - *WHY ARE ADS IMPORTANT* (1 minute)
-     Regardless, Tv ads are the main method of communication between candidates and voters.
-     Over 60% of candidates advertising budgets is spent on TV ads.
-     
-     And, interestingly, candidates simultaneously use different types of tv ads:
-     some ads highlight policy positions,
-     others emphasize candidates' non-policy traits. 
-     These can be positive about a candidate and emphasize their leadership skills.
-     Or, they can be negative and accuse the opponent of flip-flopping for example.
-     I should note that I call valence any non-policy candidate traits that matter to voters utility.
-     
-     I argue that this is a strategic variation by candidates in order to achieve the two goals I mentioned earlier:
-     first, motivate their base to turn out to vote, and
-     second, demobilize the opponent's base to stay home.
-     
-   - *THEORY* (1 minutes)
-     I consider a static model that provides insights about the underlying mechanism.
-     Specifically, voters have different ideologies, and abstain from voting for different reasons.
-     Some are alienated from their preferred candidate, and others are indifferent between the candidates.
-     Therefore, to achieve their goals, candidates must tailor ads based on the expected ideology of the viewers, and their margin of abstention.
-
-     I obtain four main results from the model:
-     First, policy ads are targeted to the base because policy is contentious, and must narrowly targeted.
-     Second, the fringe base is also targeted with positive ads because they are alienated.
-     Third, moderate voters are targeted with a mix of positive and negative because these voters are indifferent.
-     Third, negative ads are mostly targeted towards the opponent's base in an effort to depress their turnout.
-     
-     Thus, each type of ad serves a specific purpose, and opposing candidates target the same type of ad to different audiences.
-
-   - *EMPIRICAL RESULTS* (1 minute)
-     I empirically test my model, by combining viewer demographic data from MRI with data on US political tv ads from WAP and WMP.
-     These data contains detailed information about each ad play in the whole US.
-     I find empirical support for the type of differential targeting of voters suggested by the theory.
-     For example, as the audience becomes more conservative Democrats decrease their policy and positive ads by X percent,
-     and Republicans increase them by Y percent.
-
-     Importantly, I classify ads into policy and valence by breaking each text into individual statements, and classifying each statement into different subject or topic categories.
-     And then I classify subjects and topics into policy or valence.
-      
-   - *CONTRIBUTIONS* (2 minute)
-
-     As I mentioned earlier, previous literature tries to measure the stimulating effects of ads.
-     Instead, I focus on the incentives of the candidates to vary the content of their ads.
-     And, I make three main contributions:
-
-     First, about how different forms of abstention from voting interact with ideology to inform targeting of tailored ads.
-     Note that this mechanism also applies to other advertising methods since it argues that candidates strategically tailor ads to target different parts of the viewers' utility
-     based on their expected ideology and margin of abstention in order to maximize their turnout and minimize the opponent's.
-      
-     Second, my results suggest that when estimating the effect of ads on mobilization, it is crucial to take into the mix of ads a voter is exposed to and their ideology.
-     Ignoring this fact would give to biased estimates.
-
-     Third and equally important, in my empirical analysis I classify ads into policy, positive and negative based on their texts.
-     To do this, I construct an algorithm, which is superior to alternatives for 2 reasons:
-     First, it is transparent about what topics are considered policy and what is valence,
-     Second, it provides  quantitative measure of policy and valence statements within the ad.
-     
-     - (IF TIME) An additional reason, it allows for flexible definition of what is policy and what is valence.
-     - *DO NOT SAY MODULAR*. But if you say modular or they ask about the algorithm.
-       - It is more accurate as it goes sentence by sentence finding their subject and size based on number of characters.
-       - Then, classify subjects into policy and valence, and find the total size of policy and valence statements within the ads.
-       - Alternatively, classify ads directly into policy, positive, negative based on the whole text. But prone to errors.
-      
-  \cleapage
-
-** MORE DETAIL 10-15 minutes (~750 words)
-   
-   If there are no questions, I can describe in more detail my theoretical model and empirical analysis.
-
-**** If they ask about why vote!
-    There are different theories about why citizens vote.
-    The main ones are:
-    Ethical voting meaning voters want to vote similarly to the group they identify.
-    Outcome based voting where voters care about the outcome of the election.
-    My paper assumes expressive voting. Voters derive utility from the process of voting.
-   
-   
-*** THEORETICAL MODEL (~ NEW 4 MINUTES)
-    
-    - *BASIC SETUP: PLAYERS AND ACTIONS*
-      I consider a static political contest model with two types of players:
-      first the two opposing candidates, and
-      second a continuum of voters.
-
-      The candidates can place ads in the different tv shows watched by the voters.
-      The voters consume these ads and then either vote for their preferred candidate or abstain from voting.
-      
-      Each ad has one of three types:
-      first, it is either a policy ad, which highlight policy positions,
-      positive valence ads which emphasizes candidate's positive non-policy traits,
-      or a negative valence a which attacks the opponent's non-policy traits.
-
-    - *VOTERS UTILITY*
-      Voters care about policy/ideology and the candidate non-policy/valence traits.
-      Voters disagree on the ideal policy, but they agree that higher valence candidates are preferred.
-
-      I assume that policy ads affect how much policy matters in the voters utilities.
-      Positive ads increase the candidate's valence, and negative ads decrease the opponent's valence.
-
-      In order to motivate abstention from voting, I assume that voting is costly.
-      Alienated voters abstain because their cost of voting exceeds the utility from voting for their preferred candidate.
-      Indifferent voters abstain because find the two candidates very similar and it's not worth incurring the cost of voting. 
-
-    - *CANDIDATES OBJECTIVE & NEED TO TAILOR*
-      Now.
-      Candidates want to use ads in the different tv shows to manipulate these margins of abstention
-      in order to maximize their turnout and minimize the opponents'.
-
-      However, since voters have different ideologies and margins of abstention,
-      candidates must tailor their ads in the different shows based on the expected audience.
-
-      For example, Democrats do not want to talk about abortion in Fox news.
-      
-    - *THEORETICAL RESULTS*
-      I assume that ad effects are additively linear, and I solve for the dominant strategy equilibrium which characterizes how voters are targeted.
-
-      # I also use the finding that fringe voters abstain mostly to alienation, whereas moderate voters abstain mostly due to indifference.
-
-      Four main results follow:
-
-      First, policy ads are targeted to shows watched by the base since if the opponent's base sees them, then it will motivate them to turn out.
-
-      Second, the fringe base is targeted with positive ads since they are alienated and must be reminded of how good their candidate is.
-
-      Third, moderate voters, who are prone to indifference, must be reminded that the two candidates differ significantly.
-      As a result, both positive and negative ads are used.
-      Surprisingly policy ads are used only if they can persuade them to switch.
-
-      Fourth, the opponent's fringe base is targeted with negative ads in order to demobilize them by depressing them even more about their candidate.
-
-      Note the correlations between opposing candidates strategies arise *only* due to the differential targeting of voters.
-
-    - *EXTRA RESULTS IF TIME ALLOWS*
-      I also find that as the ideological distance between opponents increases, candidates target policy ads even more narrowly.
-      Also, higher valence candidates switch to more positive campaigning, and lower valence candidates to negative.
-
-*** EMPIRICAL ANALYSIS (~ 5-6 minutes)
-    
-    In order to empirically test my theoretical predictions, I combine multiple data sources.
- 
-***** If you skip theory part
-     For my empirical analysis, I test the theoretical predictions of model.
-     So, to quickly summarize, in my theoretical model has a dominant strategy equilibrium
-     and as result candidates target voter demographics with tailored content.
-     Opposing candidate strategies are correlated but the correlation arises *only*
-     due to the differential targeting of the underlying voter characteristics.
-
-     
-     
-**** DATA SOURCES (~ 1 MINUTE)
-       
-      
-    First, I get the universe of political ads by US gubernatorial and presidential candidates in 2008 and 2012 from WAP and WMP.
-    I also obtained storyboards and videos of each ad, which I trans coded to obtain the texts of the ads.
-      
-    Second, I get viewer demographics from MRI's Survey of the American Consumer.
-    - (if time) Nationwide consumer survey that asks the consumer about their habits including TV viewing ones.
-    - (if time) About 600 tv shows.
-
-    And finally, I web-scrape polling data from Real Clear Politics site.
-    - (if time) However, I should note that polling data is at the state level, whereas political ads data are at the media market level.
-    - (if time) This is important because media markets can cross state lines.
-    - (if time) And, within a media market, the set of Tv stations is the same.
-    - (if time) So a station's coverage might cross to a different state.
-    - (if time) I map state polls by combining Sood's (2016) data on media markets and counties, and Census' county population.
-    - (if time) I can then attribute the percentage of the media market in each state.
-
-**** CLASSIFYING ADS (~ 3 MINUTES)
-       
-     One of the most challenging parts of the empirical analysis is the classification of ads into policy, positive and negative valence based on their content.
-     This is important because I need to identify the share of different type of ads used by the candidates in the different shows.
-     However, it is a hard.
-
-     In the theoretical model, each has one of type.
-       
-     In practice though ads touch on multiple themes; some policy and some valence.
-     So, I need an algorithm that takes the text as input and outputs a class or type for the ad.
-       
-     One possible solution is to directly label ads based on the whole text.
-     But this method is prone to inconsistent classification.
-     It obfuscates what is considered policy and what is valence,
-     and does not provide a quantitative measure of the relative sizes of policy and valence, or positive and negative statements.
-     - Another possible solution is to use external natural language resources.
-       For example, count positive/negative words. But misses specific context such as quoting the opponent.
-       And political ads are a very specific type of speech.
-       Too many a priori rules.
-         
-     Instead, I consider a more modular approach that first classifies individual statements/sentence within the ads.
-     Specifically, each statement/sentence is a assigned a subject and tone category based on its content.
-     - For example, I have statement that says: senator mccain, we are a frightened nation. times are tough, and you have the judgment we can believe in.
-     - Its subject is leadership and it's tone is positive.
-     Then I find the size of each statement based on the number characters, which allows me to find the total size of each subject and tone category within each ad.
-     In the last step, I split the subject categories into policy and valence.
-     By doing this, I can find the relative size of policy and valence statements within each ad, and classify them based on which is larger.
-       
-       
-     This approach offers several advantages:
-     - Transparent about what topics are policy and valence.
-     - Flexible as subject categories can be divided into sub-policy types.
-     - Quantize measure of policy and tone, which can be used for other questions.
-     - Rich training set for future machine learning and deep learning classification.
-
-**** EMPIRICAL APPROACH AND RESULTS (~ 2 MINUTES)
-       
-     # First, I document that politicians simultaneously use policy, positive valence (i.e., emphasize own positive traits), and negative valence ads (i.e., emphasize opponent's negative attributes),
-     # which suggests that each type of ad is important for a campaign.
-     # Then, I present evidence of significant variation in the demographic makeup of viewers of the different tv shows.
-     # Thus, a sorting of viewers into tv shows is present which allows politicians to target demographics and voters with tailored content.
-       
-       
-     Now to test the theoretical model, I rely on its insights that.
-       
-     Candidates target voter demographics with tailored content, AND
-     any correlations between opposing candidates ads derive from their differential targeting of those demographics.
-         
-     Therefore, I focus on how opposing candidates target viewer demographics.
-       
-     First, I document that individual demographics are indeed targeted differentialy by candidates.
-     For example, minority voters receive more negative ads by Republicans and more policy and positive valence by Democrats.
-     Or as the audience becomes more conservative, Democrats switch away from policy and positive ads to negative ads.
-     Republicans do the opposite.
-     Democrats decrease positive and policy ads by 10%, and Republicans increase by 7%.
-
-     Then, I consider how opposing candidates target bundles of voter demographics.
-
-     - Version 1:
-       To achieve this, I predict the shares of the different types of ads based on show and viewer characteristics as suggested by theory.
-       This isolates the tailoring of ads suggested by theory.
-       Then, I check if the correlations between the predicted shares of opposing candidates are consistent with the theory.
-       And indeed they do.
-       
-     - Version 2:
-       To achieve this, I instrument their shares of types of ads on show characteristics.
-       I take the predicted shares from the IV estimation, and check if their correlations are consistent with the theory.
-       And indeed they do.
-  
-     For example, I find that opposing candidates target the same voters with different types of ads.
-     The magnitudes of the correlations I significant with coefficient up 0.2.
-     # Specifically, each candidate targets policy ads to different and more polarized audiences.
-     # They use positive valence ads to energize their alienated base.
-     # In contrast, the opponent's base is targeted with attacks against their preferred candidate.
-       
-     Finally, I present evidence that as the ideological difference between opposing candidates widens,
-     candidates increase targeting of policy and positive valence ads to their base.
-     With effects up to X%.
-     Higher valence candidate switch to more positive campaigning and relatively lower valence candidates to more negative campaigning.
-
-     
-** CONCLUSION - CLOSING STATEMENT
-
-   My results have several implications.
-
-   For the empirical literature on political ads, it is important to account for type of ads voters are exposed to when measuring stimulation effects of ads.
-     
-   It also speaks to other forms of political communication.
-   For example, rallies are a venue to talk about policy whereas debates are a place to talk to moderate voters.
-     
-     
-   If you have questions about my job market paper, I welcome questions.
-   Otherwise, I can discuss my other work.
-
-   \clearpage
-   
-* Other questions
-** Teaching Interests. What would you like to teach? One course - structure.
-
-   At the undergraduate level I can teach any course, especially the cores sequences of Micro, Macro and Econometrics.
-
-   I can teach sequences in Microeconomics, IO and PE.
-
-   I can also teach courses on methods and teaching students how to understand research and its tools.
-   This would equip students with the skills to understand scientific results.
-   I would concentrate on theory and empirical tools.
-
-   The books I would use are:
-   - IO: Oz Shy, Church and Ware, Tirole,
-     (undergrad- [[http://sites.clas.ufl.edu/economics/files/ECP3403_IndustrialOrg_BET_F18.pdf][UFL]]) Industrial Organization: Contemporary theory and applications by Pepall, Richards and Norman.
-     - [[https://ocw.mit.edu/courses/economics/14-271-industrial-organization-i-fall-2005/syllabus/][MIT IO Syllabus]]
-     - Monopoly pricing and durable goods
-     - Price Discrimination
-       - [[https://mansur.host.dartmouth.edu/classes/econ45.pdf][Dartmouth]] Price dispersion, loss leader
-       - Advertising and reputation
-     - Empirical Models of Demand
-     - Static competition and models of differentiation
-     - Search
-     - Dynamic competition
-     - Firm conduct
-     - Empirical models of supply and demand
-     - Entry
-     - Strategic investment
-     - Asymmetric Information
-     - Auctions
-     - Networks
-     - Dynamic Empirical Models
-     - Patents and Technology Diffusion
-     - Bounded Rationality
-   - PE
-   - Micro
-   - Macro
-   - Econometrics
-
-   The subjects I would cover would be:
-   - IO
-   - PE
-   
-
-*** Providence college
-    - No graduate courses!!!
-    - Different degrees:
-      - Economics Major
-      - Business Economics Major
-      - Quantitative Economics Major: I can teach most courses here!!!
-   
-** Tell us about your future research agenda
-
-*** Short (1-2 minutes)
-    Gladly!
-    My ongoing research involves projects in industrial organization and political economy.
-
-    One project I am excited about is measuring the extend to which neighboring candidates of the same party, who advertise in the same district, have an incentive to free ride off of each others ads.
-    I will use tv ads again from WAP and WMP, and I will develop a theory as well.
-
-    Another project in PE is trying to understand whether certain states facing idiosyncratic preference have a bigger incentive to vote first in the US primaries.
-    Also, we wish to provide conditions such that voting outcomes are independent of voting order. 
-    My co-author and I combine both theory and empirical analysis.
-
-    In industrial organization, I am working on project that aims to measure switching costs that arise from the entry of airlines into new airports.
-    We use data from the Origin and Destination Survey of US domestic air-travel.
-
-
-    I have published and forthcoming articles in the Industrial Organization journals such as IJIO and JIE.
-   
-*** Detailed
-    My ongoing research revolves around projects in political economy and industrial organization.
-
-    - /*Candidate Advertising Free Riding and Party Solutions*/,
-      In political economy, I am currently working on project that will combine theory and empirics.
-      I use the fact that US media markets, and station reception, cross multiple electoral districts.
-      And I ask whether neighboring candidates of the same party, who advertise on the same district but for a different office, free ride off of each others ads.
-      And whether their party internalize this externality to resolve such concerns.
-      
-      I define treated candidates using two different definitions:
-      Under the first one, I consider as treated the candidates in media markets which are comprised of counties from more than one state.
-      For the second definition I use a data driven methodology: a candidate is labeled as treated if they advertised in the same station as another candidate of the same party for the same office, but from a different district.
-
-      My data sources are again WAP and WMP, and I will focus on US House and Senate races.
-      In terms of the analysis, I want to examine how sponsorship of ads by parties varies between treated and non-treated candidates.
-      Also, some candidates share airspace in some markets but not others. I want to examine how that affect party sponsorship.
-      Another interesting outcome is whether ads sponsored by parties for treated candidates use a more generic language.
-
-      I also expect that the ideological distance between treated candidates matters a great amount.
-      For example, ideologically similar candidates could instead complement each others ad efforts.
-      Ideologically distant candidates might actually advertise more because they want offset the advertising of their fellow party member.
-
-      With ideologically similar candidates, who free ride, I expect the party to sponsor more policy ads.
-      In contrast, if the party sponsors ads for ideologically distant candidates, I expect those ads to be more generic in an effort to boost both candidates.
-      The candidate ideological scores will come from Bonica's (2016) Database on Ideology, Money in Politics, and Elections (DIME).
-      
-    - /*Endogenous Order with Sequential Elections*/  with George Deltas.
-      I am also working on a joint project that incorporates both theory and empirical analysis to examine the timing of primary elections.
-      This is a project that was divided into two different papers.
-      1) In one project we construct a model of the influence that the voting order has on the final outcomes to explain why the incentives to be a "first mover" may be stronger than for others, and indeed why some states my prefer to vote late.
-      2) In the second project, we consider conditions  such that voting outcomes are independent of voting order.
-      The first project will use data on the US primary elections from 1980 to 2016.
-      Data sources: Ballotpedia and wikipedia, and Dave Leip's atlas of US presidential elections + wayback machine to cover th
-       
-      We consider a framework with aggregate uncertainty about the ideology distribution of voters, and
-      idiosyncratic uncertainty within electoral districts about the ordering of candidates on non-policy dimensions.
-      We consider the effects of idiosyncratic uncertainty on endogenous voting order, and the effect of that order on outcomes.
-      We also characterize conditions such that election outcomes are independent of voting order.
-      We collected data from the US primary elections between 1980-2016, which we will use to test our theory.
-      
-
-    I also have two ongoing works in progress in IO.
-    
-    - In /*Name-Change Fees, Scalpers, and Secondary Markets*/,
-      I theoretically consider a monopolist provider of a service, where consumers enjoy the service only if they have ticket (e.g., concerts, airline flights, and hotel rooms).
-      The monopolist can set a name-change fee to allow holders of tickets to transfer ownership of their tickets to other consumers.
-      I identify the conditions making it optimal to use name-change fees  such that the secondary market is active. I show how this reduces demand uncertainty and alleviates price rigidity.
-
-   
-    - In /*Airline Entry and Switching Costs*/ with George Deltas,
-      we use the Origin and Destination survey (DB1B) to provide a measure of switching costs in US domestic airline markets.
-      We leverage airline entry into new airports that connect them with airports that the airline already has presence.
-      We construct our measure of switching costs by exploiting the relative flow of passengers based on the direction of the route (i.e., new airport as origin vs old airport as origin).
-      Then, we consider a discrete choice model to examine the factors affecting these costs.
-    
-
-** What did you contribute and what did your co-authors contribute?
-   If they ask about the published research with Dan.
-
-   - Price matching was an idea we discussed with Dan. We both spent time in the UK, and noticed the automatic price matching of UK grocesry stores such as Sainsbury's.
-     
-   - Co-location paper was a dormant paper of Dan and Mehdi for many years.
-     I come in and breathed life to it.
-     The analysis on unknown types was incomplete, and I formalized it.
-     I then extended the analysis and provided the framework for the known types and endogenous entry.
-     
-** Who would you like to work with?
-   - Mention that I am willing to work with people from other fields to develop projects that are in the intersection of our fields.
-     - Anna + Felipe
-   - Sound board.
-*** Warwick
-   - Francesco Squintani
-   - Helios Herrera
-   - Dan Bernhardt obviously
-   - Mirko Draca
-   - Also interested in the work of Manuel Bagues (Gender and politics)
-*** Providence College
-    - Professor Bailey while we are not in the same field, I feel that we can work on
-      projects on the intersection of our fields. For example, study the political economy of health certifications.
-    - Same with Professor Dasgupta, we can find common research questions relating to intra-couple relationships and voting.
-    - Professor Kahane has interesting research politicization of marks wearing.
-      Also has research on gun laws.
-      And I have a work in progress examining gun shootings and political speech.
-      
-*** Trinity College Dublin
-    - Andrea Guariso (development and political economics)
-    - Nicola Fontana (political economy - empirical)
-    - Nicola Mastrorocco (political economy + crime)
-    - Gaia Narciso (her work on crime)
-    - Alejandra Ramos (her work on intra-household violence)
-      
-    
-*** Tennessee Knoxville
-    - Padilla-Romo (Crime)
-    - I saw professor Van Essen has some theoretical work examining business cycle in a bipartisan voting model
-    - Need to find more people
-    - A bunch of people working on environmental economics
-      - ask questions following political speech and environmental issues such as disasters, or discovery of resources.
-*** East Anglia
-   
-   
-** What led you to apply in our school?
-   - I feel that the group of researchers working on questions that I find interesting.
-   - Great institution.
-   - Small Towns:
-     - I enjoy small towns and I find that it's a great environment for raising my family.
-       Especially now that I have a kid, I really prefer smaller towns.
-       I was also raised in small country, so the environment appeals to me.
-   - Big towns:
-     - I enjoy this size of towns, and I find the variety it offers in terms of culture and activities a great environment for raising my family.
-       Especially now that I have a kid, I want him to experience multi-culture environments.
-       I was also raised in small country, and I studied in smaller towns. I want to live in a different environment now.
-       
-       
-Is the location of our school (rural, regional) a problem?
-My father failed out of McGill in the 1960s because he went to 12 black tie dinners in a single semester. He partied until they kicked him out. He ended up in Edmonton, and is now a successful doctor. I’ve always thought this was a useful lesson. I want to live in a city where I can be productive. In Coventry, I can afford to own a house (a barn, actually) in walking distance from the office. The schools here are rated well by Ofsted, and so I could see having a family here. I have no desire to live in a big city like London, where the housing is unaffordable and there are too many distractions.
-This is generally a question asked of small, rural schools. There’s an explicit discussion of this problem in Middlebury’s “The hiring of an economist”:
-http://sandcat.middlebury.edu/econ/repec/mdl/ancoec/0519.pdf
-There, candidates could signal willingness to live in rural Vermont by talking about their love of winter sports. What I’ve put here about affordability and walkability is likely a good answer in several UK cities. The story about my father is true, but I think it works better to distract the interviewer with humor than it does to really explain why a mid-size city like Coventry is desirable. The “I don’t want to live in London” point is worth signalling: departments hate it when ghosts commute in once a week -- it leads to empty seminars, unsupervised students, and administrative work falling disproportionately on those who live locally. Do some research on the city first.
-In one interview I think I gushed so much about how open and tolerant the city of Eugene Oregon is that my interviewers came away convinced I was gay
-
+* Other Questions
+** Why is this an interesting question? Why should we care about your results? Why is this economics?
+   - First economics is about optimally allocating scare resources.
+   - Question about optimallity and behavior.
+   - Also a theory about signals certain voters receive.
+   - Highlights how your characteristics determine the information you receive.
+   - Political Economy is social research.
+** To what journal will you send your job market and why?
+   I find this paper to be of general interest.
+   - AER
+   - Review of Economics Studies
+   - Review of Economics and Statistics
+   - AEJ Microeconomics
+   - Public Choice
+** What journals do you see yourself publishing in? What journals do you consider to be appropriate outlets for your work?
+   - AER
+   - REStud
+   - AEJ Microeconomics
+   - RAND
+   - IJIO
+   - JIE
+   - Games and Economic Behavior
+   - Social Choice and Welfare
+   - Public Choice
 ** Questions for us?
    - James’ answer on the market in 2010: “My advisor told me that it’s a bad idea to ask questions at this stage, so I don’t have any at the moment.” YMMV
    - Tell me about your department’s research environment.
@@ -956,32 +1656,6 @@ In one interview I think I gushed so much about how open and tolerant the city o
    - Is the administration supportive of the department (e.g. has there generally been agreement on tenure cases, is the Dean generous with resources)?
    - How do you like living here? Where do faculty choose to live? 
  
-** How do you plan to pursue these themes in the future, transitioning into your other papers or your future research agenda?
-** OTHER PAPERS MATTER: they will grill you on other papers.
-** Why is this an interesting question? Why should we care about your results?
-   - Question about optimallity and behavior.
-   - Also a theory about signals certain voters receive.
-** Why is this economics?
-   - Question about optimallity and behavior.
-   - Also a theory about signals certain voters receive.
-   - Political Economy is social research.
-** To what journal will you send your job market and why?
-   I find this paper to be of general interest.
-   - AER
-   - Review of Economics Studies
-   - Review of Economics and Statistics
-   - AEJ Microeconomics
-   - Public Choice
-** What journals do you see yourself publishing in? What journals do you consider to be appropriate outlets for your work?
-   - AER
-   - REStud
-   - AEJ Microeconomics
-   - RAND
-   - IJIO
-   - JIE
-   - Games and Economic Behavior
-   - Social Choice and Welfare
-   - Public Choice
 ** What NBER group would you see yourself in?
    - Political Economy
      The Political Economy Program examines the interactions among political institutions, participants in the political system, such as voters and elected officials, and economic outcomes broadly defined.
@@ -991,11 +1665,21 @@ In one interview I think I gushed so much about how open and tolerant the city o
 
 ** Who would be the ideal referees for your job market paper, and why?
    - Greg Martin
-   - Nate Cohen and his supervisor from UBC
-   - Guys from Chicago Harris I cite
+   - Nathan Cohen and Franscesco Trebbi
+   - Polborn
+   - Scott Ashworth (Campaigns and elections)
+   - Jorg Spenkuch (very empirical)
    - Peter Buiterset
    - Adams and Merill
    - LePennec
+** What will be your major conferences?
+   - International Industrial Organization Conference
+   - Political Economy conference in Rochester
+   - ASSA/AEA
+   - SEA
+** Who would you invite to seminar?
+   - Greg Martin
+   - Nate Cohn
 ** What is your contribution to the literature?
 ** How do you motivate the crazy assumptions in your papers?
    - Derive clear testable predictions.
@@ -1013,15 +1697,7 @@ In one interview I think I gushed so much about how open and tolerant the city o
 ** Which senior economists do you wish to emulate? Why?
 ** Tells us the best paper you have seen presented in a seminar recently, and explain what made it the best.
 ** Based on your reading of the literature and participation in seminars and conferences, where do you see (your field) going?
-** What will be your major conferences?
-   - International Industrial Organization Conference
-   - Political Economy conference in Rochester
-   - ASSA/AEA
-   - SEA
 ** Are you familiar with the results by person Y on your topic.
-** Who would you invite to seminar?
-   - Greg Martin
-   - Nate Cohn
 ** How did you get the idea for this paper?
 ** What seminars do you attend?
 ** What is the best seminar you have seen/paper read recently?

@@ -1,0 +1,127 @@
+#+TITLE: \bf{Teaching Statement}
+#+AUTHOR: Evangelos Constantinou
+#+OPTIONS: toc:nil date:nil
+#+latex_class_options: [12pt]
+ 
+#+LATEX_HEADER: \usepackage[T1]{fontenc} % allows INPUT accented characters from keyboard
+#+LATEX_HEADER: \usepackage[latin9]{inputenc} % orientated to OUTPUT, what fonts to use for printing character
+
+#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: \geometry{verbose} % allows messages of overrun lines
+
+#+LATEX_HEADER: \usepackage{setspace}
+#+LATEX_HEADER: \usepackage{calc} % match expressions in \setcounter \setspace and so on
+
+#+LATEX_HEADER: \usepackage{titlesec} % modify sections and etc.
+#+LATEX_HEADER: \usepackage[bottom]{footmisc} % footnote options
+#+LATEX_HEADER: \usepackage{babel} % multiligual (human langs) support for latex, luatex and etc.
+
+#+LATEX_HEADER: \usepackage{tabularx,booktabs}
+
+
+#+LATEX_HEADER: \usepackage[unicode=true,pdfusetitle,bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,breaklinks=false,backref=false,colorlinks=false]{hyperref}
+#+LATEX_HEADER: \hypersetup{colorlinks = true, urlcolor = magenta, colorlinks = blue, linkcolor = magenta, citecolor = blue}
+
+#+LATEX_HEADER: \usepackage{breakurl}
+
+
+#+LATEX_HEADER: \titlespacing\section{0pt}{\parskip}{}
+#+LATEX_HEADER: \setlength{\textwidth}{6.5in}
+#+LATEX_HEADER: \setlength{\textheight}{9in}
+#+LATEX_HEADER: \setlength{\topmargin}{-0.5in}
+#+LATEX_HEADER: \setlength{\oddsidemargin}{0in}
+#+LATEX_HEADER: \setlength{\parskip}{.05in}
+
+
+# #+LATEX_HEADER: \onehalfspacing
+
+As a first generation college graduate, I know the impact teaching can have on a student's life.
+My experience has shown me that the best teaching methods facilitate learning, not rote memorization.
+Effective teaching helps students discover the answer, and sharpens their understanding of key concepts in the process.
+My goal is for my students to develop a long-lasting interest in economics and politics,
+and gain insights that will serve them beyond the classroom.
+
+I truly enjoy teaching.
+It gives me the opportunity to not only share knowledge, but also create it with my students.
+Teaching always helps me clarify abstract ideas and through teaching I find new ways to present difficult concepts in a relatable and clear manner.
+This informs how I undertake research, think through my questions, and effectively communicate my goals and findings.
+
+I am fortunate to have  taught several exciting  courses in my career.
+During my time at the University of Illinois, I served as a Teaching Assistant, and a Head Teaching Assistant for the introductory microeconomics class by Dr. Isaac DiIanni.
+Most students were in their first year, working on a wide range of majors from economics and finance to physics and music.
+Although the material was assigned by Dr. DiIanni, the teaching format was left to me to create and implement.
+I find it most effective to break the students into smaller groups of four or five members,
+and ask them to discuss three to four questions I provide relating to the course material.
+In the meantime, I check with each group and ask them to explain the questions to me, and I try to guide them to critically think about the content of each question.
+After fifteen minutes, I open the discussion to the whole class.
+I provide a general argument for each question, and I ask them to challenge my reasoning or defend it using the tools taught in class.
+Once an idea or theory is developed, I highlight loose ends in the reasoning, and guide the students in crafting a more precise argument.
+I find that this helps students engage with the material in an accessible way,
+apply what they have learned to everyday situations,
+and allows them to think analytically and critically.
+Being selected by my students as "Teacher Ranked as Excellent" (top 10% in the university) was a true honor and reflects the positive impact my instruction had on students throughout my time at UIUC.
+As an addendum, feedback forms by the students are attached. 
+
+Prior to my studies at the University of Illinois, I served as Special Teaching staff at the University of Cyprus for four semesters.
+This was a rewarding experience focused exclusively on teaching.
+Each semester I was assigned 12 to 16 teaching hours for a wide range of classes such as microeconomics, statistics and econometrics, and mathematical economics.
+The opportunity to teach such a variety of classes and reach hundreds of students in a semester was a truly gratifying experience, despite the significant  teaching load.
+I also independently expanded my office hours, which gave me the opportunity to interact with my students in smaller groups.
+Since I was in Cyprus during the financial crisis of 2013, these office hours often applied the material covered in class to explain the real-life phenomena Cyprus was experiencing at the time.
+
+As a professor, I will be delighted to teach at any level, graduate or undergraduate.
+I bring special knowledge to courses on political economy, industrial organization, American politics, microeconomics, quantitative methods and econometrics,
+but I would also find it rewarding, and a learning opportunity, to teach outside these areas.
+
+
+# OLD DRAFT
+# \clearpage
+
+# * Why is teaching important to me? And role of teacher
+  # As a first generation college graduate, I have experienced the impact teaching can have in a student's life.
+  # To me teaching facilitates learning, but not memorization.
+  # It helps students discover the answer, and sharpens their understanding of the concepts in the process.
+  # My goal is for my students to develop a long-lasting interest in the subject,
+  # and use the insights they gain more widely in their lives.
+   
+  # I truly enjoy teaching.
+  # It gives me the opportunity to not only share knowledge, but also create it.
+  # Teaching always helps me clarify abstract ideas, even if by a little bit a time;
+  # and it enables me to find new ways to present difficult concepts in a relatable and clear manner.
+  # This spills over to my research by making me think my questions and how to communicate them.
+   
+   
+   
+# * Teaching Experience
+    
+  # I was fortunate to have the opportunity to teach exciting classes in my career.
+  # During my time at the University of Illinois, I served as a Teaching Assistant, and a Head Teaching Assistant for the introductory microeconomics class by Dr. Isaac DiIanni.
+  # The student body was comprised mostly from first year students from a wide range of majors from economics and finance to physics and music.
+  # Although the material was assigned by Dr DiIanni, the teaching format was left to the instructor.
+  # I like to break the students into smaller groups of four or five members, and ask them to think three to four questions as a group for ten to fifteen minutes.
+  # The questions are usually framed as everyday scenarios.
+  # While they are deliberating, I ask each group individually to explain the questions to me,
+  # and I try to guide them to critically think about the content of each question.
+  # After the fifteen minutes, I open the discussion to the whole class.
+  # I provide a general argument for each question, and I ask them challenge my reasoning or defend it using the tools taught in class.
+  # Once an idea or theory is developed, I highlight loose ends in the reasoning, and guide the students to a more precise argument.
+  # I find that this helps students engage with the material in a non daunting way, and allows students to think analytically, and critically.
+  # Being selected by my students as "Teacher Ranked as Excellent" (top $10\%$ in the university) was a true honor.
+  # As an addendum, I attach feedback forms by the students. 
+ 
+  # Prior to my studies at the University of Illinois, I served as Special Teaching staff at the University of Cyprus for four semesters.
+  # This was a rewarding experience focused on exclusively on teaching.
+  # In each semester, I was assigned 12 to 16 teaching hours for a wide range of classes such as microeconomics, statistics and econometrics, and mathematical economics.
+  # The opportunity to teach such wide variety of classes and reach hundreds of students in a semester was a truly gratifying experience, despite the exhaustive teaching load.
+  # I also independently expanded my office hours, which gave me the opportunity to interact with my students in smaller groups.
+  # Since I was in Cyprus during the financial crisis of the island,
+  # these office hours were concentrated in applying the material to explain the real-life phenomena of the period.
+ 
+ 
+ 
+ 
+# * Teaching field interests
+  # As a professor, I would be delighted to teach at any level, graduate or undergraduate.
+  # Although, I would find rewarding teaching classes outside my fields of expertise,
+  # I bring special knowledge to courses on political economy, industrial organization, American politics, microeconomics, quantitative methods and econometrics.
+  
